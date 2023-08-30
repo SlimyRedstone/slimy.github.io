@@ -4,6 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta name="description" content="Internal Movie Database" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 		<!-- <script src="https://cdn.jsdelivr.net/gh/SlimyRedstone/Toolboxes/toolbox.js"></script> -->
 		<script src="./toolbox.js"></script>
@@ -553,39 +554,10 @@
 		}
 
 		function updateDb() {
-			// $.getJSON('https://raw.githubusercontent.com/SlimyRedstone/movieDb/main/db.json')
-
-			if (offlineMode) {
-				if (offlineFileMode) {
-				} else {
-					fetchJSON('./db.json').then((db) => {
-						localStorage.setItem('imdb', JSON.stringify(db))
-						ImDb = db
-					})
-				}
-			} else {
-				 $.getJSON('./db.json')
-				 	.done((db) => {
-				 		localStorage.setItem('imdb', JSON.stringify(db))
-				 		ImDb = db
-				 	})
-				 	.fail(failRequest, 'test')
-				/*$.ajax({
-					url: 'https://raw.githubusercontent.com/SlimyRedstone/movieDb/main/db.json',
-					headers: {},
-					method: 'GET',
-					type: 'get',
-					data:JSON.stringify({}),
-					dataType: 'json',
-					contentType: 'application/json',
-					processData: true,
-					success: function(data,textStatus,req) {
-						console.log(data)
-					}
-				})
-				$.get('https://raw.githubusercontent.com/SlimyRedstone/movieDb/main/db.json')*/
-					// console.log('No Offline Mode')
-			}
+			fetchJSON('./db.json').then((db) => {
+				localStorage.setItem('imdb', JSON.stringify(db))
+				ImDb = db
+			})
 		}
 		// document.querySelector('td[data-name="table-foot"]').setAttribute('colspan', '5')
 
