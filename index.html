@@ -254,7 +254,7 @@
 		var plannedUpdate_db = true
 		var plannedUpdate_main = true
 		var plannedUpdateDelay = 200
-		var current_page = 0
+		var current_page = 1
 		const lastPage = Math.ceil(ImDb['list']?.length / options['n_elements_per_page'])
 
 		function getCurrentPage() {
@@ -541,15 +541,18 @@
 			})
 
 			const searchOptions = getSearchOptions()
-			if (searchOptions.hasKey('list')) {
-				searchOptions['list'].forEach((key, index) => {
-					if (key['name'] == 'page') {
-						console.log(`Current page → ${key['value']}`)
-						document
-							.querySelector('div#footer-div')
-							.querySelector('div[data-name="current"]').innerText = `Current page: ${key['value']}/${lastPage}`
-					}
-				})
+			var has_page = false
+			searchOptions['list'].forEach((key, index) => {
+				if (key['name'] == 'page') {
+					has_page = true
+					console.log(`Current page → ${key['value']}`)
+					document
+						.querySelector('div#footer-div')
+						.querySelector('div[data-name="current"]').innerText = `Current page: ${key['value']}/${lastPage}`
+				}
+			})
+			if (!has_page) {
+				setCurrentPage(1)
 			}
 		}
 
