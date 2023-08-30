@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Internal Movie Database" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+		<!-- <script src="https://cdn.jsdelivr.net/gh/SlimyRedstone/Toolboxes/toolbox.js"></script> -->
+		<script src="./toolbox.js"></script>
+		<!-- <script>const jQuery = $.getScript("https://raw.githubusercontent.com/SlimyRedstone/Toolboxes/main/toolbox.js") </script> -->
+		<title>Document</title>
+		<style>
+			html {
+				orientation: landscape;
+				/* border: 1px solid white; */
+			}
+			:root {
+				font-family: 'Poppins', sans-serif;
+			}
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			body {
+				color: white;
+				background-color: #222;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+			#main {
+				margin: 10px;
+				display: flex;
+				flex-direction: column;
+				flex-wrap: nowrap;
+				overflow: hidden;
+				align-items: center;
+				width: fit-content;
+				max-width: 95vw;
+			}
+
+			@media screen and (orientation: portrait) and (min-width: 1000px) {
+				#main::before {
+					content: 'To see more informations about the movies, set the screen in landscape mode';
+					color: red;
+					font-size: x-large;
+					text-align: center;
+					max-width: 90vw !important;
+				}
+				table {
+					/* display: none; */
+					/* min-width: 600px; */
+					max-width: 100px !important;
+				}
+				.large_display_needed {
+					display: none;
+				}
+				td {
+					max-width: 50px;
+				}
+			}
+			table,
+			a {
+				border: 0;
+				text-align: center;
+				font-size: x-large;
+				border-radius: 0.5em;
+				overflow: hidden;
+				border-collapse: collapse;
+				min-width: 820px;
+				max-width: 85vw;
+			}
+			thead,
+			tfoot {
+				font-weight: bolder;
+			}
+			thead > tr > td,
+			tfoot > tr > td {
+				padding: 4px 10px;
+				color: black;
+				background-color: rgba(255, 255, 255, 75%);
+			}
+			tfoot {
+				border-top: 1px solid black;
+			}
+			tbody > tr:nth-child(even) {
+				background-color: rgba(255, 255, 255, 25%);
+			}
+			tbody > tr:hover {
+				background-color: rgba(255, 0, 0, 0.25);
+			}
+			tbody > tr > td:not(:last-child) {
+				border-right: 1px solid whitesmoke;
+			}
+			thead > tr > td:not(:last-child) {
+				border-right: 1px solid black;
+			}
+			tbody > tr > td {
+				text-align: center;
+				padding: 0px 15px;
+			}
+			tbody > tr > td::after {
+				content: attr(data-value);
+			}
+			td {
+				max-width: 550px;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+				line-clamp: 1;
+			}
+			tr {
+				line-height: 1.3em;
+				max-width: 80%;
+				user-select: none;
+			}
+			.clickable {
+				user-select: none;
+				cursor: pointer;
+				text-decoration: underline;
+			}
+			.not_available {
+				color: crimson;
+				font-style: italic;
+			}
+			div.div_footer {
+				color: black;
+				display: flex;
+				flex-direction: row;
+				justify-items: center;
+				justify-content: space-evenly;
+				align-items: center;
+				flex-wrap: nowrap;
+			}
+
+			button.button {
+				color: rgba(0, 0, 0, 0.75);
+				min-height: 2em;
+				border: 3px solid rgba(0, 0, 0, 0.2);
+				border-radius: 0.5rem;
+				padding: 8px 12px;
+				margin: 0px 10px;
+				font-size: large;
+				width: max-content;
+				font-weight: bold;
+			}
+			button.button:hover {
+				filter: drop-shadow(2px 2px 17px black);
+			}
+			div.text {
+				color: black;
+				background-color: none;
+			}
+
+			div.text::after {
+				content: attr(data-page) / attr(data-max);
+				color: rgba(0, 0, 0, 0.555);
+			}
+			tr > td#error-state {
+				padding: 10px;
+			}
+			span.error-message {
+				color: crimson;
+				text-align: center;
+			}
+			code.error-details {
+				color: gold;
+				text-align: left;
+				min-height: max-content;
+				display: block;
+				overflow-wrap: break-word;
+				white-space: break-spaces;
+			}
+		</style>
+
+		<script>
+			const offlineMode = false
+			const res_filters = [
+				{ name: 'disk', display_name: 'Disk Category' },
+				{ name: 'quality', display_name: 'Quality' },
+				{ name: 'raw', display_name: 'Raw Resolution' }
+			]
+			var ImDb = localStorage.getItem('imdb') ? JSON.parse(localStorage.getItem('imdb')) : {}
+			var options = localStorage.getItem('options')
+				? JSON.parse(localStorage.getItem('options'))
+				: {
+						n_elements_per_page: 15,
+						current_page: 1,
+						sort_by: 'size',
+						resolution_filter: res_filters[0]
+				  }
+		</script>
+	</head>
+	<body>
+		<div id="main">
+			<table id="db-table">
+				<thead>
+					<tr>
+						<td class="large_display_needed">Index</td>
+						<td>Movie Name</td>
+						<td class="large_display_needed">Duration</td>
+						<td class="large_display_needed">File Size</td>
+						<td class="clickable" data-name="quality_switch" data-value="unset">
+							<script>
+								document.querySelector('td[data-name="quality_switch"]').textContent =
+									options['resolution_filter']['display_name'].upperFirst()
+								document
+									.querySelector('td[data-name="quality_switch"]')
+									.setAttribute('data-value', options['resolution_filter']['name'])
+							</script>
+						</td>
+					</tr>
+				</thead>
+				<tbody id="table-main-body">
+					<tr>
+						<td id="error-state">
+							Loading table....
+							<script>
+								document
+									.querySelector('#error-state')
+									.setAttribute('colspan', document.querySelector('table#db-table>thead').querySelectorAll('td').length)
+							</script>
+						</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td colspan="" data-name="table-foot">
+							<script>
+								document
+									.querySelector('[data-name="table-foot"]')
+									.setAttribute('colspan', document.querySelector('table#db-table>thead').querySelectorAll('td').length)
+								document.querySelector('[data-name="table-foot"]').querySelector('script').remove()
+							</script>
+							<div class="div_footer" id="footer-div"></div>
+						</td>
+					</tr>
+				</tfoot>
+			</table>
+		</div>
+	</body>
+	<template id="json-table-row">
+		<tr data-row="">
+			<td data-name="index" data-value="" class="large_display_needed"></td>
+			<td data-name="name" data-value=""></td>
+			<td data-name="duration" data-value="" class="large_display_needed"></td>
+			<td data-name="size" data-value="" class="large_display_needed"></td>
+			<td data-name="resolution" data-value=""></td>
+		</tr>
+	</template>
+	<script>
+		var plannedUpdate_options = true
+		var plannedUpdate_db = true
+		var plannedUpdate_main = true
+		var plannedUpdateDelay = 200
+		var current_page = 0
+		const lastPage = Math.ceil(ImDb['list']?.length / options['n_elements_per_page'])
+
+		function getCurrentPage() {
+			var opts = getSearchOptions()['list']
+			var page = 1
+			for (var key of opts) {
+				if (key['name'] == 'page') page = Number(key['value'])
+			}
+			return page
+		}
+
+		function failRequest(err, errType, errInfo) {
+			var log_error_text = undefined
+			const logJSON = {
+				responseText: err.responseText ?? '',
+				responseJSON: err.responseJSON ?? {},
+				statusText: err.statusText,
+				rawError: err
+			}
+
+			if (logJSON.hasKey('responseText') || logJSON.hasKey('responseJSON')) {
+				if (logJSON.responseText != undefined) {
+					log_error_text = logJSON.responseText
+				} else {
+					log_error_text = JSON.stringify(logJSON.responseJSON)
+				}
+			}
+
+			log_error_text = log_error_text == undefined ? logJSON.statusText : ''
+
+			$('#error-state').html(
+				'<span class="error-message">Error while requesting url</span>' +
+					'<br>' +
+					`<code class="error-details">${log_error_text}</code>`
+			)
+			console.error(`Request failed -> \n${JSON.stringify(logJSON)}`)
+			console.log(logJSON)
+			console.log(errType, errInfo)
+			plannedUpdateDelay *= 10
+		}
+
+		function pageRange(index = 0, use_get_options = true) {
+			if (index < 0) return 0
+			const max_range = use_get_options
+				? current_page * options['n_elements_per_page']
+				: options['current_page'] * options['n_elements_per_page']
+			const min_range = max_range - options['n_elements_per_page']
+			return index >= min_range && index < max_range
+		}
+
+		function getShortResolution(w_h = {}, display_total_pixels = false) {
+			const resolutions = [
+				{
+					name: '16k',
+					disk: '16k Ultra HD BluRay',
+					w: [16384, 15360]
+				},
+				{
+					name: '10k',
+					disk: '10k Ultra HD BluRay',
+					w: [10240]
+				},
+				{
+					name: '8k',
+					disk: '8k',
+					w: [8192, 7680]
+				},
+				{
+					name: '6k',
+					disk: '6k Ultra HD BluRay',
+					w: [6016]
+				},
+				{
+					name: '4k',
+					disk: '4k BluRay',
+					w: [4096, 3840]
+				},
+				{
+					name: '2k',
+					disk: '2k BluRay',
+					w: [2160, 2048]
+				},
+				{
+					name: 'Full HD',
+					disk: 'BluRay',
+					w: [1920]
+				},
+				{
+					name: 'HD',
+					disk: 'HD DVD',
+					w: [1280]
+				},
+				{
+					name: 'SD',
+					disk: 'DVD',
+					w: [640]
+				}
+			]
+			switch (options['resolution_filter']['name']) {
+				default:
+				case 'disk': {
+					for (const res of resolutions) {
+						for (const res_width of res['w']) {
+							const limit_top = Math.ceil(res_width * 1.05)
+							const limit_bot = Math.ceil(res_width * 0.95)
+							if ((w_h['w'] > limit_bot && w_h['w'] < limit_top) || w_h['w'] == res_width) {
+								return res['disk']
+							}
+						}
+					}
+					return resolutions.lastKey()['disk']
+					break
+				}
+
+				case 'quality': {
+					for (const res of resolutions) {
+						for (const res_width of res['w']) {
+							const limit_top = Math.ceil(res_width * 1.05)
+							const limit_bot = Math.ceil(res_width * 0.95)
+							if ((w_h['w'] > limit_bot && w_h['w'] < limit_top) || w_h['w'] == res_width) {
+								return res['name']
+							}
+						}
+					}
+					return resolutions.lastKey()['name']
+					break
+				}
+
+				case 'raw': {
+					const total_pixels = w_h['w'] * w_h['h']
+					const tot = display_total_pixels ? total_pixels.formatMetric(false, 'pixels') : ''
+					return `${w_h['w']}×${w_h['h']} ${tot}`
+					break
+				}
+			}
+			// return return
+		}
+
+		Node.prototype.set = function (name = '', value = '', classes = []) {
+			this.querySelector(`[data-name="${name}"]`).setAttribute('data-value', `${value}`)
+			const nodeID = this.querySelector('[data-row]').getAttribute('data-row')
+			if (classes.length > 0) {
+				// console.log(name, value, classes.length)
+				for (const _class of classes) {
+					this.querySelector(`[data-row='${nodeID}']`).querySelector(`[data-name='${name}']`).classList.add(_class)
+				}
+			}
+		}
+
+		Element.prototype.addRow = function (json = {}) {
+			let new_row = document.querySelector('template#json-table-row').content.cloneNode(true)
+			new_row.querySelector('[data-row]').setAttribute('data-row', json['index'])
+
+			const file_size = json['size'].formatDataSize(false)
+			const movie_resolution = getShortResolution(json['video'])
+			const movie_duration = json['video']['t'].startsWith('#') ? 'Not available' : json['video']['t']
+			const movie_duration_available = json['video']['t'].startsWith('#') ? ['not_available'] : []
+
+			new_row.set('index', `#${json['index']}`)
+			new_row.set('name', `${json['name']}`)
+			new_row.set('duration', `${movie_duration}`, movie_duration_available)
+			new_row.set('size', `${file_size}`)
+			new_row.set('resolution', `${movie_resolution}`)
+			$('#table-main-body').append(new_row)
+		}
+
+		function updateOptions() {
+			localStorage.setItem('options', JSON.stringify(options))
+		}
+
+		function setCurrentPage(n) {
+			var final_url = `${location.origin}${location.pathname}?`
+			const opts = getSearchOptions()['list']
+			opts.forEach((key, index) => {
+				var value = key['value']
+				if (key['name'] == 'page') {
+					if (n != 0) {
+						value = String(Math.min(n, lastPage))
+						// options['current_page'] = n
+					}
+				}
+				final_url += `${key['name']}=${value}`
+				if (index != opts.length - 1) final_url += '&'
+			})
+			if (n > lastPage) {
+				document.querySelector('div#footer-div').querySelector('div[data-name="next"]').setAttribute('disabled', 'true')
+			}
+			console.log(final_url)
+			// location.href = final_url
+			history.replaceState({}, '', final_url)
+			plannedUpdate_main = true
+		}
+
+		function buttonCallback(event) {
+			const buttonAction = event.getAttribute('data-name')
+			switch (buttonAction) {
+				case 'next': {
+					setCurrentPage(getCurrentPage() + 1)
+					break
+				}
+				case 'previous': {
+					setCurrentPage(getCurrentPage() - 1)
+					break
+				}
+				case 'first': {
+					setCurrentPage(1)
+					break
+				}
+				case 'last': {
+					setCurrentPage(lastPage)
+					break
+				}
+			}
+			console.log(buttonAction)
+		}
+
+		function updateMainContent() {
+			if (!document.querySelector('div#footer-div').children.length) {
+				const buttons = [
+					{
+						button_name: 'First Page',
+						name: 'first',
+						type: 'button',
+						classes: ['button'],
+						style: 'background-color: hsla(17, 100%, 50%, 0.6)'
+					},
+					{
+						button_name: 'Previous Page',
+						name: 'previous',
+						type: 'button',
+						classes: ['button'],
+						style: 'background-color: hsla(56, 100%, 50%, 0.6)'
+					},
+					{
+						button_name: 'Current Page: ',
+						name: 'current',
+						type: 'div',
+						classes: ['text'],
+						style: '',
+						data: {
+							page: options['current_page'],
+							max: options['current_page']
+						}
+					},
+					{
+						button_name: 'Next Page',
+						name: 'next',
+						type: 'button',
+						classes: ['button'],
+						style: 'background-color: hsla(192, 100%, 50%, 0.6)'
+					},
+					{
+						button_name: 'Last Page',
+						name: 'last',
+						type: 'button',
+						classes: ['button'],
+						style: 'background-color: hsla(286, 100%, 50%, 0.6)'
+					}
+				]
+				buttons.forEach((button, index) => {
+					var element_page_n = document.createElement(button['type'])
+					element_page_n.classList.add(button['classes'])
+					element_page_n.style = button['style']
+					element_page_n.setAttribute('button', '')
+					element_page_n.setAttribute('data-name', button['name'])
+					element_page_n.setAttribute('data-value', button['button_name'])
+					element_page_n.onclick = function (r) {
+						buttonCallback(r.target)
+					}
+
+					/* if (button.hasKey('data')) {
+					} */
+					element_page_n.textContent = button['button_name']
+					$('div#footer-div').append(element_page_n)
+				})
+			}
+
+			if (!ImDb.hasKey('list')) return
+			$('tbody#table-main-body').empty()
+
+			ImDb['list'].forEach((movie, index) => {
+				movie['index'] = index
+				if (pageRange(index)) document.querySelector('tbody#table-main-body').addRow(movie)
+			})
+
+			const searchOptions = getSearchOptions()
+			if (searchOptions.hasKey('list')) {
+				searchOptions['list'].forEach((key, index) => {
+					if (key['name'] == 'page') {
+						console.log(`Current page → ${key['value']}`)
+						document
+							.querySelector('div#footer-div')
+							.querySelector('div[data-name="current"]').innerText = `Current page: ${key['value']}/${lastPage}`
+					}
+				})
+			}
+		}
+
+		function updateDb() {
+			// $.getJSON('https://raw.githubusercontent.com/SlimyRedstone/movieDb/main/db.json')
+
+			if (offlineMode) {
+				if (offlineFileMode) {
+				} else {
+					fetchJSON('./db.json').then((db) => {
+						localStorage.setItem('imdb', JSON.stringify(db))
+						ImDb = db
+					})
+				}
+			} else {
+				// $.getJSON('https://raw.githubusercontent.com/SlimyRedstone/movieDb/main/db.json')
+				// 	.done((db) => {
+				// 		localStorage.setItem('imdb', JSON.stringify(db))
+				// 		ImDb = db
+				// 	})
+				// 	.fail(failRequest, 'test')
+				$.ajax({
+					url: 'https://raw.githubusercontent.com/SlimyRedstone/movieDb/main/db.json',
+					headers: {},
+					method: 'GET',
+					type: 'get',
+					data:JSON.stringify({}),
+					dataType: 'json',
+					contentType: 'application/json',
+					processData: true,
+					success: function(data,textStatus,req) {
+						console.log(data)
+					}
+				})
+				$.get('https://raw.githubusercontent.com/SlimyRedstone/movieDb/main/db.json')
+					// console.log('No Offline Mode')
+			}
+		}
+		// document.querySelector('td[data-name="table-foot"]').setAttribute('colspan', '5')
+
+		$('td[data-name="quality_switch"]').click((event) => {
+			var target = event.target
+			const previous_value = target.getAttribute('data-value')
+			var new_value = {}
+			res_filters.forEach((val, index) => {
+				if (val['name'] == previous_value) {
+					const i = index == res_filters.lastIndex() ? 0 : index + 1
+					new_value = res_filters[i]
+					return
+				}
+			})
+			target.setAttribute('data-value', new_value['name'])
+			target.textContent = new_value['display_name']
+			options['resolution_filter'] = new_value
+			plannedUpdate_options, (plannedUpdate_main = true)
+		})
+
+		setInterval(() => {
+			if (plannedUpdate_options) {
+				updateOptions()
+				// console.log('Updating options')
+				plannedUpdate_options = false
+			}
+			if (plannedUpdate_db) {
+				updateDb()
+				// console.log('Updating database')
+				plannedUpdate_db = false
+			}
+			if (plannedUpdate_main) {
+				current_page = getCurrentPage()
+				updateMainContent()
+				// console.log('Updating main content')
+				plannedUpdate_main = false
+			}
+		}, plannedUpdateDelay)
+	</script>
+</html>
