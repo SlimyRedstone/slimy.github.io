@@ -564,13 +564,13 @@
 					})
 				}
 			} else {
-				// $.getJSON('https://raw.githubusercontent.com/SlimyRedstone/movieDb/main/db.json')
-				// 	.done((db) => {
-				// 		localStorage.setItem('imdb', JSON.stringify(db))
-				// 		ImDb = db
-				// 	})
-				// 	.fail(failRequest, 'test')
-				$.ajax({
+				 $.getJSON('./db.json')
+				 	.done((db) => {
+				 		localStorage.setItem('imdb', JSON.stringify(db))
+				 		ImDb = db
+				 	})
+				 	.fail(failRequest, 'test')
+				/*$.ajax({
 					url: 'https://raw.githubusercontent.com/SlimyRedstone/movieDb/main/db.json',
 					headers: {},
 					method: 'GET',
@@ -583,7 +583,7 @@
 						console.log(data)
 					}
 				})
-				$.get('https://raw.githubusercontent.com/SlimyRedstone/movieDb/main/db.json')
+				$.get('https://raw.githubusercontent.com/SlimyRedstone/movieDb/main/db.json')*/
 					// console.log('No Offline Mode')
 			}
 		}
