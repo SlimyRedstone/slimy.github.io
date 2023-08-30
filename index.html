@@ -553,7 +553,9 @@
 			})
 			if (!has_page) {
 				history.replaceState({}, '', '?page=1')
-				plannedUpdate_main = true
+				document
+					.querySelector('div#footer-div')
+					.querySelector('div[data-name="current"]').innerText = `Current page: ${key['value']}/${lastPage}`
 			}
 		}
 
