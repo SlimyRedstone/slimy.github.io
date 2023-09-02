@@ -3,21 +3,26 @@
     ⎢     Random functions      ⎥
     ⎣                           ⎦
 */
-
+function encodeHTML(value) {
+	return /* encodeURI */ value
+		.trim()
+		.replace('"', '')
+		.replace(/[^A-Za-z0-9 _-]+/gi, '')
+}
 async function fetchJSON(url) {
-	let ret = await fetch(url).then(r=>{
+	let ret = await fetch(url).then((r) => {
 		return r.json()
 	})
 	return ret
 }
 
 function getSearchOptions() {
-	var ret = {list:[], baseUrl: ''}
-	const searchOpt = location.search.replace('?','')
+	var ret = { list: [], baseUrl: '' }
+	const searchOpt = location.search.replace('?', '')
 	ret['baseUrl'] = location.hostname
-	searchOpt.split('&').forEach((key,index)=>{
+	searchOpt.split('&').forEach((key, index) => {
 		const splitKey = key.split('=')
-		ret['list'].push( {name: splitKey[0], value: splitKey[1]} )
+		ret['list'].push({ name: splitKey[0], value: splitKey[1] })
 	})
 	return ret
 }
@@ -141,10 +146,15 @@ String.prototype.containedInArray = function (_arr = ['']) {
 	}
 	return _return
 }
-String.prototype.shorten = function (max_length = 32) {
+String.prototype.shorten = function (max_length = 32, short_str = '...') {
 	let str = this
-	if (str.length > max_length)
-		str = ''.concat(str.substring(0, max_length / 2), '...', str.substring(-(max_length / 2)))
+	if (this.length > max_length) {
+		const half = Math.ceil(max_length / 2)
+		const first_half = this.substring(0, half )
+		const second_half = this.substring( (this.length /2 ) + half )
+		str = `${first_half}${short_str}${second_half}`
+		// console.log(`New str: ${str}\t len: ${str.length}`)
+	}
 	return str
 }
 
@@ -195,8 +205,11 @@ Array.prototype.lastKey = function () {
 	return this[this.lastIndex()]
 }
 
-Array.prototype.getUniqueKeys = function (filter_key) {
+Array.prototype.getObjectUniqueKeys = function (filter_key) {
 	return [...new Set(this.map((key) => key[filter_key]))]
+}
+Array.prototype.getUniqueKeys = function () {
+	return [...new Set(this.map((key) => key))]
 }
 
 Array.prototype.append = function (value) {
