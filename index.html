@@ -11,10 +11,6 @@
 		<!-- <script>const jQuery = $.getScript("https://raw.githubusercontent.com/SlimyRedstone/Toolboxes/main/toolbox.js") </script> -->
 		<title>Internal Movie Database</title>
 		<style>
-			html {
-				orientation: landscape;
-				/* border: 1px solid white; */
-			}
 			:root {
 				font-family: 'Poppins', sans-serif;
 			}
@@ -29,6 +25,9 @@
 				flex-direction: column;
 				align-items: center;
 			}
+			*[invisible] {
+				display: none !important;
+			}
 			#main {
 				margin: 10px;
 				display: flex;
@@ -37,38 +36,22 @@
 				overflow: hidden;
 				align-items: center;
 				width: fit-content;
-				max-width: 95vw;
+				/* max-width: 95vw; */
+				font-size: x-large;
 			}
-
-			@media screen and (orientation: portrait) and (min-width: 1000px) {
-				#main::before {
-					content: 'To see more informations about the movies, set the screen in landscape mode';
-					color: red;
-					font-size: x-large;
-					text-align: center;
-					max-width: 90vw !important;
-				}
-				table {
-					/* display: none; */
-					/* min-width: 600px; */
-					max-width: 100px !important;
-				}
-				.large_display_needed {
-					display: none;
-				}
-				td {
-					max-width: 50px;
-				}
+			.large_display_needed {
+				display: revert;
+			}
+			.medium_display_needed {
+				display: revert;
 			}
 			table,
 			a {
 				border: 0;
 				text-align: center;
-				font-size: x-large;
 				border-radius: 0.5em;
 				overflow: hidden;
 				border-collapse: collapse;
-				min-width: 820px;
 				max-width: 85vw;
 			}
 			thead,
@@ -98,13 +81,14 @@
 			}
 			tbody > tr > td {
 				text-align: center;
-				padding: 0px 15px;
+				padding: 0px 6px;
 			}
 			tbody > tr > td::after {
 				content: attr(data-value);
 			}
 			td {
-				max-width: 550px;
+				/* max-width: 550px; */
+				max-width: 33vw;
 				overflow: hidden;
 				text-overflow: ellipsis;
 				white-space: nowrap;
@@ -130,8 +114,8 @@
 				flex-direction: row;
 				justify-items: center;
 				justify-content: space-evenly;
-				align-items: center;
 				flex-wrap: nowrap;
+				align-items: center;
 			}
 
 			button.button {
@@ -172,140 +156,187 @@
 				overflow-wrap: break-word;
 				white-space: break-spaces;
 			}
+			div.foot_column {
+				display: flex;
+				flex-direction: row;
+				flex-wrap: nowrap;
+				align-items: center;
+				justify-content: flex-start;
+			}
+			.foot_column.reverse {
+				flex-direction: row;
+			}
+
+			@media screen and (max-width: 1000px) {
+				.large_display_needed {
+					display: none !important;
+				}
+			}
+			@media screen and (max-width: 840px) {
+				#main::before {
+					content: 'To see more informations about the movies, set the screen in landscape mode';
+					color: crimson;
+					background-color: ghostwhite;
+					font-size: medium;
+					text-align: center;
+					max-width: 80vw !important;
+					margin: 15px;
+					padding: 10px;
+					border: 1px solid black;
+					border-radius: 0.5em;
+				}
+				#main,
+				button.button {
+					margin-bottom: 10px !important;
+					font-size: small !important;
+				}
+				thead > tr > td,
+				tfoot > tr > td {
+					padding: 10px 20px;
+					/* text-overflow: clip; */
+				}
+				tbody > tr > td {
+					padding: 3px 6px !important;
+				}
+				.medium_display_needed {
+					display: none !important;
+				}
+				.smaller_column {
+					width: 20% !important;
+				}
+				td:not(.smaller_column) {
+					width: 5vw !important;
+				}
+				div.div_footer {
+					height: 7em;
+				}
+				div.foot_column {
+					display: flex;
+					flex-direction: column !important;
+				}
+				.foot_column.reverse {
+					flex-direction: column-reverse !important;
+				}
+			}
+			div#debug {
+				border-bottom: 1px solid white;
+				width: 100vw;
+				text-align: center;
+			}
+			div.controls {
+				display: flex;
+				flex-direction: column;
+			}
+			div.controls > div.control {
+				display: flex;
+				flex-direction: row;
+				font-size: larger;
+			}
+			div.control > label {
+				margin-right: 15px;
+			}
+			div.control > input {
+				color: white;
+				background-color: transparent;
+				border: none;
+			}
+			div.info_card > div[close-button] {
+				position: absolute;
+				right: 8px;
+				top: 8px;
+				--size: 30px;
+				font-size: smaller;
+				width: var(--size);
+				height: var(--size);
+				background-color: hsla(0, 100%, 31%, 0.599);
+				border: 3px solid hsla(13, 100%, 31%, 0.689);
+				display: flex;
+				justify-content: center;
+				border-radius: 0.5em;
+				padding: 2px;
+				align-items: center;
+				text-align: center;
+				/* padding-bottom: 2px; */
+			}
+			div#info_card_click {
+				position: absolute;
+				z-index: 10;
+				display: flex;
+				flex-direction: column;
+				color: white;
+				font-size: x-large;
+				height: 100vh;
+				width: 100vw;
+				flex-wrap: nowrap;
+				align-items: center;
+				justify-content: flex-start;
+				text-transform: capitalize;
+			}
+			div#info_card_click[disabled] {
+				display: none;
+			}
+			div.info_card {
+				position: absolute;
+				z-index: 11;
+				background-color: hsl(207, 100%, 4%);
+				padding: 1rem;
+				display: flex;
+				flex-direction: column;
+				border: 3px solid hsla(199, 100%, 50%, 0.6);
+				border-radius: 0.5em 0;
+				color: white;
+				font-size: smaller;
+				max-width: 70vw;
+				max-height: 85vh;
+				/* width: 60vw; */
+				flex-wrap: nowrap;
+				align-items: center;
+				justify-content: flex-start;
+				text-transform: capitalize;
+				margin: 0px;
+				padding-top: 3em;
+				box-shadow: 3px 3px 20px 0px hsla(199, 100%, 50%, 0.6);
+			}
+
+			div#movie_info > div.text {
+				text-align: center;
+				color: white;
+				margin: 0.3em;
+			}
+			div#movie_info > div.text.title {
+				font-size: 1.2em;
+				font-weight: bold;
+				margin-bottom: 1em;
+				border-bottom: 2px dashed white;
+				padding-bottom: 0.3em;
+				max-width: 45vw;
+			}
+			a.link::after {
+				content: '🔎';
+				color: red;
+				padding-left: 5px;
+				text-align: center;
+			}
+			a.link {
+				color: darkseagreen;
+				text-decoration: none;
+			}
+			a.link:hover {
+				color: yellow;
+			}
 		</style>
 
 		<script>
+			const isViewedOnPhone = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
 			const offlineMode = false
+			const debugMode = false
+			var prev_debug = 'Unset'
 			const res_filters = [
 				{ name: 'disk', display_name: 'Disk Category' },
 				{ name: 'quality', display_name: 'Quality' },
 				{ name: 'raw', display_name: 'Raw Resolution' }
 			]
-			var ImDb = localStorage.getItem('imdb') ? JSON.parse(localStorage.getItem('imdb')) : {}
-			var options = localStorage.getItem('options')
-				? JSON.parse(localStorage.getItem('options'))
-				: {
-						n_elements_per_page: 15,
-						current_page: 1,
-						sort_by: 'size',
-						resolution_filter: res_filters[0]
-				  }
-		</script>
-	</head>
-	<body>
-		<div id="main">
-			<table id="db-table">
-				<thead>
-					<tr>
-						<td class="large_display_needed">Index</td>
-						<td>Movie Name</td>
-						<td class="large_display_needed">Duration</td>
-						<td class="large_display_needed">File Size</td>
-						<td class="clickable" data-name="quality_switch" data-value="unset">
-							<script>
-								document.querySelector('td[data-name="quality_switch"]').textContent =
-									options['resolution_filter']['display_name'].upperFirst()
-								document
-									.querySelector('td[data-name="quality_switch"]')
-									.setAttribute('data-value', options['resolution_filter']['name'])
-							</script>
-						</td>
-					</tr>
-				</thead>
-				<tbody id="table-main-body">
-					<tr>
-						<td id="error-state">
-							Loading table....
-							<script>
-								document
-									.querySelector('#error-state')
-									.setAttribute('colspan', document.querySelector('table#db-table>thead').querySelectorAll('td').length)
-							</script>
-						</td>
-					</tr>
-				</tbody>
-				<tfoot>
-					<tr>
-						<td colspan="" data-name="table-foot">
-							<script>
-								document
-									.querySelector('[data-name="table-foot"]')
-									.setAttribute('colspan', document.querySelector('table#db-table>thead').querySelectorAll('td').length)
-								document.querySelector('[data-name="table-foot"]').querySelector('script').remove()
-							</script>
-							<div class="div_footer" id="footer-div"></div>
-						</td>
-					</tr>
-				</tfoot>
-			</table>
-		</div>
-	</body>
-	<template id="json-table-row">
-		<tr data-row="">
-			<td data-name="index" data-value="" class="large_display_needed"></td>
-			<td data-name="name" data-value=""></td>
-			<td data-name="duration" data-value="" class="large_display_needed"></td>
-			<td data-name="size" data-value="" class="large_display_needed"></td>
-			<td data-name="resolution" data-value=""></td>
-		</tr>
-	</template>
-	<script>
-		var plannedUpdate_options = true
-		var plannedUpdate_db = true
-		var plannedUpdate_main = true
-		var plannedUpdateDelay = 200
-		var current_page = 1
-		const lastPage = Math.ceil(ImDb['list']?.length / options['n_elements_per_page'])
 
-		function getCurrentPage() {
-			var opts = getSearchOptions()['list']
-			var page = 1
-			for (var key of opts) {
-				if (key['name'] == 'page') page = Number(key['value'])
-			}
-			return page
-		}
-
-		function failRequest(err, errType, errInfo) {
-			var log_error_text = undefined
-			const logJSON = {
-				responseText: err.responseText ?? '',
-				responseJSON: err.responseJSON ?? {},
-				statusText: err.statusText,
-				rawError: err
-			}
-
-			if (logJSON.hasKey('responseText') || logJSON.hasKey('responseJSON')) {
-				if (logJSON.responseText != undefined) {
-					log_error_text = logJSON.responseText
-				} else {
-					log_error_text = JSON.stringify(logJSON.responseJSON)
-				}
-			}
-
-			log_error_text = log_error_text == undefined ? logJSON.statusText : ''
-
-			$('#error-state').html(
-				'<span class="error-message">Error while requesting url</span>' +
-					'<br>' +
-					`<code class="error-details">${log_error_text}</code>`
-			)
-			console.error(`Request failed -> \n${JSON.stringify(logJSON)}`)
-			console.log(logJSON)
-			console.log(errType, errInfo)
-			plannedUpdateDelay *= 10
-		}
-
-		function pageRange(index = 0, use_get_options = true) {
-			if (index < 0) return 0
-			const max_range = use_get_options
-				? current_page * options['n_elements_per_page']
-				: options['current_page'] * options['n_elements_per_page']
-			const min_range = max_range - options['n_elements_per_page']
-			return index >= min_range && index < max_range
-		}
-
-		function getShortResolution(w_h = {}, display_total_pixels = false) {
 			const resolutions = [
 				{
 					name: '16k',
@@ -353,6 +384,220 @@
 					w: [640]
 				}
 			]
+
+			var ImDb = localStorage.getItem('imdb') ? JSON.parse(localStorage.getItem('imdb')) : {}
+			var options = localStorage.getItem('options')
+				? JSON.parse(localStorage.getItem('options'))
+				: {
+						n_elements_per_page: isViewedOnPhone ? 30 : 15,
+						current_page: 1,
+						sort_by: 'size',
+						resolution_filter: res_filters[0]
+				  }
+
+			function setInfoCardState(open = true) {
+				const is_open = !document.querySelector('div#info_card_click').hasAttribute('disabled')
+				if (open) {
+					if (!is_open) document.querySelector('div#info_card_click').removeAttribute('disabled')
+				} else {
+					if (is_open) document.querySelector('div#info_card_click').setAttribute('disabled', '')
+				}
+			}
+
+			document.addEventListener('click', (_event) => {
+				const target = _event.target
+				const is_card_open = !document.querySelector('div#info_card_click').hasAttribute('disabled')
+				if (is_card_open) {
+					if (target.id.containedInArray(['info_card_click', 'main']) || target.hasAttribute('close-button')) {
+						setInfoCardState(!is_card_open)
+					}
+				}
+			})
+
+			function debugAudioTracksLength() {
+				ImDb['list'].forEach((movie, mIndex) => {
+					const audio_tracks = movie['audio']
+					if (audio_tracks.length) {
+						console.log(`${movie['name']} → ${audio_tracks.length} tracks`)
+					}
+				})
+			}
+		</script>
+	</head>
+	<body>
+		<div id="debug"></div>
+		<div class="controls" id="control-board" invisible>
+			<div class="control">
+				<label for="n_elements">Number of rows: </label>
+				<input type="number" name="n_rows" id="n_rows" min="15" max="35" />
+			</div>
+		</div>
+		<div id="main">
+			<div id="info_card_click" disabled>
+				<div id="movie_info" class="info_card">
+					<div close-button onclick="setInfoCardState(false)">❌</div>
+					<div class="text title" data-name="name">Name</div>
+					<div class="text" data-name="duration">duration</div>
+					<div class="text" data-name="file_size">file_size</div>
+					<div class="text" data-name="audio">audio</div>
+					<div class="text" data-name="subtitles">subtitles</div>
+					<div class="text" data-name="quality">quality</div>
+				</div>
+			</div>
+			<table id="db-table">
+				<thead>
+					<tr>
+						<td class="large_display_needed">Index</td>
+						<td>Movie Name</td>
+						<td class="smaller_column">Duration</td>
+						<td class="large_display_needed">File Size</td>
+						<td class="clickable smaller_column" data-name="quality_switch" data-value="unset">
+							<script>
+								document.querySelector('td[data-name="quality_switch"]').textContent =
+									options['resolution_filter']['display_name'].upperFirst()
+								document
+									.querySelector('td[data-name="quality_switch"]')
+									.setAttribute('data-value', options['resolution_filter']['name'])
+							</script>
+						</td>
+						<td class="large_display_needed medium_display_needed">Audio</td>
+						<td class="large_display_needed medium_display_needed">Subtitles</td>
+					</tr>
+				</thead>
+				<tbody id="table-main-body">
+					<tr>
+						<td id="error-state">
+							Loading table....
+							<script>
+								document
+									.querySelector('#error-state')
+									.setAttribute('colspan', document.querySelector('table#db-table>thead').querySelectorAll('td').length)
+							</script>
+						</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td colspan="" data-name="table-foot">
+							<script>
+								document
+									.querySelector('[data-name="table-foot"]')
+									.setAttribute(
+										'colspan',
+										isViewedOnPhone
+											? document.querySelector('table#db-table>thead').querySelectorAll('td:not(.large_display_needed)').length
+											: document.querySelector('table#db-table>thead').querySelectorAll('td').length
+									)
+								document.querySelector('[data-name="table-foot"]').querySelector('script').remove()
+							</script>
+							<div class="div_footer" id="footer-div">
+								<div class="foot_column">
+									<button class="button" button data-name="first" style="background-color: rgba(255, 72, 0, 0.6)">
+										First Page
+									</button>
+									<button class="button" button data-name="previous" style="background-color: rgba(255, 238, 0, 0.6)">
+										Previous Page
+									</button>
+								</div>
+								<div class="foot_column">
+									<div class="text" button="" data-name="current">Current page: 2/8</div>
+								</div>
+								<div class="foot_column reverse">
+									<button class="button" button data-name="next" style="background-color: rgba(0, 204, 255, 0.6)">Next Page</button>
+									<button class="button" button data-name="last" style="background-color: rgba(196, 0, 255, 0.6)">Last Page</button>
+								</div>
+							</div>
+						</td>
+					</tr>
+				</tfoot>
+			</table>
+		</div>
+	</body>
+	<template id="json-table-row">
+		<tr data-row="">
+			<td data-name="index" data-value="" class="large_display_needed"></td>
+			<td data-name="name" data-fullname="" data-value=""></td>
+			<td data-name="duration" data-value="" class="smaller_column"></td>
+			<td data-name="size" data-value="" class="large_display_needed"></td>
+			<td data-name="resolution" data-value="" class="smaller_column"></td>
+			<td data-name="audio" data-value="" class="large_display_needed medium_display_needed"></td>
+			<td data-name="subs" data-value="" class="large_display_needed medium_display_needed"></td>
+		</tr>
+	</template>
+	<script>
+		const acronyms = {
+			ru: 'Russian',
+			ko: 'Korean',
+			ch: 'Chinese',
+			fr: 'French',
+			it: 'Italian',
+			sp: 'Spanish',
+			en: 'English',
+			un: 'Unknown',
+			po: 'Portuguese'
+		}
+		const blacklisted_terms = ['simplified', 'traditional', 'european', 'full', 'regular']
+
+		var plannedUpdate_options = true
+		var plannedUpdate_db = true
+		var plannedUpdate_main = true
+		var plannedUpdateDelay = 200
+		var current_page = 1
+		const lastPage = Math.ceil(ImDb['list']?.length / options['n_elements_per_page'])
+
+		function acronymTranslator(_acr = '') {
+			if (acronyms.hasKey(_acr)) return acronyms[_acr]
+			console.error(`"${_acr}" is not in the list of acronyms`)
+			return 'unknown'
+		}
+
+		function getCurrentPage() {
+			var opts = getSearchOptions()['list']
+			var page = 1
+			for (var key of opts) {
+				if (key['name'] == 'page') page = Number(key['value'])
+			}
+			return page
+		}
+
+		function failRequest(err, errType, errInfo) {
+			var log_error_text = undefined
+			const logJSON = {
+				responseText: err.responseText ?? '',
+				responseJSON: err.responseJSON ?? {},
+				statusText: err.statusText,
+				rawError: err
+			}
+
+			if (logJSON.hasKey('responseText') || logJSON.hasKey('responseJSON')) {
+				if (logJSON.responseText != undefined) {
+					log_error_text = logJSON.responseText
+				} else {
+					log_error_text = JSON.stringify(logJSON.responseJSON)
+				}
+			}
+
+			log_error_text = log_error_text == undefined ? logJSON.statusText : ''
+
+			$('#error-state').html(
+				'<span class="error-message">Error while requesting url</span>' + '<br>' + `<code class="error-details">${log_error_text}</code>`
+			)
+			console.error(`Request failed -> \n${JSON.stringify(logJSON)}`)
+			console.log(logJSON)
+			console.log(errType, errInfo)
+			plannedUpdateDelay *= 10
+		}
+
+		function pageRange(index = 0, use_get_options = true) {
+			if (index < 0) return 0
+			const max_range = use_get_options
+				? current_page * options['n_elements_per_page']
+				: options['current_page'] * options['n_elements_per_page']
+			const min_range = max_range - options['n_elements_per_page']
+			return index >= min_range && index < max_range
+		}
+
+		function getShortResolution(w_h = {}, display_total_pixels = false) {
 			switch (options['resolution_filter']['name']) {
 				default:
 				case 'disk': {
@@ -393,11 +638,28 @@
 			// return return
 		}
 
+		Array.prototype.getShorterList = function () {
+			var ret = []
+			var other_languages = 0
+			this.forEach((value, index) => {
+				if (this.length >= 3) {
+					if (value.containedInArray(['fr', 'en'])) ret.append(acronymTranslator(value))
+					else other_languages++
+				} else {
+					ret.append(acronymTranslator(value))
+				}
+			})
+			if (other_languages) {
+				if (ret.length) ret.append(`#and ${other_languages} more`)
+				else ret.append(`${other_languages} Languages`)
+			}
+			return ret
+		}
+
 		Node.prototype.set = function (name = '', value = '', classes = []) {
 			this.querySelector(`[data-name="${name}"]`).setAttribute('data-value', `${value}`)
 			const nodeID = this.querySelector('[data-row]').getAttribute('data-row')
 			if (classes.length > 0) {
-				// console.log(name, value, classes.length)
 				for (const _class of classes) {
 					this.querySelector(`[data-row='${nodeID}']`).querySelector(`[data-name='${name}']`).classList.add(_class)
 				}
@@ -407,21 +669,107 @@
 		Element.prototype.addRow = function (json = {}) {
 			let new_row = document.querySelector('template#json-table-row').content.cloneNode(true)
 			new_row.querySelector('[data-row]').setAttribute('data-row', json['index'])
+			new_row.querySelector('[data-fullname]').setAttribute('data-fullname', json['name'])
 
 			const file_size = json['size'].formatDataSize(false)
 			const movie_resolution = getShortResolution(json['video'])
 			const movie_duration = json['video']['t'].startsWith('#') ? 'Not available' : json['video']['t']
 			const movie_duration_available = json['video']['t'].startsWith('#') ? ['not_available'] : []
 
+			var audio_tracks = ''
+			var full_audio_tracks = ''
+			var audio_classes = []
+			var audio_list = []
+			if (json['audio'].length) {
+				json['audio'].forEach((track, index) => {
+					if (acronyms.hasKey(track)) audio_list.append(track)
+				})
+
+				audio_list = audio_list.getUniqueKeys()
+				var short_audio_list = audio_list.getShorterList()
+
+				audio_list.forEach((track, index) => {
+					full_audio_tracks += `${acronymTranslator(track)}`
+					if (index < short_audio_list.lastIndex()) full_audio_tracks += index % 3 || index == 0 ? ', ' : ',<br>'
+				})
+				short_audio_list.forEach((track, index) => {
+					audio_tracks += `${track}`
+					// console.log(`${json['name']} → ${typeof track} → ${track}`)
+					if (index < short_audio_list.lastIndex() && !track.startsWith('and')) audio_tracks += ', '
+				})
+
+				// console.log(`${json['name']} → ${audio_tracks}`)
+				// console.log('\n')
+			} else {
+				audio_tracks = 'Unknown'
+				full_audio_tracks = 'Unknown'
+				audio_classes = ['not_available']
+			}
+
+			var subs_tracks = ''
+			var full_subs_tracks = ''
+			var subs_classes = []
+			var subs_list = []
+			if (json['subtitles'].length) {
+				json['subtitles'].forEach((track, index) => {
+					let corrected_track = track.split(' ')[0].split('+')[0]
+					if (acronyms.hasKey(corrected_track)) {
+						subs_list.push(corrected_track)
+					}
+					if (corrected_track.containedInArray(['sdh', 'forced'])) {
+						corrected_track = corrected_track.upperFirst()
+					}
+				})
+				subs_list = subs_list.getUniqueKeys()
+				subs_list.forEach((track, index) => {
+					full_subs_tracks += `${acronymTranslator(track)}`
+					if (index < subs_list.lastIndex()) full_subs_tracks += index % 3 || index == 0 ? ', ' : ',<br>'
+				})
+
+				var short_subs_list = subs_list.getShorterList()
+				short_subs_list.forEach((track, index) => {
+					subs_tracks += `${track}`
+					if (!track.startsWith('#')) if (index < short_subs_list.lastIndex()) subs_tracks += ', '
+				})
+				// console.log(`${json['name']} → ${short_subs_list}`)
+			} else {
+				subs_tracks = 'None'
+				full_subs_tracks = 'None'
+				subs_classes = ['not_available']
+			}
+
 			new_row.set('index', `#${json['index']}`)
-			new_row.set('name', `${json['name']}`)
+			new_row.set('name', `${json['name'].shorten(isViewedOnPhone ? 26 : 32)}`)
 			new_row.set('duration', `${movie_duration}`, movie_duration_available)
 			new_row.set('size', `${file_size}`)
 			new_row.set('resolution', `${movie_resolution}`)
+			new_row.set('audio', `${audio_tracks}`, audio_classes)
+			new_row.set('subs', `${subs_tracks}`, subs_classes)
+
+			new_row.querySelector('[data-row]').addEventListener('click', (event) => {
+				var card_info = document.querySelector('div#movie_info')
+
+				const search_link = new URL('/search', 'https://www.google.fr')
+				search_link.searchParams.set('q', encodeHTML(json['name']))
+
+				card_info.querySelector(
+					'div[data-name="name"]'
+				).innerHTML = `<a class="link" href="${search_link}" target="_blank">${json['name']}</a>`
+				card_info.querySelector('div[data-name="duration"]').innerHTML = `<u><b>Duration</b></u>: <bl>${movie_duration}</bl>`
+				card_info.querySelector('div[data-name="file_size"]').innerHTML = `<u><b>File size</b></u>: ${file_size}`
+				card_info.querySelector('div[data-name="audio"]').innerHTML = `<u><b>Audio tracks</b></u>: <br>${full_audio_tracks}`
+				card_info.querySelector('div[data-name="subtitles"]').innerHTML = `<u><b>Subtitles</b></u>: <br>${full_subs_tracks}`
+				card_info.querySelector(
+					'div[data-name="quality"]'
+				).innerHTML = `<u><b>Quality</b></u>: ${movie_resolution} (${json['video']['w']}×${json['video']['h']})`
+				window.scrollTo(0, 0)
+				setInfoCardState(true)
+			})
 			$('#table-main-body').append(new_row)
 		}
 
 		function updateOptions() {
+			document.querySelector('input#n_rows').value = options['n_elements_per_page']
 			localStorage.setItem('options', JSON.stringify(options))
 		}
 
@@ -442,10 +790,9 @@
 			if (n > lastPage) {
 				document.querySelector('div#footer-div').querySelector('div[data-name="next"]').setAttribute('disabled', 'true')
 			}
-			console.log(final_url)
+			// console.log(final_url)
 			// location.href = final_url
 			history.replaceState({}, '', final_url)
-			plannedUpdate_main = true
 		}
 
 		function buttonCallback(event) {
@@ -468,69 +815,23 @@
 					break
 				}
 			}
-			console.log(buttonAction)
+			// console.log(buttonAction)
+			plannedUpdate_options = plannedUpdate_main = true
 		}
 
 		function updateMainContent() {
-			if (!document.querySelector('div#footer-div').children.length) {
-				const buttons = [
-					{
-						button_name: 'First Page',
-						name: 'first',
-						type: 'button',
-						classes: ['button'],
-						style: 'background-color: hsla(17, 100%, 50%, 0.6)'
-					},
-					{
-						button_name: 'Previous Page',
-						name: 'previous',
-						type: 'button',
-						classes: ['button'],
-						style: 'background-color: hsla(56, 100%, 50%, 0.6)'
-					},
-					{
-						button_name: 'Current Page: ',
-						name: 'current',
-						type: 'div',
-						classes: ['text'],
-						style: '',
-						data: {
-							page: options['current_page'],
-							max: options['current_page']
-						}
-					},
-					{
-						button_name: 'Next Page',
-						name: 'next',
-						type: 'button',
-						classes: ['button'],
-						style: 'background-color: hsla(192, 100%, 50%, 0.6)'
-					},
-					{
-						button_name: 'Last Page',
-						name: 'last',
-						type: 'button',
-						classes: ['button'],
-						style: 'background-color: hsla(286, 100%, 50%, 0.6)'
-					}
-				]
-				buttons.forEach((button, index) => {
-					var element_page_n = document.createElement(button['type'])
-					element_page_n.classList.add(button['classes'])
-					element_page_n.style = button['style']
-					element_page_n.setAttribute('button', '')
-					element_page_n.setAttribute('data-name', button['name'])
-					element_page_n.setAttribute('data-value', button['button_name'])
-					element_page_n.onclick = function (r) {
-						buttonCallback(r.target)
-					}
+			$('div[close-button]').click((event) => {
+				setInfoCardState(false)
+			})
 
-					/* if (button.hasKey('data')) {
-					} */
-					element_page_n.textContent = button['button_name']
-					$('div#footer-div').append(element_page_n)
-				})
-			}
+			document.querySelectorAll('div#footer-div button').forEach((button, index) => {
+				button.onclick = function (event) {
+					buttonCallback(event.target)
+				}
+			})
+			const medium_screen = window.innerWidth <= 840 ? 3 : 5
+			const large_screen = window.innerWidth >= 1000 ? 7 : medium_screen
+			document.querySelector('td[data-name="table-foot"]').setAttribute('colspan', Math.max(medium_screen, large_screen))
 
 			if (!ImDb.hasKey('list')) return
 			$('tbody#table-main-body').empty()
@@ -545,7 +846,6 @@
 			searchOptions['list'].forEach((key, index) => {
 				if (key['name'] == 'page') {
 					has_page = true
-					console.log(`Current page → ${key['value']}`)
 					document
 						.querySelector('div#footer-div')
 						.querySelector('div[data-name="current"]').innerText = `Current page: ${key['value']}/${lastPage}`
@@ -565,7 +865,6 @@
 				ImDb = db
 			})
 		}
-		// document.querySelector('td[data-name="table-foot"]').setAttribute('colspan', '5')
 
 		$('td[data-name="quality_switch"]').click((event) => {
 			var target = event.target
@@ -584,8 +883,19 @@
 			plannedUpdate_options, (plannedUpdate_main = true)
 		})
 
+		$('input#n_rows').on('change', (event) => {
+			const target = event.target
+			if (target.value != options['n_elements_per_page']) plannedUpdate_options = true
+		})
+
 		setInterval(() => {
+			if (debugMode) {
+				prev_debug = `${window.innerWidth}w / ${window.innerHeight}h → ${isViewedOnPhone ? '📱' : '🖥️'}`
+				if (prev_debug != document.querySelector('div#debug').innerText) document.querySelector('div#debug').innerText = prev_debug
+			}
+
 			if (plannedUpdate_options) {
+				current_page = getCurrentPage()
 				updateOptions()
 				// console.log('Updating options')
 				plannedUpdate_options = false
@@ -596,7 +906,6 @@
 				plannedUpdate_db = false
 			}
 			if (plannedUpdate_main) {
-				current_page = getCurrentPage()
 				updateMainContent()
 				// console.log('Updating main content')
 				plannedUpdate_main = false
