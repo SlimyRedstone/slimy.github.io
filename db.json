@@ -1,1808 +1,40 @@
 {
   "list": [
     {
-      "name": "13 Hours - The Secret Soldiers of Benghazi",
+      "name": "The Batman",
       "ext": "mkv",
-      "size": 8245859946,
-      "parent": "Movies",
-      "date": "08/08/2022 at 19:04:07",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 800,
-        "w": 1920,
-        "t": "02:24:29"
-      },
-      "error": false,
-      "output": {},
-      "index": 0
-    },
-    {
-      "name": "1917",
-      "ext": "mkv",
-      "size": 8610170356,
-      "parent": "Movies",
-      "date": "02/03/2021 at 16:03:25",
-      "audio": [
-        "fr"
-      ],
-      "subtitles": [],
-      "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
-      },
-      "error": false,
-      "output": {},
-      "index": 1
-    },
-    {
-      "name": "2001 A Space Odyssey",
-      "ext": "mp4",
-      "size": 3047547089,
-      "parent": "Movies",
-      "date": "28/01/2022 at 17:18:17",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 872,
-        "w": 1920,
-        "t": "03:28:51"
-      },
-      "error": false,
-      "output": {},
-      "index": 2
-    },
-    {
-      "name": "A Quiet Place Part II",
-      "ext": "mkv",
-      "size": 8231947621,
-      "parent": "Movies",
-      "date": "29/06/2021 at 16:00:38",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 798,
-        "w": 1916,
-        "t": "01:37:01"
-      },
-      "error": false,
-      "output": {},
-      "index": 3
-    },
-    {
-      "name": "A Quiet Place",
-      "ext": "mkv",
-      "size": 7036792871,
-      "parent": "Movies",
-      "date": "30/05/2021 at 01:21:15",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 800,
-        "w": 1920,
-        "t": "01:30:14"
-      },
-      "error": false,
-      "output": {},
-      "index": 4
-    },
-    {
-      "name": "Ad Astra",
-      "ext": "mkv",
-      "size": 9729578870,
-      "parent": "Movies",
-      "date": "31/10/2021 at 22:29:28",
-      "audio": [
-        "fr"
-      ],
-      "subtitles": [],
-      "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
-      },
-      "error": false,
-      "output": {},
-      "index": 5
-    },
-    {
-      "name": "Alive (1993)",
-      "ext": "mp4",
-      "size": 1166573184,
-      "parent": "Movies",
-      "date": "22/10/2021 at 08:54:21",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 400,
-        "w": 720,
-        "t": "03:06:24"
-      },
-      "error": false,
-      "output": {},
-      "index": 6
-    },
-    {
-      "name": "Ambulance",
-      "ext": "mkv",
-      "size": 12900786947,
-      "parent": "Movies",
-      "date": "16/07/2022 at 02:11:58",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 1596,
-        "w": 3840,
-        "t": "02:16:19"
-      },
-      "error": false,
-      "output": {},
-      "index": 7
-    },
-    {
-      "name": "American Ultra",
-      "ext": "mkv",
-      "size": 2426611242,
-      "parent": "Movies",
-      "date": "16/02/2022 at 14:36:20",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 1040,
-        "w": 1920,
-        "t": "01:35:21"
-      },
-      "error": false,
-      "output": {},
-      "index": 8
-    },
-    {
-      "name": "Army of the Dead",
-      "ext": "mkv",
-      "size": 4503332373,
-      "parent": "Movies",
-      "date": "29/05/2021 at 23:29:44",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 1080,
-        "w": 1920,
-        "t": "02:28:22"
-      },
-      "error": false,
-      "output": {},
-      "index": 9
-    },
-    {
-      "name": "ARQ",
-      "ext": "avi",
-      "size": 729813802,
-      "parent": "Movies",
-      "date": "28/01/2018 at 22:45:03",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 304,
-        "w": 720,
-        "t": "02:27:44"
-      },
-      "error": false,
-      "output": {},
-      "index": 10
-    },
-    {
-      "name": "Arrival",
-      "ext": "mp4",
-      "size": 1897800626,
-      "parent": "Movies",
-      "date": "02/11/2021 at 13:40:06",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 800,
-        "w": 1920,
-        "t": "02:56:22"
-      },
-      "error": false,
-      "output": {},
-      "index": 11
-    },
-    {
-      "name": "Atomic Blonde",
-      "ext": "mkv",
-      "size": 3182959702,
-      "parent": "Movies",
-      "date": "27/03/2021 at 15:35:13",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 804,
-        "w": 1920,
-        "t": "01:54:44"
-      },
-      "error": false,
-      "output": {},
-      "index": 12
-    },
-    {
-      "name": "Birds of Prey",
-      "ext": "mkv",
-      "size": 8208172839,
-      "parent": "Movies",
-      "date": "15/05/2021 at 20:07:09",
-      "audio": [
-        "fr"
-      ],
-      "subtitles": [],
-      "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
-      },
-      "error": false,
-      "output": {},
-      "index": 13
-    },
-    {
-      "name": "Black Swan",
-      "ext": "mkv",
-      "size": 15018655406,
-      "parent": "Movies",
-      "date": "22/10/2021 at 01:00:08",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 800,
-        "w": 1920,
-        "t": ""
-      },
-      "error": false,
-      "output": {},
-      "index": 14
-    },
-    {
-      "name": "BlacKkKlansman",
-      "ext": "avi",
-      "size": 1472692318,
-      "parent": "Movies",
-      "date": "31/10/2018 at 16:52:46",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 304,
-        "w": 720,
-        "t": "03:14:49"
-      },
-      "error": false,
-      "output": {},
-      "index": 15
-    },
-    {
-      "name": "Blonde",
-      "ext": "mkv",
-      "size": 9050460357,
-      "parent": "Movies",
-      "date": "01/10/2022 at 20:21:56",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 1080,
-        "w": 1920,
-        "t": "02:47:28"
-      },
-      "error": false,
-      "output": {},
-      "index": 16
-    },
-    {
-      "name": "Bullet Train",
-      "ext": "mkv",
-      "size": 5226370584,
-      "parent": "Movies",
-      "date": "01/10/2022 at 20:24:36",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 800,
-        "w": 1920,
-        "t": "02:06:29"
-      },
-      "error": false,
-      "output": {},
-      "index": 17
-    },
-    {
-      "name": "Buried",
-      "ext": "avi",
-      "size": 733771776,
-      "parent": "Movies",
-      "date": "03/03/2016 at 23:34:24",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 336,
-        "w": 624,
-        "t": "02:31:11"
-      },
-      "error": false,
-      "output": {},
-      "index": 18
-    },
-    {
-      "name": "Chaos Walking",
-      "ext": "mkv",
-      "size": 8173360797,
-      "parent": "Movies",
-      "date": "30/05/2021 at 00:30:16",
-      "audio": [
-        "fr"
-      ],
-      "subtitles": [],
-      "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
-      },
-      "error": false,
-      "output": {},
-      "index": 19
-    },
-    {
-      "name": "Children of Men",
-      "ext": "mp4",
-      "size": 1612825757,
-      "parent": "Movies",
-      "date": "28/01/2022 at 17:02:31",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 1040,
-        "w": 1920,
-        "t": "02:49:14"
-      },
-      "error": false,
-      "output": {},
-      "index": 20
-    },
-    {
-      "name": "Citizenfour",
-      "ext": "mp4",
-      "size": 1768689705,
-      "parent": "Movies",
-      "date": "21/10/2021 at 22:38:55",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 1080,
-        "w": 1920,
-        "t": "02:53:29"
-      },
-      "error": false,
-      "output": {},
-      "index": 21
-    },
-    {
-      "name": "Compliance",
-      "ext": "mp4",
-      "size": 1559339777,
-      "parent": "Movies",
-      "date": "28/01/2022 at 17:10:09",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 800,
-        "w": 1920,
-        "t": "02:29:45"
-      },
-      "error": false,
-      "output": {},
-      "index": 22
-    },
-    {
-      "name": "Dark Waters",
-      "ext": "mkv",
-      "size": 10562732107,
-      "parent": "Movies",
-      "date": "30/05/2021 at 03:09:17",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 808,
-        "w": 1920,
-        "t": "02:07:03"
-      },
-      "error": false,
-      "output": {},
-      "index": 23
-    },
-    {
-      "name": "Drive",
-      "ext": "mkv",
-      "size": 4102348294,
-      "parent": "Movies",
-      "date": "03/10/2022 at 18:45:59",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 804,
-        "w": 1920,
-        "t": "01:40:24"
-      },
-      "error": false,
-      "output": {},
-      "index": 24
-    },
-    {
-      "name": "Dual",
-      "ext": "mkv",
-      "size": 7415490260,
-      "parent": "Movies",
-      "date": "03/10/2022 at 18:31:23",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 1028,
-        "w": 1916,
-        "t": "01:34:25"
-      },
-      "error": false,
-      "output": {},
-      "index": 25
-    },
-    {
-      "name": "Dunkirk",
-      "ext": "mkv",
-      "size": 4691703692,
-      "parent": "Movies",
-      "date": "10/01/2018 at 18:28:32",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 720,
-        "w": 1280,
-        "t": "01:46:38"
-      },
-      "error": false,
-      "output": {},
-      "index": 26
-    },
-    {
-      "name": "Edge of Tomorrow",
-      "ext": "mkv",
-      "size": 6936544425,
-      "parent": "Movies",
-      "date": "02/09/2018 at 21:54:41",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 534,
-        "w": 1280,
-        "t": "01:53:29"
-      },
-      "error": false,
-      "output": {},
-      "index": 27
-    },
-    {
-      "name": "Emma",
-      "ext": "mkv",
-      "size": 6045973257,
-      "parent": "Movies",
-      "date": "02/09/2022 at 18:06:35",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 1080,
-        "w": 1920,
-        "t": "02:04:20"
-      },
-      "error": false,
-      "output": {},
-      "index": 28
-    },
-    {
-      "name": "Enola Holmes",
-      "ext": "mkv",
-      "size": 4687255113,
-      "parent": "Movies",
-      "date": "07/11/2020 at 21:28:49",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 1080,
-        "w": 1920,
-        "t": "02:02:34"
-      },
-      "error": false,
-      "output": {},
-      "index": 29
-    },
-    {
-      "name": "Eternal Sunshine of the Spotless Mind",
-      "ext": "mp4",
-      "size": 1613332103,
-      "parent": "Movies",
-      "date": "19/08/2021 at 15:02:49",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 1040,
-        "w": 1920,
-        "t": "02:47:52"
-      },
-      "error": false,
-      "output": {},
-      "index": 30
-    },
-    {
-      "name": "Everything Everywhere All at Once",
-      "ext": "mkv",
-      "size": 1926304632,
-      "parent": "Movies",
-      "date": "03/10/2022 at 17:46:22",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 1040,
-        "w": 1920,
-        "t": "02:19:19"
-      },
-      "error": false,
-      "output": {},
-      "index": 31
-    },
-    {
-      "name": "Extremely Wicked Shockingly Evil and Vile",
-      "ext": "mkv",
-      "size": 3754677587,
-      "parent": "Movies",
-      "date": "03/09/2019 at 13:58:27",
-      "audio": [
-        "fr"
-      ],
-      "subtitles": [],
-      "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
-      },
-      "error": false,
-      "output": {},
-      "index": 32
-    },
-    {
-      "name": "First Man",
-      "ext": "mkv",
-      "size": 10555673159,
-      "parent": "Movies",
-      "date": "02/02/2019 at 16:25:38",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 808,
-        "w": 1920,
-        "t": ""
-      },
-      "error": false,
-      "output": {},
-      "index": 33
-    },
-    {
-      "name": "Flightplan",
-      "ext": "mkv",
-      "size": 4352612305,
-      "parent": "Movies",
-      "date": "28/07/2022 at 04:41:29",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 816,
-        "w": 1920,
-        "t": "01:38:02"
-      },
-      "error": false,
-      "output": {},
-      "index": 34
-    },
-    {
-      "name": "Funny Games (U.S 2007)",
-      "ext": "mp4",
-      "size": 2275897091,
-      "parent": "Movies",
-      "date": "22/10/2021 at 00:20:53",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 1040,
-        "w": 1920,
-        "t": "02:51:08"
-      },
-      "error": false,
-      "output": {},
-      "index": 35
-    },
-    {
-      "name": "Fury",
-      "ext": "mkv",
-      "size": 7970193403,
-      "parent": "Movies",
-      "date": "28/07/2022 at 19:29:03",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 804,
-        "w": 1920,
-        "t": "02:14:38"
-      },
-      "error": false,
-      "output": {},
-      "index": 36
-    },
-    {
-      "name": "Get Out",
-      "ext": "avi",
-      "size": 729028716,
-      "parent": "Movies",
-      "date": "26/01/2018 at 23:00:00",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 304,
-        "w": 720,
-        "t": "02:44:05"
-      },
-      "error": false,
-      "output": {},
-      "index": 37
-    },
-    {
-      "name": "Godzilla vs Kong",
-      "ext": "mkv",
-      "size": 7968628814,
-      "parent": "Movies",
-      "date": "15/05/2021 at 19:51:17",
-      "audio": [
-        "fr"
-      ],
-      "subtitles": [],
-      "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
-      },
-      "error": false,
-      "output": {},
-      "index": 38
-    },
-    {
-      "name": "Gone Girl",
-      "ext": "mkv",
-      "size": 4789580938,
-      "parent": "Movies",
-      "date": "28/07/2022 at 03:51:28",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 800,
-        "w": 1920,
-        "t": "02:29:01"
-      },
-      "error": false,
-      "output": {},
-      "index": 39
-    },
-    {
-      "name": "Greenland",
-      "ext": "mkv",
-      "size": 10741116850,
-      "parent": "Movies",
-      "date": "27/03/2021 at 15:32:53",
-      "audio": [
-        "fr"
-      ],
-      "subtitles": [],
-      "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
-      },
-      "error": false,
-      "output": {},
-      "index": 40
-    },
-    {
-      "name": "I am a Legend",
-      "ext": "avi",
-      "size": 1480246422,
-      "parent": "Movies",
-      "date": "26/01/2018 at 23:00:00",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 298,
-        "w": 720,
-        "t": -1
-      },
-      "error": false,
-      "output": {},
-      "index": 41
-    },
-    {
-      "name": "Inception",
-      "ext": "mkv",
-      "size": 2240697543,
-      "parent": "Movies",
-      "date": "27/08/2019 at 13:02:42",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 1080,
-        "w": 1920,
-        "t": "02:28:07"
-      },
-      "error": false,
-      "output": {},
-      "index": 42
-    },
-    {
-      "name": "Incredibles 2",
-      "ext": "mkv",
-      "size": 4681802524,
-      "parent": "Movies",
-      "date": "31/10/2018 at 18:17:14",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 804,
-        "w": 1920,
-        "t": "01:57:48"
-      },
-      "error": false,
-      "output": {},
-      "index": 43
-    },
-    {
-      "name": "Inside Man",
-      "ext": "mp4",
-      "size": 2635301565,
-      "parent": "Movies",
-      "date": "22/10/2021 at 00:30:49",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 816,
-        "w": 1920,
-        "t": "03:08:43"
-      },
-      "error": false,
-      "output": {},
-      "index": 44
-    },
-    {
-      "name": "Insomnia",
-      "ext": "mkv",
-      "size": 5423823742,
-      "parent": "Movies",
-      "date": "19/03/2022 at 14:05:56",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 808,
-        "w": 1912,
-        "t": "01:58:27"
-      },
-      "error": false,
-      "output": {},
-      "index": 45
-    },
-    {
-      "name": "Interstellar",
-      "ext": "mkv",
-      "size": 14092542063,
-      "parent": "Movies",
-      "date": "03/09/2019 at 20:13:45",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 1080,
-        "w": 1920,
-        "t": ""
-      },
-      "error": false,
-      "output": {},
-      "index": 46
-    },
-    {
-      "name": "Jackie",
-      "ext": "mp4",
-      "size": 2050830977,
-      "parent": "Movies",
-      "date": "21/10/2021 at 23:18:47",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 1080,
-        "w": 1808,
-        "t": "02:40:06"
-      },
-      "error": false,
-      "output": {},
-      "index": 47
-    },
-    {
-      "name": "Jurassic World Fallen Kingdom",
-      "ext": "mkv",
-      "size": 3750517123,
-      "parent": "Movies",
-      "date": "31/10/2018 at 18:15:23",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 804,
-        "w": 1920,
-        "t": ""
-      },
-      "error": false,
-      "output": {},
-      "index": 48
-    },
-    {
-      "name": "K-19 The Widowmaker",
-      "ext": "mp4",
-      "size": 5002274753,
-      "parent": "Movies",
-      "date": "03/10/2022 at 19:42:02",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 816,
-        "w": 1920,
-        "t": "03:18:05"
-      },
-      "error": false,
-      "output": {},
-      "index": 49
-    },
-    {
-      "name": "Kiss Kiss Bang Bang",
-      "ext": "avi",
-      "size": 734806016,
-      "parent": "Movies",
-      "date": "26/01/2018 at 23:00:00",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 256,
-        "w": 608,
-        "t": "02:41:54"
-      },
-      "error": false,
-      "output": {},
-      "index": 50
-    },
-    {
-      "name": "Knives Out",
-      "ext": "mkv",
-      "size": 10009221427,
-      "parent": "Movies",
-      "date": "30/05/2021 at 02:31:27",
-      "audio": [
-        "fr"
-      ],
-      "subtitles": [],
-      "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
-      },
-      "error": false,
-      "output": {},
-      "index": 51
-    },
-    {
-      "name": "Knock Knock",
-      "ext": "mkv",
-      "size": 614494708,
-      "parent": "Movies",
-      "date": "19/08/2021 at 17:58:18",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 302,
-        "w": 720,
-        "t": "01:39:19"
-      },
-      "error": false,
-      "output": {},
-      "index": 52
-    },
-    {
-      "name": "La Folle Histoire de Max et Leon",
-      "ext": "avi",
-      "size": 728835842,
-      "parent": "Movies",
-      "date": "26/01/2018 at 23:00:00",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 304,
-        "w": 720,
-        "t": "02:38:00"
-      },
-      "error": false,
-      "output": {},
-      "index": 53
-    },
-    {
-      "name": "La La Land",
-      "ext": "mkv",
-      "size": 701306885,
-      "parent": "Movies",
-      "date": "26/01/2018 at 23:00:00",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 282,
-        "w": 720,
-        "t": "02:07:48"
-      },
-      "error": false,
-      "output": {},
-      "index": 54
-    },
-    {
-      "name": "Last Night in Soho",
-      "ext": "mkv",
-      "size": 8214574606,
-      "parent": "Movies",
-      "date": "24/01/2022 at 23:03:35",
-      "audio": [
-        "fr"
-      ],
-      "subtitles": [],
-      "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
-      },
-      "error": false,
-      "output": {},
-      "index": 55
-    },
-    {
-      "name": "Life",
-      "ext": "avi",
-      "size": 733346974,
-      "parent": "Movies",
-      "date": "23/07/2017 at 23:24:26",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 304,
-        "w": 720,
-        "t": "02:43:58"
-      },
-      "error": false,
-      "output": {},
-      "index": 56
-    },
-    {
-      "name": "Logan",
-      "ext": "avi",
-      "size": 1683091456,
-      "parent": "Movies",
-      "date": "26/01/2018 at 23:00:00",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 304,
-        "w": 720,
-        "t": "03:17:22"
-      },
-      "error": false,
-      "output": {},
-      "index": 57
-    },
-    {
-      "name": "Moana",
-      "ext": "mkv",
-      "size": 2832601467,
-      "parent": "Movies",
-      "date": "13/02/2019 at 17:39:01",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 536,
-        "w": 1280,
-        "t": "01:47:12"
-      },
-      "error": false,
-      "output": {},
-      "index": 58
-    },
-    {
-      "name": "Nightcrawler",
-      "ext": "mkv",
-      "size": 5329623198,
-      "parent": "Movies",
-      "date": "02/10/2022 at 14:41:45",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 800,
-        "w": 1920,
-        "t": "01:57:34"
-      },
-      "error": false,
-      "output": {},
-      "index": 59
-    },
-    {
-      "name": "Nobody",
-      "ext": "mkv",
-      "size": 7146703178,
-      "parent": "Movies",
-      "date": "30/05/2021 at 00:19:21",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 800,
-        "w": 1920,
-        "t": "01:31:40"
-      },
-      "error": false,
-      "output": {},
-      "index": 60
-    },
-    {
-      "name": "Nocturnal Animals",
-      "ext": "mp4",
-      "size": 2378921971,
-      "parent": "Movies",
-      "date": "22/10/2021 at 03:16:53",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 792,
-        "w": 1920,
-        "t": "02:56:07"
-      },
-      "error": false,
-      "output": {},
-      "index": 61
-    },
-    {
-      "name": "Ode To Joy",
-      "ext": "mp4",
-      "size": 1714994621,
-      "parent": "Movies",
-      "date": "03/10/2022 at 17:47:32",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 784,
-        "w": 1920,
-        "t": "02:37:42"
-      },
-      "error": false,
-      "output": {},
-      "index": 62
-    },
-    {
-      "name": "Open Windows",
-      "ext": "avi",
-      "size": 734595072,
-      "parent": "Movies",
-      "date": "26/01/2018 at 23:00:00",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 352,
-        "w": 624,
-        "t": "02:36:38"
-      },
-      "error": false,
-      "output": {},
-      "index": 63
-    },
-    {
-      "name": "Operation Mincemeat",
-      "ext": "mkv",
-      "size": 2351785359,
-      "parent": "Movies",
-      "date": "28/07/2022 at 03:19:19",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 1080,
-        "w": 1920,
-        "t": "02:07:35"
-      },
-      "error": false,
-      "output": {},
-      "index": 64
-    },
-    {
-      "name": "Parasite",
-      "ext": "mkv",
-      "size": 10595895290,
-      "parent": "Movies",
-      "date": "30/06/2021 at 00:35:49",
-      "audio": [
-        "fr"
-      ],
-      "subtitles": [],
-      "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
-      },
-      "error": false,
-      "output": {},
-      "index": 65
-    },
-    {
-      "name": "Pawn Sacrifice",
-      "ext": "mkv",
-      "size": 3130211425,
-      "parent": "Movies",
-      "date": "29/06/2021 at 21:50:40",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 804,
-        "w": 1920,
-        "t": "01:55:43"
-      },
-      "error": false,
-      "output": {},
-      "index": 66
-    },
-    {
-      "name": "Prisoners",
-      "ext": "avi",
-      "size": 1465206819,
-      "parent": "Movies",
-      "date": "26/01/2018 at 23:00:00",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 352,
-        "w": 624,
-        "t": "03:33:11"
-      },
-      "error": false,
-      "output": {},
-      "index": 67
-    },
-    {
-      "name": "Project Almanac",
-      "ext": "mkv",
-      "size": 2873090946,
-      "parent": "Movies",
-      "date": "25/03/2022 at 21:17:44",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 800,
-        "w": 1920,
-        "t": "01:46:12"
-      },
-      "error": false,
-      "output": {},
-      "index": 68
-    },
-    {
-      "name": "Promising Young Woman",
-      "ext": "mkv",
-      "size": 13218579928,
-      "parent": "Movies",
-      "date": "16/02/2022 at 15:26:49",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 1600,
-        "w": 3840,
-        "t": "01:53:52"
-      },
-      "error": false,
-      "output": {},
-      "index": 69
-    },
-    {
-      "name": "Radioactive",
-      "ext": "mkv",
-      "size": 8206269910,
-      "parent": "Movies",
-      "date": "02/03/2021 at 16:40:41",
-      "audio": [
-        "fr"
-      ],
-      "subtitles": [],
-      "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
-      },
-      "error": false,
-      "output": {},
-      "index": 70
-    },
-    {
-      "name": "Ralph Breaks the Internet",
-      "ext": "mkv",
-      "size": 3844875226,
-      "parent": "Movies",
-      "date": "26/02/2019 at 23:26:09",
-      "audio": [
-        "fr"
-      ],
-      "subtitles": [],
-      "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
-      },
-      "error": false,
-      "output": {},
-      "index": 71
-    },
-    {
-      "name": "Reminiscence",
-      "ext": "mkv",
-      "size": 8208910472,
-      "parent": "Movies",
-      "date": "02/11/2021 at 13:35:27",
-      "audio": [
-        "fr"
-      ],
-      "subtitles": [],
-      "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
-      },
-      "error": false,
-      "output": {},
-      "index": 72
-    },
-    {
-      "name": "Richard Jewell",
-      "ext": "mkv",
-      "size": 10943376872,
-      "parent": "Movies",
-      "date": "02/03/2021 at 17:33:04",
-      "audio": [
-        "fr"
-      ],
-      "subtitles": [],
-      "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
-      },
-      "error": false,
-      "output": {},
-      "index": 73
-    },
-    {
-      "name": "Rogue One",
-      "ext": "avi",
-      "size": 1469905110,
-      "parent": "Movies",
-      "date": "26/01/2018 at 23:00:00",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 304,
-        "w": 720,
-        "t": "03:13:57"
-      },
-      "error": false,
-      "output": {},
-      "index": 74
-    },
-    {
-      "name": "Seul au monde",
-      "ext": "avi",
-      "size": 2282846208,
-      "parent": "Movies",
-      "date": "02/05/2019 at 23:06:26",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 384,
-        "w": 688,
-        "t": "03:17:54"
-      },
-      "error": false,
-      "output": {},
-      "index": 75
-    },
-    {
-      "name": "Shutter Island",
-      "ext": "avi",
-      "size": 734380032,
-      "parent": "Movies",
-      "date": "12/04/2019 at 17:15:52",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 304,
-        "w": 720,
-        "t": "03:12:28"
-      },
-      "error": false,
-      "output": {},
-      "index": 76
-    },
-    {
-      "name": "Side Effects",
-      "ext": "mp4",
-      "size": 1762688218,
-      "parent": "Movies",
-      "date": "19/03/2022 at 13:37:11",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 1040,
-        "w": 1920,
-        "t": "02:46:22"
-      },
-      "error": false,
-      "output": {},
-      "index": 77
-    },
-    {
-      "name": "Snatch",
-      "ext": "mp4",
-      "size": 2104387708,
-      "parent": "Movies",
-      "date": "21/10/2021 at 22:09:28",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 1040,
-        "w": 1920,
-        "t": "02:42:46"
-      },
-      "error": false,
-      "output": {},
-      "index": 78
-    },
-    {
-      "name": "Snowpiercer",
-      "ext": "mkv",
-      "size": 3761435627,
-      "parent": "Movies",
-      "date": "03/10/2022 at 19:18:54",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 1040,
-        "w": 1920,
-        "t": "02:05:52"
-      },
-      "error": false,
-      "output": {},
-      "index": 79
-    },
-    {
-      "name": "Source Code",
-      "ext": "avi",
-      "size": 734009344,
-      "parent": "Movies",
-      "date": "26/01/2018 at 23:00:00",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 352,
-        "w": 624,
-        "t": "02:33:13"
-      },
-      "error": false,
-      "output": {},
-      "index": 80
-    },
-    {
-      "name": "Steve Jobs",
-      "ext": "mkv",
-      "size": 3309556832,
-      "parent": "Movies",
-      "date": "29/06/2021 at 18:17:18",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 800,
-        "w": 1920,
-        "t": "02:02:21"
-      },
-      "error": false,
-      "output": {},
-      "index": 81
-    },
-    {
-      "name": "Summer of 84",
-      "ext": "mkv",
-      "size": 3950447897,
-      "parent": "Movies",
-      "date": "03/10/2022 at 19:43:53",
+      "size": 24764964536,
+      "parent": "DC",
+      "date": "16/07/2022 at 02:21:13",
       "audio": [
         "en"
       ],
-      "subtitles": [],
-      "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
-      },
-      "error": false,
-      "output": {},
-      "index": 82
-    },
-    {
-      "name": "Sunshine",
-      "ext": "avi",
-      "size": 733771776,
-      "parent": "Movies",
-      "date": "29/06/2021 at 16:15:27",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 256,
-        "w": 608,
-        "t": "02:43:03"
-      },
-      "error": false,
-      "output": {},
-      "index": 83
-    },
-    {
-      "name": "Taxi Driver",
-      "ext": "mp4",
-      "size": 2330999112,
-      "parent": "Movies",
-      "date": "22/10/2021 at 01:05:14",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 1040,
-        "w": 1920,
-        "t": "02:53:48"
-      },
-      "error": false,
-      "output": {},
-      "index": 84
-    },
-    {
-      "name": "Tenet",
-      "ext": "mkv",
-      "size": 20145521329,
-      "parent": "Movies",
-      "date": "10/06/2021 at 19:21:21",
-      "audio": [],
       "subtitles": [
-        "fr+forced"
+        "en",
+        "bu",
+        "cz",
+        "da",
+        "sp",
+        "fi",
+        "hr",
+        "hu",
+        "ma",
+        "du",
+        "no",
+        "po",
+        "ru",
+        "sl",
+        "sr",
+        "sw"
       ],
       "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
-      },
-      "error": false,
-      "output": {},
-      "index": 85
-    },
-    {
-      "name": "Terminal",
-      "ext": "mkv",
-      "size": 7037726551,
-      "parent": "Movies",
-      "date": "30/05/2021 at 02:35:27",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 808,
-        "w": 1920,
-        "t": ""
-      },
-      "error": false,
-      "output": {},
-      "index": 86
-    },
-    {
-      "name": "The Dead Zone",
-      "ext": "mp4",
-      "size": 1765211312,
-      "parent": "Movies",
-      "date": "21/10/2021 at 22:32:03",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 1080,
-        "w": 1920,
-        "t": "02:43:43"
-      },
-      "error": false,
-      "output": {},
-      "index": 87
-    },
-    {
-      "name": "The Gray Man",
-      "ext": "mkv",
-      "size": 11574813998,
-      "parent": "Movies",
-      "date": "28/07/2022 at 03:17:00",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 800,
-        "w": 1920,
-        "t": "02:08:53"
-      },
-      "error": false,
-      "output": {},
-      "index": 88
-    },
-    {
-      "name": "The Hitmans Bodyguard",
-      "ext": "avi",
-      "size": 1470951760,
-      "parent": "Movies",
-      "date": "29/12/2017 at 21:26:29",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 304,
-        "w": 720,
-        "t": "02:58:17"
-      },
-      "error": false,
-      "output": {},
-      "index": 89
-    },
-    {
-      "name": "The Imitation Game",
-      "ext": "mkv",
-      "size": 4688687493,
-      "parent": "Movies",
-      "date": "02/02/2019 at 18:07:16",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 536,
-        "w": 1280,
-        "t": "01:53:51"
-      },
-      "error": false,
-      "output": {},
-      "index": 90
-    },
-    {
-      "name": "The Impossible",
-      "ext": "mkv",
-      "size": 2970979054,
-      "parent": "Movies",
-      "date": "27/03/2021 at 15:21:40",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 816,
-        "w": 1920,
-        "t": "01:53:33"
-      },
-      "error": false,
-      "output": {},
-      "index": 91
-    },
-    {
-      "name": "The Invisible Man",
-      "ext": "mkv",
-      "size": 8529304692,
-      "parent": "Movies",
-      "date": "27/03/2021 at 16:10:44",
-      "audio": [],
-      "subtitles": [
-        "fr+forced"
-      ],
-      "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
-      },
-      "error": false,
-      "output": {},
-      "index": 92
-    },
-    {
-      "name": "The Little Things",
-      "ext": "mkv",
-      "size": 10558753809,
-      "parent": "Movies",
-      "date": "29/06/2021 at 16:38:19",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 808,
-        "w": 1920,
-        "t": "02:07:49"
-      },
-      "error": false,
-      "output": {},
-      "index": 93
-    },
-    {
-      "name": "The Martian",
-      "ext": "mkv",
-      "size": 5867732706,
-      "parent": "Movies",
-      "date": "10/02/2016 at 09:31:33",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 536,
-        "w": 1280,
-        "t": "02:21:37"
-      },
-      "error": false,
-      "output": {},
-      "index": 94
-    },
-    {
-      "name": "The Mauritanian",
-      "ext": "mkv",
-      "size": 7436691617,
-      "parent": "Movies",
-      "date": "16/02/2022 at 14:49:45",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 1040,
-        "w": 1920,
-        "t": "02:09:27"
-      },
-      "error": false,
-      "output": {},
-      "index": 95
-    },
-    {
-      "name": "The Menu",
-      "ext": "mkv",
-      "size": 19984605885,
-      "parent": "Movies",
-      "date": "23/08/2023 at 03:13:09",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 1634,
+        "h": 2160,
         "w": 3840,
-        "t": ""
+        "t": "02:56:11"
       },
       "error": false,
       "output": {},
-      "index": 96
-    },
-    {
-      "name": "The Suicide Squad",
-      "ext": "mkv",
-      "size": 9403281681,
-      "parent": "Movies",
-      "date": "31/10/2021 at 22:37:14",
-      "audio": [
-        "fr"
-      ],
-      "subtitles": [],
-      "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
-      },
-      "error": false,
-      "output": {},
-      "index": 97
-    },
-    {
-      "name": "The Thing (1982)",
-      "ext": "mp4",
-      "size": 2223584328,
-      "parent": "Movies",
-      "date": "22/10/2021 at 01:18:29",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 816,
-        "w": 1920,
-        "t": "02:48:34"
-      },
-      "error": false,
-      "output": {},
-      "index": 98
-    },
-    {
-      "name": "The Visit (2015)",
-      "ext": "mkv",
-      "size": 3269376671,
-      "parent": "Movies",
-      "date": "03/10/2022 at 19:15:41",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 1032,
-        "w": 1920,
-        "t": "01:34:01"
-      },
-      "error": false,
-      "output": {},
-      "index": 99
-    },
-    {
-      "name": "The Walk",
-      "ext": "mkv",
-      "size": 3331513532,
-      "parent": "Movies",
-      "date": "21/10/2021 at 23:54:38",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 800,
-        "w": 1920,
-        "t": "02:03:11"
-      },
-      "error": false,
-      "output": {},
-      "index": 100
-    },
-    {
-      "name": "The Witch",
-      "ext": "mp4",
-      "size": 1454516571,
-      "parent": "Movies",
-      "date": "29/06/2021 at 18:08:23",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 1080,
-        "w": 1792,
-        "t": "02:32:26"
-      },
-      "error": false,
-      "output": {},
-      "index": 101
-    },
-    {
-      "name": "The Wolf of Wall Street",
-      "ext": "mkv",
-      "size": 13623579685,
-      "parent": "Movies",
-      "date": "16/02/2022 at 16:17:49",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 800,
-        "w": 1920,
-        "t": "02:59:52"
-      },
-      "error": false,
-      "output": {},
-      "index": 102
-    },
-    {
-      "name": "Time Lapse",
-      "ext": "avi",
-      "size": 728145344,
-      "parent": "Movies",
-      "date": "26/01/2018 at 23:00:00",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 408,
-        "w": 720,
-        "t": "02:44:08"
-      },
-      "error": false,
-      "output": {},
-      "index": 103
+      "index": 118
     },
     {
       "name": "Top Gun Maverick",
@@ -1810,7 +42,9 @@
       "size": 24592120006,
       "parent": "Movies",
       "date": "03/10/2022 at 19:11:14",
-      "audio": [],
+      "audio": [
+        "en"
+      ],
       "subtitles": [],
       "video": {
         "h": 2024,
@@ -1822,250 +56,71 @@
       "index": 104
     },
     {
-      "name": "Train to Busan",
-      "ext": "avi",
-      "size": 1465752258,
-      "parent": "Movies",
-      "date": "26/01/2018 at 23:00:00",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 392,
-        "w": 720,
-        "t": "02:58:08"
-      },
-      "error": false,
-      "output": {},
-      "index": 105
-    },
-    {
-      "name": "Upgrade",
+      "name": "The Matrix Resurrections",
       "ext": "mkv",
-      "size": 2722642104,
-      "parent": "Movies",
-      "date": "02/03/2021 at 16:46:43",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 808,
-        "w": 1920,
-        "t": "01:39:54"
-      },
-      "error": false,
-      "output": {},
-      "index": 106
-    },
-    {
-      "name": "Upside Down",
-      "ext": "mp4",
-      "size": 1664240865,
-      "parent": "Movies",
-      "date": "28/07/2022 at 03:36:25",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 804,
-        "w": 1920,
-        "t": "02:40:21"
-      },
-      "error": false,
-      "output": {},
-      "index": 107
-    },
-    {
-      "name": "Vivarium",
-      "ext": "mkv",
-      "size": 8159849577,
-      "parent": "Movies",
-      "date": "19/08/2021 at 21:25:09",
+      "size": 20606517925,
+      "parent": "The Matrix",
+      "date": "03/10/2022 at 19:14:55",
       "audio": [
-        "fr"
+        "en"
       ],
-      "subtitles": [],
-      "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
-      },
-      "error": false,
-      "output": {},
-      "index": 108
-    },
-    {
-      "name": "Watcher",
-      "ext": "mkv",
-      "size": 5093137211,
-      "parent": "Movies",
-      "date": "01/10/2022 at 20:23:16",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 958,
-        "w": 1920,
-        "t": "01:36:14"
-      },
-      "error": false,
-      "output": {},
-      "index": 109
-    },
-    {
-      "name": "Watchmen",
-      "ext": "avi",
-      "size": 735473664,
-      "parent": "Movies",
-      "date": "07/01/2018 at 18:43:47",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 256,
-        "w": 608,
-        "t": "03:42:04"
-      },
-      "error": false,
-      "output": {},
-      "index": 110
-    },
-    {
-      "name": "Wrath of Man",
-      "ext": "mkv",
-      "size": 8539132564,
-      "parent": "Movies",
-      "date": "30/05/2021 at 00:39:00",
-      "audio": [
-        "fr"
+      "subtitles": [
+        "en",
+        "sp"
       ],
-      "subtitles": [],
-      "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
-      },
-      "error": false,
-      "output": {},
-      "index": 111
-    },
-    {
-      "name": "10 Cloverfield Lane",
-      "ext": "mkv",
-      "size": 1142005743,
-      "parent": "Cloverfield Universe",
-      "date": "26/03/2022 at 00:34:28",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 800,
-        "w": 1920,
-        "t": "01:43:34"
-      },
-      "error": false,
-      "output": {},
-      "index": 112
-    },
-    {
-      "name": "Cloverfield",
-      "ext": "mkv",
-      "size": 3482132394,
-      "parent": "Cloverfield Universe",
-      "date": "26/03/2022 at 00:46:05",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 1080,
-        "w": 1920,
-        "t": "01:24:40"
-      },
-      "error": false,
-      "output": {},
-      "index": 113
-    },
-    {
-      "name": "The Cloverfield Paradox",
-      "ext": "mkv",
-      "size": 4877196892,
-      "parent": "Cloverfield Universe",
-      "date": "06/02/2018 at 01:33:05",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 1080,
-        "w": 1920,
-        "t": "01:42:26"
-      },
-      "error": false,
-      "output": {},
-      "index": 114
-    },
-    {
-      "name": "Aquaman",
-      "ext": "mkv",
-      "size": 4429960142,
-      "parent": "DC",
-      "date": "05/03/2019 at 23:50:44",
-      "audio": [
-        "fr"
-      ],
-      "subtitles": [],
-      "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
-      },
-      "error": false,
-      "output": {},
-      "index": 115
-    },
-    {
-      "name": "Justice League",
-      "ext": "mkv",
-      "size": 8530670458,
-      "parent": "DC",
-      "date": "02/09/2018 at 19:49:05",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 1080,
-        "w": 1920,
-        "t": ""
-      },
-      "error": false,
-      "output": {},
-      "index": 116
-    },
-    {
-      "name": "Shazam",
-      "ext": "mkv",
-      "size": 5676767743,
-      "parent": "DC",
-      "date": "04/07/2019 at 01:29:27",
-      "audio": [
-        "fr"
-      ],
-      "subtitles": [],
-      "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
-      },
-      "error": false,
-      "output": {},
-      "index": 117
-    },
-    {
-      "name": "The Batman",
-      "ext": "mkv",
-      "size": 24764964536,
-      "parent": "DC",
-      "date": "16/07/2022 at 02:21:13",
-      "audio": [],
-      "subtitles": [],
       "video": {
         "h": 2160,
         "w": 3840,
-        "t": "02:56:11"
+        "t": "02:27:54"
       },
       "error": false,
       "output": {},
-      "index": 118
+      "index": 165
+    },
+    {
+      "name": "Tenet",
+      "ext": "mkv",
+      "size": 20145521329,
+      "parent": "Movies",
+      "date": "10/06/2021 at 19:21:21",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 1080,
+        "w": 1920,
+        "t": "03:30:09"
+      },
+      "error": false,
+      "output": {},
+      "index": 85
+    },
+    {
+      "name": "The Menu",
+      "ext": "mkv",
+      "size": 19984605885,
+      "parent": "Movies",
+      "date": "23/08/2023 at 03:13:09",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [
+        "en",
+        "fr",
+        "sp"
+      ],
+      "video": {
+        "h": 1634,
+        "w": 3840,
+        "t": "02:47:07"
+      },
+      "error": false,
+      "output": {},
+      "index": 96
     },
     {
       "name": "Zack Snyders' Justice League",
@@ -2074,170 +129,262 @@
       "parent": "DC",
       "date": "19/03/2021 at 22:33:22",
       "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
         "fr"
       ],
-      "subtitles": [],
       "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
+        "h": 1080,
+        "w": 1920,
+        "t": "04:02:08"
       },
       "error": false,
       "output": {},
       "index": 119
     },
     {
-      "name": "[1]Harry Potter A L'Ecole Des Sorciers",
+      "name": "Black Swan",
       "ext": "mkv",
-      "size": 5481673327,
-      "parent": "Harry Potter",
-      "date": "19/08/2021 at 20:57:40",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 796,
-        "w": 1920,
-        "t": "02:32:21"
-      },
-      "error": false,
-      "output": {},
-      "index": 120
-    },
-    {
-      "name": "[2]Harry Potter Et La Chambre Des Secrets",
-      "ext": "mkv",
-      "size": 5790722295,
-      "parent": "Harry Potter",
-      "date": "19/08/2021 at 20:57:40",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 802,
-        "w": 1920,
-        "t": "02:40:55"
-      },
-      "error": false,
-      "output": {},
-      "index": 121
-    },
-    {
-      "name": "[3]Harry Potter Et Le Prisonnier D'Azkaban",
-      "ext": "mkv",
-      "size": 5099239044,
-      "parent": "Harry Potter",
-      "date": "19/08/2021 at 20:57:40",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 798,
-        "w": 1920,
-        "t": "02:21:42"
-      },
-      "error": false,
-      "output": {},
-      "index": 122
-    },
-    {
-      "name": "[4]Harry Potter Et La Coupe De Feu",
-      "ext": "mkv",
-      "size": 5652609904,
-      "parent": "Harry Potter",
-      "date": "19/08/2021 at 20:57:40",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 798,
-        "w": 1920,
-        "t": "02:37:05"
-      },
-      "error": false,
-      "output": {},
-      "index": 123
-    },
-    {
-      "name": "[5]Harry Potter Et L'Ordre Du Ph\u00e9nix",
-      "ext": "mkv",
-      "size": 4973639319,
-      "parent": "Harry Potter",
-      "date": "19/08/2021 at 20:57:40",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 798,
-        "w": 1920,
-        "t": "02:18:14"
-      },
-      "error": false,
-      "output": {},
-      "index": 124
-    },
-    {
-      "name": "[6]Harry Potter Et Le Prince De Sang Mele",
-      "ext": "mkv",
-      "size": 5523964933,
-      "parent": "Harry Potter",
-      "date": "19/08/2021 at 20:57:40",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 798,
-        "w": 1920,
-        "t": "02:33:30"
-      },
-      "error": false,
-      "output": {},
-      "index": 125
-    },
-    {
-      "name": "[7]Harry Potter Et Les Reliques De la Mort Partie 1",
-      "ext": "mkv",
-      "size": 5257374067,
-      "parent": "Harry Potter",
-      "date": "19/08/2021 at 20:57:40",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 798,
-        "w": 1920,
-        "t": "02:26:05"
-      },
-      "error": false,
-      "output": {},
-      "index": 126
-    },
-    {
-      "name": "[8]Harry Potter Et Les Reliques De la Mort Partie 2",
-      "ext": "mkv",
-      "size": 4694682299,
-      "parent": "Harry Potter",
-      "date": "19/08/2021 at 20:57:40",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 798,
-        "w": 1920,
-        "t": "02:10:27"
-      },
-      "error": false,
-      "output": {},
-      "index": 127
-    },
-    {
-      "name": "John Wick 2",
-      "ext": "mkv",
-      "size": 3124391822,
-      "parent": "John Wick",
-      "date": "03/09/2019 at 22:05:24",
-      "audio": [],
+      "size": 15018655406,
+      "parent": "Movies",
+      "date": "22/10/2021 at 01:00:08",
+      "audio": [
+        "en"
+      ],
       "subtitles": [],
       "video": {
         "h": 800,
         "w": 1920,
-        "t": "02:02:22"
+        "t": ""
       },
       "error": false,
       "output": {},
-      "index": 128
+      "index": 14
+    },
+    {
+      "name": "Interstellar",
+      "ext": "mkv",
+      "size": 14092542063,
+      "parent": "Movies",
+      "date": "03/09/2019 at 20:13:45",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 1080,
+        "w": 1920,
+        "t": "03:49:03"
+      },
+      "error": false,
+      "output": {},
+      "index": 46
+    },
+    {
+      "name": "The Wolf of Wall Street",
+      "ext": "mkv",
+      "size": 13623579685,
+      "parent": "Movies",
+      "date": "16/02/2022 at 16:17:49",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [
+        "en",
+        "fr",
+        "sp"
+      ],
+      "video": {
+        "h": 800,
+        "w": 1920,
+        "t": "02:59:52"
+      },
+      "error": false,
+      "output": {},
+      "index": 102
+    },
+    {
+      "name": "Promising Young Woman",
+      "ext": "mkv",
+      "size": 13218579928,
+      "parent": "Movies",
+      "date": "16/02/2022 at 15:26:49",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [
+        "en"
+      ],
+      "video": {
+        "h": 1600,
+        "w": 3840,
+        "t": "01:53:52"
+      },
+      "error": false,
+      "output": {},
+      "index": 69
+    },
+    {
+      "name": "Ambulance",
+      "ext": "mkv",
+      "size": 12900786947,
+      "parent": "Movies",
+      "date": "16/07/2022 at 02:11:58",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [],
+      "video": {
+        "h": 1596,
+        "w": 3840,
+        "t": "02:16:19"
+      },
+      "error": false,
+      "output": {},
+      "index": 7
+    },
+    {
+      "name": "The Gray Man",
+      "ext": "mkv",
+      "size": 11574813998,
+      "parent": "Movies",
+      "date": "28/07/2022 at 03:17:00",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [
+        "en",
+        "ar",
+        "ca",
+        "cz",
+        "da",
+        "ge",
+        "gr",
+        "sp",
+        "ba",
+        "fi",
+        "fr",
+        "gl",
+        "he",
+        "hr",
+        "hu",
+        "in",
+        "it",
+        "jp",
+        "ko",
+        "ma",
+        "no",
+        "du",
+        "po",
+        "ru",
+        "sw",
+        "th",
+        "tu",
+        "uk",
+        "vi",
+        "ch"
+      ],
+      "video": {
+        "h": 800,
+        "w": 1920,
+        "t": "02:08:53"
+      },
+      "error": false,
+      "output": {},
+      "index": 88
+    },
+    {
+      "name": "Spider-Man Far From Home",
+      "ext": "mkv",
+      "size": 11187181139,
+      "parent": "Marvel",
+      "date": "04/10/2019 at 19:23:22",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 808,
+        "w": 1920,
+        "t": "02:09:23"
+      },
+      "error": false,
+      "output": {},
+      "index": 143
+    },
+    {
+      "name": "Richard Jewell",
+      "ext": "mkv",
+      "size": 10943376872,
+      "parent": "Movies",
+      "date": "02/03/2021 at 17:33:04",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 808,
+        "w": 1920,
+        "t": "02:10:54"
+      },
+      "error": false,
+      "output": {},
+      "index": 73
+    },
+    {
+      "name": "Avengers Endgame",
+      "ext": "mkv",
+      "size": 10812649472,
+      "parent": "Avengers",
+      "date": "27/08/2019 at 15:53:01",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 808,
+        "w": 1920,
+        "t": "04:01:11"
+      },
+      "error": false,
+      "output": {},
+      "index": 148
+    },
+    {
+      "name": "Greenland",
+      "ext": "mkv",
+      "size": 10741116850,
+      "parent": "Movies",
+      "date": "27/03/2021 at 15:32:53",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 804,
+        "w": 1920,
+        "t": "01:59:32"
+      },
+      "error": false,
+      "output": {},
+      "index": 40
     },
     {
       "name": "John Wick 3",
@@ -2246,68 +393,131 @@
       "parent": "John Wick",
       "date": "03/09/2019 at 16:06:51",
       "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
         "fr"
       ],
-      "subtitles": [],
       "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
+        "h": 800,
+        "w": 1920,
+        "t": "03:11:04"
       },
       "error": false,
       "output": {},
       "index": 129
     },
     {
-      "name": "John Wick",
+      "name": "Parasite",
       "ext": "mkv",
-      "size": 2575576094,
-      "parent": "John Wick",
-      "date": "03/09/2019 at 23:33:21",
-      "audio": [],
-      "subtitles": [],
+      "size": 10595895290,
+      "parent": "Movies",
+      "date": "30/06/2021 at 00:35:49",
+      "audio": [
+        "fr",
+        "ko"
+      ],
+      "subtitles": [
+        "fr"
+      ],
       "video": {
         "h": 800,
         "w": 1920,
-        "t": "01:41:13"
+        "t": "02:12:00"
       },
       "error": false,
       "output": {},
-      "index": 130
+      "index": 65
     },
     {
-      "name": "Kingsman The Golden Circle",
+      "name": "Mission Impossible - Fallout",
       "ext": "mkv",
-      "size": 5868802078,
-      "parent": "Kingsman",
-      "date": "30/11/2017 at 23:05:12",
-      "audio": [],
-      "subtitles": [],
+      "size": 10567362683,
+      "parent": "Mission Impossible",
+      "date": "17/11/2018 at 10:06:07",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
       "video": {
-        "h": 536,
-        "w": 1280,
-        "t": "02:21:02"
+        "h": 1016,
+        "w": 1920,
+        "t": "02:27:24"
       },
       "error": false,
       "output": {},
-      "index": 131
+      "index": 154
     },
     {
-      "name": "Kingsman The Secret Service",
-      "ext": "avi",
-      "size": 1462692646,
-      "parent": "Kingsman",
-      "date": "26/01/2018 at 23:00:00",
-      "audio": [],
-      "subtitles": [],
+      "name": "Dark Waters",
+      "ext": "mkv",
+      "size": 10562732107,
+      "parent": "Movies",
+      "date": "30/05/2021 at 03:09:17",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr",
+        "en"
+      ],
       "video": {
-        "h": 304,
-        "w": 720,
-        "t": "03:08:44"
+        "h": 808,
+        "w": 1920,
+        "t": "02:07:03"
       },
       "error": false,
       "output": {},
-      "index": 132
+      "index": 23
+    },
+    {
+      "name": "The Little Things",
+      "ext": "mkv",
+      "size": 10558753809,
+      "parent": "Movies",
+      "date": "29/06/2021 at 16:38:19",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 808,
+        "w": 1920,
+        "t": "02:07:49"
+      },
+      "error": false,
+      "output": {},
+      "index": 93
+    },
+    {
+      "name": "First Man",
+      "ext": "mkv",
+      "size": 10555673159,
+      "parent": "Movies",
+      "date": "02/02/2019 at 16:25:38",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 808,
+        "w": 1920,
+        "t": "03:20:59"
+      },
+      "error": false,
+      "output": {},
+      "index": 33
     },
     {
       "name": "The King's Man",
@@ -2315,8 +525,15 @@
       "size": 10394311109,
       "parent": "Kingsman",
       "date": "16/07/2022 at 03:10:29",
-      "audio": [],
-      "subtitles": [],
+      "audio": [
+        "en"
+      ],
+      "subtitles": [
+        "en",
+        "fr",
+        "jp",
+        "sp"
+      ],
       "video": {
         "h": 1608,
         "w": 3840,
@@ -2333,34 +550,998 @@
       "parent": "M Night Shyamalan's Movies",
       "date": "08/04/2019 at 15:47:15",
       "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
         "fr"
       ],
-      "subtitles": [],
       "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
+        "h": 808,
+        "w": 1920,
+        "t": "02:09:01"
       },
       "error": false,
       "output": {},
       "index": 134
     },
     {
-      "name": "Incassable",
-      "ext": "avi",
-      "size": 1463824384,
-      "parent": "M Night Shyamalan's Movies",
-      "date": "09/04/2019 at 14:34:54",
-      "audio": [],
-      "subtitles": [],
+      "name": "Knives Out",
+      "ext": "mkv",
+      "size": 10009221427,
+      "parent": "Movies",
+      "date": "30/05/2021 at 02:31:27",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
       "video": {
-        "h": 272,
-        "w": 640,
-        "t": "02:46:39"
+        "h": 1040,
+        "w": 1920,
+        "t": "02:10:13"
       },
       "error": false,
       "output": {},
-      "index": 135
+      "index": 51
+    },
+    {
+      "name": "Ant-Man and the Wasp",
+      "ext": "mkv",
+      "size": 9731107967,
+      "parent": "Marvel",
+      "date": "06/10/2018 at 10:13:08",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 808,
+        "w": 1920,
+        "t": "01:58:05"
+      },
+      "error": false,
+      "output": {},
+      "index": 137
+    },
+    {
+      "name": "Ad Astra",
+      "ext": "mkv",
+      "size": 9729578870,
+      "parent": "Movies",
+      "date": "31/10/2021 at 22:29:28",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 808,
+        "w": 1920,
+        "t": "02:03:01"
+      },
+      "error": false,
+      "output": {},
+      "index": 5
+    },
+    {
+      "name": "Dark Phoenix",
+      "ext": "mkv",
+      "size": 9714351419,
+      "parent": "Marvel",
+      "date": "04/09/2019 at 02:16:24",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 808,
+        "w": 1920,
+        "t": "01:53:54"
+      },
+      "error": false,
+      "output": {},
+      "index": 140
+    },
+    {
+      "name": "The Suicide Squad",
+      "ext": "mkv",
+      "size": 9403281681,
+      "parent": "Movies",
+      "date": "31/10/2021 at 22:37:14",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 1012,
+        "w": 1920,
+        "t": "02:12:06"
+      },
+      "error": false,
+      "output": {},
+      "index": 97
+    },
+    {
+      "name": "Blonde",
+      "ext": "mkv",
+      "size": 9050460357,
+      "parent": "Movies",
+      "date": "01/10/2022 at 20:21:56",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [
+        "en",
+        "ar",
+        "ch",
+        "hr",
+        "cz",
+        "da",
+        "du",
+        "sp",
+        "fi",
+        "fr",
+        "ge",
+        "gr",
+        "he",
+        "hu",
+        "in",
+        "it",
+        "jp",
+        "ko",
+        "ma",
+        "no",
+        "po",
+        "ru",
+        "sw",
+        "th",
+        "tu",
+        "uk",
+        "vi"
+      ],
+      "video": {
+        "h": 1080,
+        "w": 1920,
+        "t": "02:47:28"
+      },
+      "error": false,
+      "output": {},
+      "index": 16
+    },
+    {
+      "name": "1917",
+      "ext": "mkv",
+      "size": 8610170356,
+      "parent": "Movies",
+      "date": "02/03/2021 at 16:03:25",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 800,
+        "w": 1920,
+        "t": "01:58:58"
+      },
+      "error": false,
+      "output": {},
+      "index": 1
+    },
+    {
+      "name": "Wrath of Man",
+      "ext": "mkv",
+      "size": 8539132564,
+      "parent": "Movies",
+      "date": "30/05/2021 at 00:39:00",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 800,
+        "w": 1920,
+        "t": "01:58:42"
+      },
+      "error": false,
+      "output": {},
+      "index": 111
+    },
+    {
+      "name": "Justice League",
+      "ext": "mkv",
+      "size": 8530670458,
+      "parent": "DC",
+      "date": "02/09/2018 at 19:49:05",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 1080,
+        "w": 1920,
+        "t": "03:00:02"
+      },
+      "error": false,
+      "output": {},
+      "index": 116
+    },
+    {
+      "name": "The Invisible Man",
+      "ext": "mkv",
+      "size": 8529304692,
+      "parent": "Movies",
+      "date": "27/03/2021 at 16:10:44",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 804,
+        "w": 1920,
+        "t": "03:04:23"
+      },
+      "error": false,
+      "output": {},
+      "index": 92
+    },
+    {
+      "name": "13 Hours - The Secret Soldiers of Benghazi",
+      "ext": "mkv",
+      "size": 8245859946,
+      "parent": "Movies",
+      "date": "08/08/2022 at 19:04:07",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [
+        "en",
+        "fr",
+        "po",
+        "sp"
+      ],
+      "video": {
+        "h": 800,
+        "w": 1920,
+        "t": "02:24:29"
+      },
+      "error": false,
+      "output": {},
+      "index": 0
+    },
+    {
+      "name": "A Quiet Place Part II",
+      "ext": "mkv",
+      "size": 8231947621,
+      "parent": "Movies",
+      "date": "29/06/2021 at 16:00:38",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 798,
+        "w": 1916,
+        "t": "01:37:01"
+      },
+      "error": false,
+      "output": {},
+      "index": 3
+    },
+    {
+      "name": "Last Night in Soho",
+      "ext": "mkv",
+      "size": 8214574606,
+      "parent": "Movies",
+      "date": "24/01/2022 at 23:03:35",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 804,
+        "w": 1920,
+        "t": "01:56:32"
+      },
+      "error": false,
+      "output": {},
+      "index": 55
+    },
+    {
+      "name": "Reminiscence",
+      "ext": "mkv",
+      "size": 8208910472,
+      "parent": "Movies",
+      "date": "02/11/2021 at 13:35:27",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 804,
+        "w": 1920,
+        "t": "01:55:59"
+      },
+      "error": false,
+      "output": {},
+      "index": 72
+    },
+    {
+      "name": "Birds of Prey",
+      "ext": "mkv",
+      "size": 8208172839,
+      "parent": "Movies",
+      "date": "15/05/2021 at 20:07:09",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 800,
+        "w": 1920,
+        "t": "01:48:52"
+      },
+      "error": false,
+      "output": {},
+      "index": 13
+    },
+    {
+      "name": "Radioactive",
+      "ext": "mkv",
+      "size": 8206269910,
+      "parent": "Movies",
+      "date": "02/03/2021 at 16:40:41",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 804,
+        "w": 1920,
+        "t": "02:50:07"
+      },
+      "error": false,
+      "output": {},
+      "index": 70
+    },
+    {
+      "name": "Chaos Walking",
+      "ext": "mkv",
+      "size": 8173360797,
+      "parent": "Movies",
+      "date": "30/05/2021 at 00:30:16",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 804,
+        "w": 1920,
+        "t": "01:48:53"
+      },
+      "error": false,
+      "output": {},
+      "index": 19
+    },
+    {
+      "name": "Vivarium",
+      "ext": "mkv",
+      "size": 8159849577,
+      "parent": "Movies",
+      "date": "19/08/2021 at 21:25:09",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 802,
+        "w": 1920,
+        "t": "01:38:31"
+      },
+      "error": false,
+      "output": {},
+      "index": 108
+    },
+    {
+      "name": "Fury",
+      "ext": "mkv",
+      "size": 7970193403,
+      "parent": "Movies",
+      "date": "28/07/2022 at 19:29:03",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [
+        "en",
+        "ar",
+        "da",
+        "du",
+        "fi",
+        "fr",
+        "ge",
+        "gr",
+        "hi",
+        "ic",
+        "it",
+        "jp",
+        "ko",
+        "no",
+        "po",
+        "ru",
+        "sp",
+        "sw",
+        "tu"
+      ],
+      "video": {
+        "h": 804,
+        "w": 1920,
+        "t": "02:14:38"
+      },
+      "error": false,
+      "output": {},
+      "index": 36
+    },
+    {
+      "name": "Godzilla vs Kong",
+      "ext": "mkv",
+      "size": 7968628814,
+      "parent": "Movies",
+      "date": "15/05/2021 at 19:51:17",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 816,
+        "w": 1920,
+        "t": "01:53:06"
+      },
+      "error": false,
+      "output": {},
+      "index": 38
+    },
+    {
+      "name": "Doctor Strange in the Multiverse of Madness",
+      "ext": "mkv",
+      "size": 7838905556,
+      "parent": "Marvel",
+      "date": "23/06/2022 at 15:14:54",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [
+        "en",
+        "cz",
+        "da",
+        "ge",
+        "gr",
+        "sp",
+        "fi",
+        "fr",
+        "hu",
+        "ic",
+        "it",
+        "jp",
+        "ko",
+        "du",
+        "no",
+        "po",
+        "ru",
+        "sl",
+        "sw",
+        "tu",
+        "ch"
+      ],
+      "video": {
+        "h": 1080,
+        "w": 1920,
+        "t": "02:06:31"
+      },
+      "error": false,
+      "output": {},
+      "index": 141
+    },
+    {
+      "name": "The Mauritanian",
+      "ext": "mkv",
+      "size": 7436691617,
+      "parent": "Movies",
+      "date": "16/02/2022 at 14:49:45",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [
+        "en",
+        "fr"
+      ],
+      "video": {
+        "h": 1040,
+        "w": 1920,
+        "t": "02:09:27"
+      },
+      "error": false,
+      "output": {},
+      "index": 95
+    },
+    {
+      "name": "Dual",
+      "ext": "mkv",
+      "size": 7415490260,
+      "parent": "Movies",
+      "date": "03/10/2022 at 18:31:23",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [
+        "en",
+        "sp"
+      ],
+      "video": {
+        "h": 1028,
+        "w": 1916,
+        "t": "01:34:25"
+      },
+      "error": false,
+      "output": {},
+      "index": 25
+    },
+    {
+      "name": "Nobody",
+      "ext": "mkv",
+      "size": 7146703178,
+      "parent": "Movies",
+      "date": "30/05/2021 at 00:19:21",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 800,
+        "w": 1920,
+        "t": "01:31:40"
+      },
+      "error": false,
+      "output": {},
+      "index": 60
+    },
+    {
+      "name": "Terminal",
+      "ext": "mkv",
+      "size": 7037726551,
+      "parent": "Movies",
+      "date": "30/05/2021 at 02:35:27",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 808,
+        "w": 1920,
+        "t": "02:35:43"
+      },
+      "error": false,
+      "output": {},
+      "index": 86
+    },
+    {
+      "name": "A Quiet Place",
+      "ext": "mkv",
+      "size": 7036792871,
+      "parent": "Movies",
+      "date": "30/05/2021 at 01:21:15",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 800,
+        "w": 1920,
+        "t": "01:30:14"
+      },
+      "error": false,
+      "output": {},
+      "index": 4
+    },
+    {
+      "name": "Captain America Civil War",
+      "ext": "mkv",
+      "size": 7035446832,
+      "parent": "Marvel",
+      "date": "18/04/2019 at 21:29:18",
+      "audio": [
+        "fr"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 536,
+        "w": 1280,
+        "t": "02:27:41"
+      },
+      "error": false,
+      "output": {},
+      "index": 138
+    },
+    {
+      "name": "Edge of Tomorrow",
+      "ext": "mkv",
+      "size": 6936544425,
+      "parent": "Movies",
+      "date": "02/09/2018 at 21:54:41",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 534,
+        "w": 1280,
+        "t": "01:53:29"
+      },
+      "error": false,
+      "output": {},
+      "index": 27
+    },
+    {
+      "name": "Emma",
+      "ext": "mkv",
+      "size": 6045973257,
+      "parent": "Movies",
+      "date": "02/09/2022 at 18:06:35",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [
+        "en",
+        "fr",
+        "sp"
+      ],
+      "video": {
+        "h": 1080,
+        "w": 1920,
+        "t": "02:04:20"
+      },
+      "error": false,
+      "output": {},
+      "index": 28
+    },
+    {
+      "name": "Spider-Man Homecoming",
+      "ext": "mkv",
+      "size": 5869225628,
+      "parent": "Marvel",
+      "date": "18/04/2019 at 18:04:19",
+      "audio": [
+        "fr"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 536,
+        "w": 1280,
+        "t": "02:13:28"
+      },
+      "error": false,
+      "output": {},
+      "index": 144
+    },
+    {
+      "name": "Kingsman The Golden Circle",
+      "ext": "mkv",
+      "size": 5868802078,
+      "parent": "Kingsman",
+      "date": "30/11/2017 at 23:05:12",
+      "audio": [
+        "fr"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 536,
+        "w": 1280,
+        "t": "02:21:02"
+      },
+      "error": false,
+      "output": {},
+      "index": 131
+    },
+    {
+      "name": "The Martian",
+      "ext": "mkv",
+      "size": 5867732706,
+      "parent": "Movies",
+      "date": "10/02/2016 at 09:31:33",
+      "audio": [
+        "fr"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 536,
+        "w": 1280,
+        "t": "02:21:37"
+      },
+      "error": false,
+      "output": {},
+      "index": 94
+    },
+    {
+      "name": "[2]Harry Potter Et La Chambre Des Secrets",
+      "ext": "mkv",
+      "size": 5790722295,
+      "parent": "Harry Potter",
+      "date": "19/08/2021 at 20:57:40",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 802,
+        "w": 1920,
+        "t": "02:40:55"
+      },
+      "error": false,
+      "output": {},
+      "index": 121
+    },
+    {
+      "name": "Shazam",
+      "ext": "mkv",
+      "size": 5676767743,
+      "parent": "DC",
+      "date": "04/07/2019 at 01:29:27",
+      "audio": [
+        "fr"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 536,
+        "w": 1280,
+        "t": "02:11:43"
+      },
+      "error": false,
+      "output": {},
+      "index": 117
+    },
+    {
+      "name": "[4]Harry Potter Et La Coupe De Feu",
+      "ext": "mkv",
+      "size": 5652609904,
+      "parent": "Harry Potter",
+      "date": "19/08/2021 at 20:57:40",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 798,
+        "w": 1920,
+        "t": "02:37:05"
+      },
+      "error": false,
+      "output": {},
+      "index": 123
+    },
+    {
+      "name": "Avengers Infinity War",
+      "ext": "mkv",
+      "size": 5649976875,
+      "parent": "Avengers",
+      "date": "31/07/2018 at 15:09:49",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 804,
+        "w": 1920,
+        "t": "02:29:41"
+      },
+      "error": false,
+      "output": {},
+      "index": 149
+    },
+    {
+      "name": "[6]Harry Potter Et Le Prince De Sang Mele",
+      "ext": "mkv",
+      "size": 5523964933,
+      "parent": "Harry Potter",
+      "date": "19/08/2021 at 20:57:40",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 798,
+        "w": 1920,
+        "t": "02:33:30"
+      },
+      "error": false,
+      "output": {},
+      "index": 125
+    },
+    {
+      "name": "[1]Harry Potter A L'Ecole Des Sorciers",
+      "ext": "mkv",
+      "size": 5481673327,
+      "parent": "Harry Potter",
+      "date": "19/08/2021 at 20:57:40",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 796,
+        "w": 1920,
+        "t": "02:32:21"
+      },
+      "error": false,
+      "output": {},
+      "index": 120
+    },
+    {
+      "name": "Insomnia",
+      "ext": "mkv",
+      "size": 5423823742,
+      "parent": "Movies",
+      "date": "19/03/2022 at 14:05:56",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [
+        "en"
+      ],
+      "video": {
+        "h": 808,
+        "w": 1912,
+        "t": "01:58:27"
+      },
+      "error": false,
+      "output": {},
+      "index": 45
+    },
+    {
+      "name": "Nightcrawler",
+      "ext": "mkv",
+      "size": 5329623198,
+      "parent": "Movies",
+      "date": "02/10/2022 at 14:41:45",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [
+        "en"
+      ],
+      "video": {
+        "h": 800,
+        "w": 1920,
+        "t": "01:57:34"
+      },
+      "error": false,
+      "output": {},
+      "index": 59
+    },
+    {
+      "name": "[7]Harry Potter Et Les Reliques De la Mort Partie 1",
+      "ext": "mkv",
+      "size": 5257374067,
+      "parent": "Harry Potter",
+      "date": "19/08/2021 at 20:57:40",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 798,
+        "w": 1920,
+        "t": "02:26:05"
+      },
+      "error": false,
+      "output": {},
+      "index": 126
+    },
+    {
+      "name": "Bullet Train",
+      "ext": "mkv",
+      "size": 5226370584,
+      "parent": "Movies",
+      "date": "01/10/2022 at 20:24:36",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [],
+      "video": {
+        "h": 800,
+        "w": 1920,
+        "t": "02:06:29"
+      },
+      "error": false,
+      "output": {},
+      "index": 17
     },
     {
       "name": "Split",
@@ -2380,271 +1561,92 @@
       "index": 136
     },
     {
-      "name": "Ant-Man and the Wasp",
+      "name": "[3]Harry Potter Et Le Prisonnier D'Azkaban",
       "ext": "mkv",
-      "size": 9731107967,
-      "parent": "Marvel",
-      "date": "06/10/2018 at 10:13:08",
+      "size": 5099239044,
+      "parent": "Harry Potter",
+      "date": "19/08/2021 at 20:57:40",
       "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
         "fr"
       ],
-      "subtitles": [],
       "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
-      },
-      "error": false,
-      "output": {},
-      "index": 137
-    },
-    {
-      "name": "Captain America Civil War",
-      "ext": "mkv",
-      "size": 7035446832,
-      "parent": "Marvel",
-      "date": "18/04/2019 at 21:29:18",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 536,
-        "w": 1280,
-        "t": "02:27:41"
-      },
-      "error": false,
-      "output": {},
-      "index": 138
-    },
-    {
-      "name": "Captain Marvel",
-      "ext": "mkv",
-      "size": 2885243908,
-      "parent": "Marvel",
-      "date": "30/05/2019 at 20:20:00",
-      "audio": [
-        "fr"
-      ],
-      "subtitles": [],
-      "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
-      },
-      "error": false,
-      "output": {},
-      "index": 139
-    },
-    {
-      "name": "Dark Phoenix",
-      "ext": "mkv",
-      "size": 9714351419,
-      "parent": "Marvel",
-      "date": "04/09/2019 at 02:16:24",
-      "audio": [
-        "fr"
-      ],
-      "subtitles": [],
-      "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
-      },
-      "error": false,
-      "output": {},
-      "index": 140
-    },
-    {
-      "name": "Doctor Strange in the Multiverse of Madness",
-      "ext": "mkv",
-      "size": 7838905556,
-      "parent": "Marvel",
-      "date": "23/06/2022 at 15:14:54",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 1080,
+        "h": 798,
         "w": 1920,
-        "t": "02:06:31"
+        "t": "02:21:42"
       },
       "error": false,
       "output": {},
-      "index": 141
+      "index": 122
     },
     {
-      "name": "Doctor Strange",
-      "ext": "avi",
-      "size": 727451398,
-      "parent": "Marvel",
-      "date": "26/01/2018 at 23:00:00",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 304,
-        "w": 720,
-        "t": "02:54:58"
-      },
-      "error": false,
-      "output": {},
-      "index": 142
-    },
-    {
-      "name": "Spider-Man Far From Home",
+      "name": "Watcher",
       "ext": "mkv",
-      "size": 11187181139,
-      "parent": "Marvel",
-      "date": "04/10/2019 at 19:23:22",
+      "size": 5093137211,
+      "parent": "Movies",
+      "date": "01/10/2022 at 20:23:16",
       "audio": [
-        "fr"
+        "en"
       ],
-      "subtitles": [],
-      "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
-      },
-      "error": false,
-      "output": {},
-      "index": 143
-    },
-    {
-      "name": "Spider-Man Homecoming",
-      "ext": "mkv",
-      "size": 5869225628,
-      "parent": "Marvel",
-      "date": "18/04/2019 at 18:04:19",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 536,
-        "w": 1280,
-        "t": "02:13:28"
-      },
-      "error": false,
-      "output": {},
-      "index": 144
-    },
-    {
-      "name": "Spider-Man Into the Spider-Verse",
-      "ext": "mkv",
-      "size": 4405644665,
-      "parent": "Marvel",
-      "date": "27/02/2019 at 12:27:09",
-      "audio": [
-        "fr"
+      "subtitles": [
+        "en"
       ],
-      "subtitles": [],
       "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
-      },
-      "error": false,
-      "output": {},
-      "index": 145
-    },
-    {
-      "name": "Venom",
-      "ext": "mkv",
-      "size": 3279105218,
-      "parent": "Marvel",
-      "date": "19/12/2018 at 08:41:09",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 800,
+        "h": 958,
         "w": 1920,
-        "t": ""
+        "t": "01:36:14"
       },
       "error": false,
       "output": {},
-      "index": 146
+      "index": 109
     },
     {
-      "name": "Avengers Age of Ultron",
-      "ext": "mkv",
-      "size": 4076686181,
-      "parent": "Avengers",
-      "date": "28/07/2018 at 18:40:13",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 796,
-        "w": 1902,
-        "t": "02:21:18"
-      },
-      "error": false,
-      "output": {},
-      "index": 147
-    },
-    {
-      "name": "Avengers Endgame",
-      "ext": "mkv",
-      "size": 10812649472,
-      "parent": "Avengers",
-      "date": "27/08/2019 at 15:53:01",
+      "name": "K-19 The Widowmaker",
+      "ext": "mp4",
+      "size": 5002274753,
+      "parent": "Movies",
+      "date": "03/10/2022 at 19:42:02",
       "audio": [
+        "en",
+        "ru"
+      ],
+      "subtitles": [
+        "en",
+        "ru"
+      ],
+      "video": {
+        "h": 816,
+        "w": 1920,
+        "t": "03:18:05"
+      },
+      "error": false,
+      "output": {},
+      "index": 49
+    },
+    {
+      "name": "[5]Harry Potter Et L'Ordre Du Ph\u00e9nix",
+      "ext": "mkv",
+      "size": 4973639319,
+      "parent": "Harry Potter",
+      "date": "19/08/2021 at 20:57:40",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
         "fr"
       ],
-      "subtitles": [],
       "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
-      },
-      "error": false,
-      "output": {},
-      "index": 148
-    },
-    {
-      "name": "Avengers Infinity War",
-      "ext": "mkv",
-      "size": 5649976875,
-      "parent": "Avengers",
-      "date": "31/07/2018 at 15:09:49",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 804,
+        "h": 798,
         "w": 1920,
-        "t": "02:29:41"
+        "t": "02:18:14"
       },
       "error": false,
       "output": {},
-      "index": 149
-    },
-    {
-      "name": "Avengers",
-      "ext": "mkv",
-      "size": 3993004984,
-      "parent": "Avengers",
-      "date": "28/07/2018 at 19:03:13",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
-      },
-      "error": true,
-      "output": "{\n\n}\n",
-      "index": 150
-    },
-    {
-      "name": "MEN IN BLACK 2",
-      "ext": "avi",
-      "size": 732563188,
-      "parent": "Men In Black",
-      "date": "26/01/2018 at 23:00:00",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
-      },
-      "error": false,
-      "output": {},
-      "index": 151
+      "index": 124
     },
     {
       "name": "Men in Black International",
@@ -2655,51 +1657,381 @@
       "audio": [
         "fr"
       ],
-      "subtitles": [],
+      "subtitles": [
+        "fr"
+      ],
       "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
+        "h": 640,
+        "w": 1280,
+        "t": "01:54:50"
       },
       "error": false,
       "output": {},
       "index": 152
     },
     {
-      "name": "MEN IN BLACK",
-      "ext": "avi",
-      "size": 718594048,
-      "parent": "Men In Black",
-      "date": "26/01/2018 at 23:00:00",
-      "audio": [],
-      "subtitles": [],
+      "name": "The Cloverfield Paradox",
+      "ext": "mkv",
+      "size": 4877196892,
+      "parent": "Cloverfield Universe",
+      "date": "06/02/2018 at 01:33:05",
+      "audio": [
+        "en",
+        "fr"
+      ],
+      "subtitles": [
+        "fr"
+      ],
       "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
+        "h": 1080,
+        "w": 1920,
+        "t": "01:42:26"
       },
       "error": false,
       "output": {},
-      "index": 153
+      "index": 114
     },
     {
-      "name": "Mission Impossible - Fallout",
+      "name": "Gone Girl",
       "ext": "mkv",
-      "size": 10567362683,
-      "parent": "Mission Impossible",
-      "date": "17/11/2018 at 10:06:07",
+      "size": 4789580938,
+      "parent": "Movies",
+      "date": "28/07/2022 at 03:51:28",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [
+        "en"
+      ],
+      "video": {
+        "h": 800,
+        "w": 1920,
+        "t": "02:29:01"
+      },
+      "error": false,
+      "output": {},
+      "index": 39
+    },
+    {
+      "name": "[8]Harry Potter Et Les Reliques De la Mort Partie 2",
+      "ext": "mkv",
+      "size": 4694682299,
+      "parent": "Harry Potter",
+      "date": "19/08/2021 at 20:57:40",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 798,
+        "w": 1920,
+        "t": "02:10:27"
+      },
+      "error": false,
+      "output": {},
+      "index": 127
+    },
+    {
+      "name": "Dunkirk",
+      "ext": "mkv",
+      "size": 4691703692,
+      "parent": "Movies",
+      "date": "10/01/2018 at 18:28:32",
       "audio": [
         "fr"
       ],
-      "subtitles": [],
+      "subtitles": [
+        "fr"
+      ],
       "video": {
-        "h": -1,
-        "w": -1,
-        "t": -1
+        "h": 720,
+        "w": 1280,
+        "t": "01:46:38"
       },
       "error": false,
       "output": {},
-      "index": 154
+      "index": 26
+    },
+    {
+      "name": "The Imitation Game",
+      "ext": "mkv",
+      "size": 4688687493,
+      "parent": "Movies",
+      "date": "02/02/2019 at 18:07:16",
+      "audio": [
+        "fr"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 536,
+        "w": 1280,
+        "t": "01:53:51"
+      },
+      "error": false,
+      "output": {},
+      "index": 90
+    },
+    {
+      "name": "Enola Holmes",
+      "ext": "mkv",
+      "size": 4687255113,
+      "parent": "Movies",
+      "date": "07/11/2020 at 21:28:49",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [
+        "en",
+        "ar",
+        "cz",
+        "da",
+        "ge",
+        "gr",
+        "sp",
+        "fi",
+        "fr",
+        "he",
+        "hr",
+        "hu",
+        "in",
+        "it",
+        "jp",
+        "ko",
+        "ma",
+        "no",
+        "du",
+        "po",
+        "ru",
+        "sw",
+        "th",
+        "tu",
+        "vi",
+        "ch"
+      ],
+      "video": {
+        "h": 1080,
+        "w": 1920,
+        "t": "02:02:34"
+      },
+      "error": false,
+      "output": {},
+      "index": 29
+    },
+    {
+      "name": "Incredibles 2",
+      "ext": "mkv",
+      "size": 4681802524,
+      "parent": "Movies",
+      "date": "31/10/2018 at 18:17:14",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [],
+      "video": {
+        "h": 804,
+        "w": 1920,
+        "t": "01:57:48"
+      },
+      "error": false,
+      "output": {},
+      "index": 43
+    },
+    {
+      "name": "Army of the Dead",
+      "ext": "mkv",
+      "size": 4503332373,
+      "parent": "Movies",
+      "date": "29/05/2021 at 23:29:44",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 1080,
+        "w": 1920,
+        "t": "02:28:22"
+      },
+      "error": false,
+      "output": {},
+      "index": 9
+    },
+    {
+      "name": "Aquaman",
+      "ext": "mkv",
+      "size": 4429960142,
+      "parent": "DC",
+      "date": "05/03/2019 at 23:50:44",
+      "audio": [
+        "fr"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 720,
+        "w": 1280,
+        "t": "02:23:19"
+      },
+      "error": false,
+      "output": {},
+      "index": 115
+    },
+    {
+      "name": "Spider-Man Into the Spider-Verse",
+      "ext": "mkv",
+      "size": 4405644665,
+      "parent": "Marvel",
+      "date": "27/02/2019 at 12:27:09",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 796,
+        "w": 1920,
+        "t": "01:56:48"
+      },
+      "error": false,
+      "output": {},
+      "index": 145
+    },
+    {
+      "name": "Flightplan",
+      "ext": "mkv",
+      "size": 4352612305,
+      "parent": "Movies",
+      "date": "28/07/2022 at 04:41:29",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [
+        "en",
+        "fr",
+        "ge",
+        "it"
+      ],
+      "video": {
+        "h": 816,
+        "w": 1920,
+        "t": "01:38:02"
+      },
+      "error": false,
+      "output": {},
+      "index": 34
+    },
+    {
+      "name": "Drive",
+      "ext": "mkv",
+      "size": 4102348294,
+      "parent": "Movies",
+      "date": "03/10/2022 at 18:45:59",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [
+        "en",
+        "sp"
+      ],
+      "video": {
+        "h": 804,
+        "w": 1920,
+        "t": "01:40:24"
+      },
+      "error": false,
+      "output": {},
+      "index": 24
+    },
+    {
+      "name": "Avengers Age of Ultron",
+      "ext": "mkv",
+      "size": 4076686181,
+      "parent": "Avengers",
+      "date": "28/07/2018 at 18:40:13",
+      "audio": [
+        "fr"
+      ],
+      "subtitles": [
+        "fr",
+        "en"
+      ],
+      "video": {
+        "h": 796,
+        "w": 1902,
+        "t": "02:21:18"
+      },
+      "error": false,
+      "output": {},
+      "index": 147
+    },
+    {
+      "name": "Avengers",
+      "ext": "mkv",
+      "size": 3993004984,
+      "parent": "Avengers",
+      "date": "28/07/2018 at 19:03:13",
+      "audio": [],
+      "subtitles": [],
+      "video": {
+        "h": 0,
+        "w": 0,
+        "t": -1
+      },
+      "error": true,
+      "output": "{\n\n}\n",
+      "index": 150
+    },
+    {
+      "name": "Summer of 84",
+      "ext": "mkv",
+      "size": 3950447897,
+      "parent": "Movies",
+      "date": "03/10/2022 at 19:43:53",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [],
+      "video": {
+        "h": 804,
+        "w": 1920,
+        "t": "01:45:31"
+      },
+      "error": false,
+      "output": {},
+      "index": 82
+    },
+    {
+      "name": "Ralph Breaks the Internet",
+      "ext": "mkv",
+      "size": 3844875226,
+      "parent": "Movies",
+      "date": "26/02/2019 at 23:26:09",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 536,
+        "w": 1280,
+        "t": "01:53:02"
+      },
+      "error": false,
+      "output": {},
+      "index": 71
     },
     {
       "name": "Mission Impossible - Ghost Protocol",
@@ -2707,8 +2039,14 @@
       "size": 3784688324,
       "parent": "Mission Impossible",
       "date": "10/07/2018 at 15:47:08",
-      "audio": [],
-      "subtitles": [],
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr",
+        "en"
+      ],
       "video": {
         "h": 800,
         "w": 1920,
@@ -2719,13 +2057,80 @@
       "index": 155
     },
     {
+      "name": "Snowpiercer",
+      "ext": "mkv",
+      "size": 3761435627,
+      "parent": "Movies",
+      "date": "03/10/2022 at 19:18:54",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [
+        "en"
+      ],
+      "video": {
+        "h": 1040,
+        "w": 1920,
+        "t": "02:05:52"
+      },
+      "error": false,
+      "output": {},
+      "index": 79
+    },
+    {
+      "name": "Extremely Wicked Shockingly Evil and Vile",
+      "ext": "mkv",
+      "size": 3754677587,
+      "parent": "Movies",
+      "date": "03/09/2019 at 13:58:27",
+      "audio": [
+        "fr"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 536,
+        "w": 1280,
+        "t": "02:50:18"
+      },
+      "error": false,
+      "output": {},
+      "index": 32
+    },
+    {
+      "name": "Jurassic World Fallen Kingdom",
+      "ext": "mkv",
+      "size": 3750517123,
+      "parent": "Movies",
+      "date": "31/10/2018 at 18:15:23",
+      "audio": [],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 804,
+        "w": 1920,
+        "t": "03:08:17"
+      },
+      "error": false,
+      "output": {},
+      "index": 48
+    },
+    {
       "name": "Mission Impossible - Rogue Nation",
       "ext": "mkv",
       "size": 3592259911,
       "parent": "Mission Impossible",
       "date": "10/07/2018 at 15:47:08",
-      "audio": [],
-      "subtitles": [],
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr",
+        "en"
+      ],
       "video": {
         "h": 804,
         "w": 1920,
@@ -2736,21 +2141,143 @@
       "index": 156
     },
     {
-      "name": "Mission Impossible 2",
+      "name": "Cloverfield",
       "ext": "mkv",
-      "size": 3056569874,
-      "parent": "Mission Impossible",
-      "date": "10/07/2018 at 15:47:08",
-      "audio": [],
-      "subtitles": [],
+      "size": 3482132394,
+      "parent": "Cloverfield Universe",
+      "date": "26/03/2022 at 00:46:05",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [
+        "da",
+        "ge",
+        "gr",
+        "en",
+        "sp",
+        "fi",
+        "fr",
+        "hu",
+        "it",
+        "du",
+        "no",
+        "po",
+        "sw",
+        "tu"
+      ],
       "video": {
-        "h": 794,
+        "h": 1080,
         "w": 1920,
-        "t": "02:03:35"
+        "t": "01:24:40"
       },
       "error": false,
       "output": {},
-      "index": 157
+      "index": 113
+    },
+    {
+      "name": "The Walk",
+      "ext": "mkv",
+      "size": 3331513532,
+      "parent": "Movies",
+      "date": "21/10/2021 at 23:54:38",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [
+        "en"
+      ],
+      "video": {
+        "h": 800,
+        "w": 1920,
+        "t": "02:03:11"
+      },
+      "error": false,
+      "output": {},
+      "index": 100
+    },
+    {
+      "name": "Steve Jobs",
+      "ext": "mkv",
+      "size": 3309556832,
+      "parent": "Movies",
+      "date": "29/06/2021 at 18:17:18",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [],
+      "video": {
+        "h": 800,
+        "w": 1920,
+        "t": "02:02:21"
+      },
+      "error": false,
+      "output": {},
+      "index": 81
+    },
+    {
+      "name": "Venom",
+      "ext": "mkv",
+      "size": 3279105218,
+      "parent": "Marvel",
+      "date": "19/12/2018 at 08:41:09",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 800,
+        "w": 1920,
+        "t": "02:52:08"
+      },
+      "error": false,
+      "output": {},
+      "index": 146
+    },
+    {
+      "name": "The Visit (2015)",
+      "ext": "mkv",
+      "size": 3269376671,
+      "parent": "Movies",
+      "date": "03/10/2022 at 19:15:41",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [
+        "en"
+      ],
+      "video": {
+        "h": 1032,
+        "w": 1920,
+        "t": "01:34:01"
+      },
+      "error": false,
+      "output": {},
+      "index": 99
+    },
+    {
+      "name": "Atomic Blonde",
+      "ext": "mkv",
+      "size": 3182959702,
+      "parent": "Movies",
+      "date": "27/03/2021 at 15:35:13",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 804,
+        "w": 1920,
+        "t": "01:54:44"
+      },
+      "error": false,
+      "output": {},
+      "index": 12
     },
     {
       "name": "Mission Impossible 3",
@@ -2758,8 +2285,14 @@
       "size": 3148891049,
       "parent": "Mission Impossible",
       "date": "10/07/2018 at 15:47:08",
-      "audio": [],
-      "subtitles": [],
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr",
+        "en"
+      ],
       "video": {
         "h": 818,
         "w": 1920,
@@ -2770,13 +2303,189 @@
       "index": 158
     },
     {
+      "name": "Pawn Sacrifice",
+      "ext": "mkv",
+      "size": 3130211425,
+      "parent": "Movies",
+      "date": "29/06/2021 at 21:50:40",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [],
+      "video": {
+        "h": 804,
+        "w": 1920,
+        "t": "01:55:43"
+      },
+      "error": false,
+      "output": {},
+      "index": 66
+    },
+    {
+      "name": "John Wick 2",
+      "ext": "mkv",
+      "size": 3124391822,
+      "parent": "John Wick",
+      "date": "03/09/2019 at 22:05:24",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr",
+        "en",
+        "sp"
+      ],
+      "video": {
+        "h": 800,
+        "w": 1920,
+        "t": "02:02:22"
+      },
+      "error": false,
+      "output": {},
+      "index": 128
+    },
+    {
+      "name": "Mission Impossible 2",
+      "ext": "mkv",
+      "size": 3056569874,
+      "parent": "Mission Impossible",
+      "date": "10/07/2018 at 15:47:08",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr",
+        "en"
+      ],
+      "video": {
+        "h": 794,
+        "w": 1920,
+        "t": "02:03:35"
+      },
+      "error": false,
+      "output": {},
+      "index": 157
+    },
+    {
+      "name": "2001 A Space Odyssey",
+      "ext": "mp4",
+      "size": 3047547089,
+      "parent": "Movies",
+      "date": "28/01/2022 at 17:18:17",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [],
+      "video": {
+        "h": 872,
+        "w": 1920,
+        "t": "03:28:51"
+      },
+      "error": false,
+      "output": {},
+      "index": 2
+    },
+    {
+      "name": "The Impossible",
+      "ext": "mkv",
+      "size": 2970979054,
+      "parent": "Movies",
+      "date": "27/03/2021 at 15:21:40",
+      "audio": [
+        "en",
+        "fr"
+      ],
+      "subtitles": [
+        "fr",
+        "en"
+      ],
+      "video": {
+        "h": 816,
+        "w": 1920,
+        "t": "01:53:33"
+      },
+      "error": false,
+      "output": {},
+      "index": 91
+    },
+    {
+      "name": "Captain Marvel",
+      "ext": "mkv",
+      "size": 2885243908,
+      "parent": "Marvel",
+      "date": "30/05/2019 at 20:20:00",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 808,
+        "w": 1920,
+        "t": "02:03:40"
+      },
+      "error": false,
+      "output": {},
+      "index": 139
+    },
+    {
+      "name": "Project Almanac",
+      "ext": "mkv",
+      "size": 2873090946,
+      "parent": "Movies",
+      "date": "25/03/2022 at 21:17:44",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [],
+      "video": {
+        "h": 800,
+        "w": 1920,
+        "t": "01:46:12"
+      },
+      "error": false,
+      "output": {},
+      "index": 68
+    },
+    {
+      "name": "Moana",
+      "ext": "mkv",
+      "size": 2832601467,
+      "parent": "Movies",
+      "date": "13/02/2019 at 17:39:01",
+      "audio": [
+        "fr"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 536,
+        "w": 1280,
+        "t": "01:47:12"
+      },
+      "error": false,
+      "output": {},
+      "index": 58
+    },
+    {
       "name": "Mission Impossible",
       "ext": "mkv",
       "size": 2767221949,
       "parent": "Mission Impossible",
       "date": "10/07/2018 at 15:47:08",
-      "audio": [],
-      "subtitles": [],
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr",
+        "en"
+      ],
       "video": {
         "h": 798,
         "w": 1920,
@@ -2785,6 +2494,814 @@
       "error": false,
       "output": {},
       "index": 159
+    },
+    {
+      "name": "Upgrade",
+      "ext": "mkv",
+      "size": 2722642104,
+      "parent": "Movies",
+      "date": "02/03/2021 at 16:46:43",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 808,
+        "w": 1920,
+        "t": "01:39:54"
+      },
+      "error": false,
+      "output": {},
+      "index": 106
+    },
+    {
+      "name": "Inside Man",
+      "ext": "mp4",
+      "size": 2635301565,
+      "parent": "Movies",
+      "date": "22/10/2021 at 00:30:49",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [],
+      "video": {
+        "h": 816,
+        "w": 1920,
+        "t": "03:08:43"
+      },
+      "error": false,
+      "output": {},
+      "index": 44
+    },
+    {
+      "name": "John Wick",
+      "ext": "mkv",
+      "size": 2575576094,
+      "parent": "John Wick",
+      "date": "03/09/2019 at 23:33:21",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr",
+        "en",
+        "sp"
+      ],
+      "video": {
+        "h": 800,
+        "w": 1920,
+        "t": "01:41:13"
+      },
+      "error": false,
+      "output": {},
+      "index": 130
+    },
+    {
+      "name": "American Ultra",
+      "ext": "mkv",
+      "size": 2426611242,
+      "parent": "Movies",
+      "date": "16/02/2022 at 14:36:20",
+      "audio": [
+        "it",
+        "en"
+      ],
+      "subtitles": [
+        "it",
+        "en"
+      ],
+      "video": {
+        "h": 1040,
+        "w": 1920,
+        "t": "01:35:21"
+      },
+      "error": false,
+      "output": {},
+      "index": 8
+    },
+    {
+      "name": "Nocturnal Animals",
+      "ext": "mp4",
+      "size": 2378921971,
+      "parent": "Movies",
+      "date": "22/10/2021 at 03:16:53",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [],
+      "video": {
+        "h": 792,
+        "w": 1920,
+        "t": "02:56:07"
+      },
+      "error": false,
+      "output": {},
+      "index": 61
+    },
+    {
+      "name": "Operation Mincemeat",
+      "ext": "mkv",
+      "size": 2351785359,
+      "parent": "Movies",
+      "date": "28/07/2022 at 03:19:19",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [
+        "en",
+        "sp",
+        "po"
+      ],
+      "video": {
+        "h": 1080,
+        "w": 1920,
+        "t": "02:07:35"
+      },
+      "error": false,
+      "output": {},
+      "index": 64
+    },
+    {
+      "name": "Taxi Driver",
+      "ext": "mp4",
+      "size": 2330999112,
+      "parent": "Movies",
+      "date": "22/10/2021 at 01:05:14",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [],
+      "video": {
+        "h": 1040,
+        "w": 1920,
+        "t": "02:53:48"
+      },
+      "error": false,
+      "output": {},
+      "index": 84
+    },
+    {
+      "name": "Seul au monde",
+      "ext": "avi",
+      "size": 2282846208,
+      "parent": "Movies",
+      "date": "02/05/2019 at 23:06:26",
+      "audio": [],
+      "subtitles": [],
+      "video": {
+        "h": 384,
+        "w": 688,
+        "t": "03:17:54"
+      },
+      "error": false,
+      "output": {},
+      "index": 75
+    },
+    {
+      "name": "Funny Games (U.S 2007)",
+      "ext": "mp4",
+      "size": 2275897091,
+      "parent": "Movies",
+      "date": "22/10/2021 at 00:20:53",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [],
+      "video": {
+        "h": 1040,
+        "w": 1920,
+        "t": "02:51:08"
+      },
+      "error": false,
+      "output": {},
+      "index": 35
+    },
+    {
+      "name": "Inception",
+      "ext": "mkv",
+      "size": 2240697543,
+      "parent": "Movies",
+      "date": "27/08/2019 at 13:02:42",
+      "audio": [
+        "fr",
+        "en"
+      ],
+      "subtitles": [
+        "fr",
+        "en"
+      ],
+      "video": {
+        "h": 1080,
+        "w": 1920,
+        "t": "02:28:07"
+      },
+      "error": false,
+      "output": {},
+      "index": 42
+    },
+    {
+      "name": "The Thing (1982)",
+      "ext": "mp4",
+      "size": 2223584328,
+      "parent": "Movies",
+      "date": "22/10/2021 at 01:18:29",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [],
+      "video": {
+        "h": 816,
+        "w": 1920,
+        "t": "02:48:34"
+      },
+      "error": false,
+      "output": {},
+      "index": 98
+    },
+    {
+      "name": "Snatch",
+      "ext": "mp4",
+      "size": 2104387708,
+      "parent": "Movies",
+      "date": "21/10/2021 at 22:09:28",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [],
+      "video": {
+        "h": 1040,
+        "w": 1920,
+        "t": "02:42:46"
+      },
+      "error": false,
+      "output": {},
+      "index": 78
+    },
+    {
+      "name": "Jackie",
+      "ext": "mp4",
+      "size": 2050830977,
+      "parent": "Movies",
+      "date": "21/10/2021 at 23:18:47",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [],
+      "video": {
+        "h": 1080,
+        "w": 1808,
+        "t": "02:40:06"
+      },
+      "error": false,
+      "output": {},
+      "index": 47
+    },
+    {
+      "name": "OSS 117 Rio ne r\u00e9pond plus",
+      "ext": "mkv",
+      "size": 1986558300,
+      "parent": "OSS117",
+      "date": "23/08/2022 at 03:01:21",
+      "audio": [
+        "fr"
+      ],
+      "subtitles": [],
+      "video": {
+        "h": 816,
+        "w": 1920,
+        "t": "01:40:28"
+      },
+      "error": false,
+      "output": {},
+      "index": 164
+    },
+    {
+      "name": "OSS 117 Le Caire nid d'espions",
+      "ext": "mkv",
+      "size": 1958314576,
+      "parent": "OSS117",
+      "date": "23/08/2022 at 02:22:00",
+      "audio": [
+        "fr"
+      ],
+      "subtitles": [],
+      "video": {
+        "h": 816,
+        "w": 1920,
+        "t": "01:39:02"
+      },
+      "error": false,
+      "output": {},
+      "index": 163
+    },
+    {
+      "name": "Everything Everywhere All at Once",
+      "ext": "mkv",
+      "size": 1926304632,
+      "parent": "Movies",
+      "date": "03/10/2022 at 17:46:22",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [
+        "en"
+      ],
+      "video": {
+        "h": 1040,
+        "w": 1920,
+        "t": "02:19:19"
+      },
+      "error": false,
+      "output": {},
+      "index": 31
+    },
+    {
+      "name": "Arrival",
+      "ext": "mp4",
+      "size": 1897800626,
+      "parent": "Movies",
+      "date": "02/11/2021 at 13:40:06",
+      "audio": [
+        "un"
+      ],
+      "subtitles": [],
+      "video": {
+        "h": 800,
+        "w": 1920,
+        "t": "02:56:22"
+      },
+      "error": false,
+      "output": {},
+      "index": 11
+    },
+    {
+      "name": "Citizenfour",
+      "ext": "mp4",
+      "size": 1768689705,
+      "parent": "Movies",
+      "date": "21/10/2021 at 22:38:55",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [],
+      "video": {
+        "h": 1080,
+        "w": 1920,
+        "t": "02:53:29"
+      },
+      "error": false,
+      "output": {},
+      "index": 21
+    },
+    {
+      "name": "The Dead Zone",
+      "ext": "mp4",
+      "size": 1765211312,
+      "parent": "Movies",
+      "date": "21/10/2021 at 22:32:03",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [],
+      "video": {
+        "h": 1080,
+        "w": 1920,
+        "t": "02:43:43"
+      },
+      "error": false,
+      "output": {},
+      "index": 87
+    },
+    {
+      "name": "Side Effects",
+      "ext": "mp4",
+      "size": 1762688218,
+      "parent": "Movies",
+      "date": "19/03/2022 at 13:37:11",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [],
+      "video": {
+        "h": 1040,
+        "w": 1920,
+        "t": "02:46:22"
+      },
+      "error": false,
+      "output": {},
+      "index": 77
+    },
+    {
+      "name": "Ode To Joy",
+      "ext": "mp4",
+      "size": 1714994621,
+      "parent": "Movies",
+      "date": "03/10/2022 at 17:47:32",
+      "audio": [
+        "un"
+      ],
+      "subtitles": [],
+      "video": {
+        "h": 784,
+        "w": 1920,
+        "t": "02:37:42"
+      },
+      "error": false,
+      "output": {},
+      "index": 62
+    },
+    {
+      "name": "Logan",
+      "ext": "avi",
+      "size": 1683091456,
+      "parent": "Movies",
+      "date": "26/01/2018 at 23:00:00",
+      "audio": [],
+      "subtitles": [],
+      "video": {
+        "h": 304,
+        "w": 720,
+        "t": "03:17:22"
+      },
+      "error": false,
+      "output": {},
+      "index": 57
+    },
+    {
+      "name": "Upside Down",
+      "ext": "mp4",
+      "size": 1664240865,
+      "parent": "Movies",
+      "date": "28/07/2022 at 03:36:25",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [],
+      "video": {
+        "h": 804,
+        "w": 1920,
+        "t": "02:40:21"
+      },
+      "error": false,
+      "output": {},
+      "index": 107
+    },
+    {
+      "name": "Eternal Sunshine of the Spotless Mind",
+      "ext": "mp4",
+      "size": 1613332103,
+      "parent": "Movies",
+      "date": "19/08/2021 at 15:02:49",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [],
+      "video": {
+        "h": 1040,
+        "w": 1920,
+        "t": "02:47:52"
+      },
+      "error": false,
+      "output": {},
+      "index": 30
+    },
+    {
+      "name": "Children of Men",
+      "ext": "mp4",
+      "size": 1612825757,
+      "parent": "Movies",
+      "date": "28/01/2022 at 17:02:31",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [],
+      "video": {
+        "h": 1040,
+        "w": 1920,
+        "t": "02:49:14"
+      },
+      "error": false,
+      "output": {},
+      "index": 20
+    },
+    {
+      "name": "Compliance",
+      "ext": "mp4",
+      "size": 1559339777,
+      "parent": "Movies",
+      "date": "28/01/2022 at 17:10:09",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [],
+      "video": {
+        "h": 800,
+        "w": 1920,
+        "t": "02:29:45"
+      },
+      "error": false,
+      "output": {},
+      "index": 22
+    },
+    {
+      "name": "I am a Legend",
+      "ext": "avi",
+      "size": 1480246422,
+      "parent": "Movies",
+      "date": "26/01/2018 at 23:00:00",
+      "audio": [],
+      "subtitles": [],
+      "video": {
+        "h": 298,
+        "w": 720,
+        "t": "02:36:20"
+      },
+      "error": false,
+      "output": {},
+      "index": 41
+    },
+    {
+      "name": "BlacKkKlansman",
+      "ext": "avi",
+      "size": 1472692318,
+      "parent": "Movies",
+      "date": "31/10/2018 at 16:52:46",
+      "audio": [],
+      "subtitles": [],
+      "video": {
+        "h": 304,
+        "w": 720,
+        "t": "03:14:49"
+      },
+      "error": false,
+      "output": {},
+      "index": 15
+    },
+    {
+      "name": "The Hitmans Bodyguard",
+      "ext": "avi",
+      "size": 1470951760,
+      "parent": "Movies",
+      "date": "29/12/2017 at 21:26:29",
+      "audio": [],
+      "subtitles": [],
+      "video": {
+        "h": 304,
+        "w": 720,
+        "t": "02:58:17"
+      },
+      "error": false,
+      "output": {},
+      "index": 89
+    },
+    {
+      "name": "Rogue One",
+      "ext": "avi",
+      "size": 1469905110,
+      "parent": "Movies",
+      "date": "26/01/2018 at 23:00:00",
+      "audio": [],
+      "subtitles": [],
+      "video": {
+        "h": 304,
+        "w": 720,
+        "t": "03:13:57"
+      },
+      "error": false,
+      "output": {},
+      "index": 74
+    },
+    {
+      "name": "Train to Busan",
+      "ext": "avi",
+      "size": 1465752258,
+      "parent": "Movies",
+      "date": "26/01/2018 at 23:00:00",
+      "audio": [],
+      "subtitles": [],
+      "video": {
+        "h": 392,
+        "w": 720,
+        "t": "02:58:08"
+      },
+      "error": false,
+      "output": {},
+      "index": 105
+    },
+    {
+      "name": "Prisoners",
+      "ext": "avi",
+      "size": 1465206819,
+      "parent": "Movies",
+      "date": "26/01/2018 at 23:00:00",
+      "audio": [],
+      "subtitles": [],
+      "video": {
+        "h": 352,
+        "w": 624,
+        "t": "03:33:11"
+      },
+      "error": false,
+      "output": {},
+      "index": 67
+    },
+    {
+      "name": "Incassable",
+      "ext": "avi",
+      "size": 1463824384,
+      "parent": "M Night Shyamalan's Movies",
+      "date": "09/04/2019 at 14:34:54",
+      "audio": [],
+      "subtitles": [],
+      "video": {
+        "h": 272,
+        "w": 640,
+        "t": "02:46:39"
+      },
+      "error": false,
+      "output": {},
+      "index": 135
+    },
+    {
+      "name": "Kingsman The Secret Service",
+      "ext": "avi",
+      "size": 1462692646,
+      "parent": "Kingsman",
+      "date": "26/01/2018 at 23:00:00",
+      "audio": [],
+      "subtitles": [],
+      "video": {
+        "h": 304,
+        "w": 720,
+        "t": "03:08:44"
+      },
+      "error": false,
+      "output": {},
+      "index": 132
+    },
+    {
+      "name": "The Witch",
+      "ext": "mp4",
+      "size": 1454516571,
+      "parent": "Movies",
+      "date": "29/06/2021 at 18:08:23",
+      "audio": [
+        "un"
+      ],
+      "subtitles": [],
+      "video": {
+        "h": 1080,
+        "w": 1792,
+        "t": "02:32:26"
+      },
+      "error": false,
+      "output": {},
+      "index": 101
+    },
+    {
+      "name": "Alive (1993)",
+      "ext": "mp4",
+      "size": 1166573184,
+      "parent": "Movies",
+      "date": "22/10/2021 at 08:54:21",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [],
+      "video": {
+        "h": 400,
+        "w": 720,
+        "t": "03:06:24"
+      },
+      "error": false,
+      "output": {},
+      "index": 6
+    },
+    {
+      "name": "10 Cloverfield Lane",
+      "ext": "mkv",
+      "size": 1142005743,
+      "parent": "Cloverfield Universe",
+      "date": "26/03/2022 at 00:34:28",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [
+        "en",
+        "fr",
+        "sp",
+        "po",
+        "ge",
+        "jp",
+        "du",
+        "da",
+        "fi",
+        "no",
+        "sw",
+        "ar",
+        "ch",
+        "pe",
+        "gr",
+        "it",
+        "th"
+      ],
+      "video": {
+        "h": 800,
+        "w": 1920,
+        "t": "01:43:34"
+      },
+      "error": false,
+      "output": {},
+      "index": 112
+    },
+    {
+      "name": "Watchmen",
+      "ext": "avi",
+      "size": 735473664,
+      "parent": "Movies",
+      "date": "07/01/2018 at 18:43:47",
+      "audio": [],
+      "subtitles": [],
+      "video": {
+        "h": 256,
+        "w": 608,
+        "t": "03:42:04"
+      },
+      "error": false,
+      "output": {},
+      "index": 110
+    },
+    {
+      "name": "Kiss Kiss Bang Bang",
+      "ext": "avi",
+      "size": 734806016,
+      "parent": "Movies",
+      "date": "26/01/2018 at 23:00:00",
+      "audio": [],
+      "subtitles": [],
+      "video": {
+        "h": 256,
+        "w": 608,
+        "t": "02:41:54"
+      },
+      "error": false,
+      "output": {},
+      "index": 50
+    },
+    {
+      "name": "Open Windows",
+      "ext": "avi",
+      "size": 734595072,
+      "parent": "Movies",
+      "date": "26/01/2018 at 23:00:00",
+      "audio": [],
+      "subtitles": [],
+      "video": {
+        "h": 352,
+        "w": 624,
+        "t": "02:36:38"
+      },
+      "error": false,
+      "output": {},
+      "index": 63
+    },
+    {
+      "name": "Shutter Island",
+      "ext": "avi",
+      "size": 734380032,
+      "parent": "Movies",
+      "date": "12/04/2019 at 17:15:52",
+      "audio": [],
+      "subtitles": [],
+      "video": {
+        "h": 304,
+        "w": 720,
+        "t": "03:12:28"
+      },
+      "error": false,
+      "output": {},
+      "index": 76
+    },
+    {
+      "name": "Source Code",
+      "ext": "avi",
+      "size": 734009344,
+      "parent": "Movies",
+      "date": "26/01/2018 at 23:00:00",
+      "audio": [],
+      "subtitles": [],
+      "video": {
+        "h": 352,
+        "w": 624,
+        "t": "02:33:13"
+      },
+      "error": false,
+      "output": {},
+      "index": 80
     },
     {
       "name": "Ocean's Eleven",
@@ -2804,23 +3321,6 @@
       "index": 160
     },
     {
-      "name": "Ocean's Thirteen",
-      "ext": "avi",
-      "size": 733603840,
-      "parent": "Ocean's",
-      "date": "14/01/2018 at 15:42:54",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 256,
-        "w": 576,
-        "t": "02:57:07"
-      },
-      "error": false,
-      "output": {},
-      "index": 161
-    },
-    {
       "name": "Ocean's Twelve",
       "ext": "avi",
       "size": 733794304,
@@ -2838,55 +3338,231 @@
       "index": 162
     },
     {
-      "name": "OSS 117 Le Caire nid d'espions",
-      "ext": "mkv",
-      "size": 1958314576,
-      "parent": "OSS117",
-      "date": "23/08/2022 at 02:22:00",
+      "name": "Buried",
+      "ext": "avi",
+      "size": 733771776,
+      "parent": "Movies",
+      "date": "03/03/2016 at 23:34:24",
       "audio": [],
       "subtitles": [],
       "video": {
-        "h": 816,
-        "w": 1920,
-        "t": "01:39:02"
+        "h": 336,
+        "w": 624,
+        "t": "02:31:11"
       },
       "error": false,
       "output": {},
-      "index": 163
+      "index": 18
     },
     {
-      "name": "OSS 117 Rio ne r\u00e9pond plus",
-      "ext": "mkv",
-      "size": 1986558300,
-      "parent": "OSS117",
-      "date": "23/08/2022 at 03:01:21",
+      "name": "Sunshine",
+      "ext": "avi",
+      "size": 733771776,
+      "parent": "Movies",
+      "date": "29/06/2021 at 16:15:27",
       "audio": [],
       "subtitles": [],
       "video": {
-        "h": 816,
-        "w": 1920,
-        "t": "01:40:28"
+        "h": 256,
+        "w": 608,
+        "t": "02:43:03"
       },
       "error": false,
       "output": {},
-      "index": 164
+      "index": 83
     },
     {
-      "name": "The Matrix Resurrections",
-      "ext": "mkv",
-      "size": 20606517925,
-      "parent": "The Matrix",
-      "date": "03/10/2022 at 19:14:55",
+      "name": "Ocean's Thirteen",
+      "ext": "avi",
+      "size": 733603840,
+      "parent": "Ocean's",
+      "date": "14/01/2018 at 15:42:54",
       "audio": [],
       "subtitles": [],
       "video": {
-        "h": 2160,
-        "w": 3840,
-        "t": "02:27:54"
+        "h": 256,
+        "w": 576,
+        "t": "02:57:07"
       },
       "error": false,
       "output": {},
-      "index": 165
+      "index": 161
+    },
+    {
+      "name": "Life",
+      "ext": "avi",
+      "size": 733346974,
+      "parent": "Movies",
+      "date": "23/07/2017 at 23:24:26",
+      "audio": [],
+      "subtitles": [],
+      "video": {
+        "h": 304,
+        "w": 720,
+        "t": "02:43:58"
+      },
+      "error": false,
+      "output": {},
+      "index": 56
+    },
+    {
+      "name": "MEN IN BLACK 2",
+      "ext": "avi",
+      "size": 732563188,
+      "parent": "Men In Black",
+      "date": "26/01/2018 at 23:00:00",
+      "audio": [],
+      "subtitles": [],
+      "video": {
+        "h": 0,
+        "w": 0,
+        "t": "02:24:31"
+      },
+      "error": false,
+      "output": {},
+      "index": 151
+    },
+    {
+      "name": "ARQ",
+      "ext": "avi",
+      "size": 729813802,
+      "parent": "Movies",
+      "date": "28/01/2018 at 22:45:03",
+      "audio": [],
+      "subtitles": [],
+      "video": {
+        "h": 304,
+        "w": 720,
+        "t": "02:27:44"
+      },
+      "error": false,
+      "output": {},
+      "index": 10
+    },
+    {
+      "name": "Get Out",
+      "ext": "avi",
+      "size": 729028716,
+      "parent": "Movies",
+      "date": "26/01/2018 at 23:00:00",
+      "audio": [],
+      "subtitles": [],
+      "video": {
+        "h": 304,
+        "w": 720,
+        "t": "02:44:05"
+      },
+      "error": false,
+      "output": {},
+      "index": 37
+    },
+    {
+      "name": "La Folle Histoire de Max et Leon",
+      "ext": "avi",
+      "size": 728835842,
+      "parent": "Movies",
+      "date": "26/01/2018 at 23:00:00",
+      "audio": [],
+      "subtitles": [],
+      "video": {
+        "h": 304,
+        "w": 720,
+        "t": "02:38:00"
+      },
+      "error": false,
+      "output": {},
+      "index": 53
+    },
+    {
+      "name": "Time Lapse",
+      "ext": "avi",
+      "size": 728145344,
+      "parent": "Movies",
+      "date": "26/01/2018 at 23:00:00",
+      "audio": [],
+      "subtitles": [],
+      "video": {
+        "h": 408,
+        "w": 720,
+        "t": "02:44:08"
+      },
+      "error": false,
+      "output": {},
+      "index": 103
+    },
+    {
+      "name": "Doctor Strange",
+      "ext": "avi",
+      "size": 727451398,
+      "parent": "Marvel",
+      "date": "26/01/2018 at 23:00:00",
+      "audio": [],
+      "subtitles": [],
+      "video": {
+        "h": 304,
+        "w": 720,
+        "t": "02:54:58"
+      },
+      "error": false,
+      "output": {},
+      "index": 142
+    },
+    {
+      "name": "MEN IN BLACK",
+      "ext": "avi",
+      "size": 718594048,
+      "parent": "Men In Black",
+      "date": "26/01/2018 at 23:00:00",
+      "audio": [],
+      "subtitles": [],
+      "video": {
+        "h": 0,
+        "w": 0,
+        "t": "02:34:00"
+      },
+      "error": false,
+      "output": {},
+      "index": 153
+    },
+    {
+      "name": "La La Land",
+      "ext": "mkv",
+      "size": 701306885,
+      "parent": "Movies",
+      "date": "26/01/2018 at 23:00:00",
+      "audio": [
+        "fr"
+      ],
+      "subtitles": [
+        "fr"
+      ],
+      "video": {
+        "h": 282,
+        "w": 720,
+        "t": "02:07:48"
+      },
+      "error": false,
+      "output": {},
+      "index": 54
+    },
+    {
+      "name": "Knock Knock",
+      "ext": "mkv",
+      "size": 614494708,
+      "parent": "Movies",
+      "date": "19/08/2021 at 17:58:18",
+      "audio": [
+        "fr"
+      ],
+      "subtitles": [],
+      "video": {
+        "h": 302,
+        "w": 720,
+        "t": "01:39:19"
+      },
+      "error": false,
+      "output": {},
+      "index": 52
     }
   ],
   "ignore": {
