@@ -673,8 +673,9 @@
 
 			const file_size = json['size'].formatDataSize(false)
 			const movie_resolution = getShortResolution(json['video'])
-			const movie_duration = json['video']['t'].startsWith('#') ? 'Not available' : json['video']['t']
-			const movie_duration_available = json['video']['t'].startsWith('#') ? ['not_available'] : []
+			// const movie_duration = json['video']['t'].startsWith('#') ? 'Not available' : json['video']['t']
+			const movie_duration = json['video']['t'] == -1 ? 'Not available' : json['video']['t']
+			const movie_duration_available = json['video']['t'] == -1 ? ['not_available'] : []
 
 			var audio_tracks = ''
 			var full_audio_tracks = ''
