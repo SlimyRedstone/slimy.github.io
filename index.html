@@ -426,11 +426,12 @@
 	</head>
 	<body>
 		<div id="debug"></div>
-		<div class="controls" id="control-board" invisible>
-			<div class="control">
+		<div class="controls" id="control-board">
+			<div class="control" invisible>
 				<label for="n_elements">Number of rows: </label>
 				<input type="number" name="n_rows" id="n_rows" min="15" max="35" />
 			</div>
+			<button id="db-reset" class="button" style="background-color: hsla(162, 100%, 50%, 0.6)">Refresh database</button>
 		</div>
 		<div id="main">
 			<div id="info_card_click" disabled>
@@ -650,7 +651,7 @@
 				}
 			})
 			if (other_languages) {
-				if (ret.length) ret.append(`#and ${other_languages} more`)
+				if (ret.length) ret.append(`and ${other_languages} more`)
 				else ret.append(`${other_languages} Languages`)
 			}
 			return ret
@@ -673,9 +674,9 @@
 
 			const file_size = json['size'].formatDataSize(false)
 			const movie_resolution = getShortResolution(json['video'])
-			// const movie_duration = json['video']['t'].startsWith('#') ? 'Not available' : json['video']['t']
-			const movie_duration = json['video']['t'] == -1 ? 'Not available' : json['video']['t']
-			const movie_duration_available = json['video']['t'] == -1 ? ['not_available'] : []
+			const movie_duration = json['video']['t'].length ? json['video']['t'] : 'Not available'  
+			const movie_duration_available = json['video']['t'].length ? [] : ['not_available']
+			const movie_name = json['name'].startsWith('[') ? ( json['name'].substring(json['name'].lastIndexOf(']')+1)) : json['name']
 
 			var audio_tracks = ''
 			var full_audio_tracks = ''
@@ -695,8 +696,8 @@
 				})
 				short_audio_list.forEach((track, index) => {
 					audio_tracks += `${track}`
-					// console.log(`${json['name']} → ${typeof track} → ${track}`)
 					if (index < short_audio_list.lastIndex() && !track.startsWith('and')) audio_tracks += ', '
+					// console.log(`${json['name']} → ${typeof track} → ${track}`)
 				})
 
 				// console.log(`${json['name']} → ${audio_tracks}`)
@@ -730,7 +731,10 @@
 				var short_subs_list = subs_list.getShorterList()
 				short_subs_list.forEach((track, index) => {
 					subs_tracks += `${track}`
-					if (!track.startsWith('#')) if (index < short_subs_list.lastIndex()) subs_tracks += ', '
+					if (!track.startsWith('and')) {
+						if (index < short_subs_list.lastIndex()) subs_tracks += ', '
+					}
+
 				})
 				// console.log(`${json['name']} → ${short_subs_list}`)
 			} else {
@@ -740,7 +744,7 @@
 			}
 
 			new_row.set('index', `#${json['index']}`)
-			new_row.set('name', `${json['name'].shorten(isViewedOnPhone ? 26 : 32)}`)
+			new_row.set('name', `${movie_name.shorten(isViewedOnPhone ? 26 : 32)}`)
 			new_row.set('duration', `${movie_duration}`, movie_duration_available)
 			new_row.set('size', `${file_size}`)
 			new_row.set('resolution', `${movie_resolution}`)
@@ -887,6 +891,12 @@
 		$('input#n_rows').on('change', (event) => {
 			const target = event.target
 			if (target.value != options['n_elements_per_page']) plannedUpdate_options = true
+		})
+
+		document.querySelector('button#db-reset').addEventListener('click',(event)=>{
+			plannedUpdate_db = true
+			plannedUpdate_main = true
+			console.log("Local database updated !")
 		})
 
 		setInterval(() => {
