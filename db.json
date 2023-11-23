@@ -1,6 +1,77 @@
 {
   "list": [
     {
+      "name": "Mission Impossible - Dead Reckoning (Part 1)",
+      "ext": "mkv",
+      "size": 30594358899,
+      "parent": "Mission Impossible",
+      "date": "17/11/2023 at 02:07:49",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [
+        "en",
+        "ar",
+        "bu",
+        "ch",
+        "cz",
+        "da",
+        "gr",
+        "sp",
+        "es",
+        "fi",
+        "fr",
+        "he",
+        "hi",
+        "hu",
+        "in",
+        "jp",
+        "ko",
+        "li",
+        "la",
+        "ma",
+        "no",
+        "po",
+        "sl",
+        "sw",
+        "th",
+        "tu",
+        "uk",
+        "vi"
+      ],
+      "video": {
+        "h": 1608,
+        "w": 3840,
+        "t": "02:43:26"
+      },
+      "error": false,
+      "output": {},
+      "index": 162
+    },
+    {
+      "name": "Seven",
+      "ext": "mkv",
+      "size": 30525730429,
+      "parent": "Movies",
+      "date": "22/11/2023 at 12:04:20",
+      "audio": [
+        "en",
+        "sp"
+      ],
+      "subtitles": [
+        "en",
+        "sp"
+      ],
+      "video": {
+        "h": 0,
+        "w": 0,
+        "t": "03:06:49"
+      },
+      "error": false,
+      "output": {},
+      "index": 80
+    },
+    {
       "name": "The Batman",
       "ext": "mkv",
       "size": 24764964536,
@@ -34,7 +105,7 @@
       },
       "error": false,
       "output": {},
-      "index": 118
+      "index": 126
     },
     {
       "name": "Top Gun Maverick",
@@ -53,7 +124,7 @@
       },
       "error": false,
       "output": {},
-      "index": 104
+      "index": 111
     },
     {
       "name": "The Matrix Resurrections",
@@ -75,7 +146,7 @@
       },
       "error": false,
       "output": {},
-      "index": 165
+      "index": 174
     },
     {
       "name": "Tenet",
@@ -97,7 +168,7 @@
       },
       "error": false,
       "output": {},
-      "index": 85
+      "index": 90
     },
     {
       "name": "The Menu",
@@ -120,7 +191,7 @@
       },
       "error": false,
       "output": {},
-      "index": 96
+      "index": 103
     },
     {
       "name": "Zack Snyders' Justice League",
@@ -142,7 +213,7 @@
       },
       "error": false,
       "output": {},
-      "index": 119
+      "index": 127
     },
     {
       "name": "Black Swan",
@@ -161,7 +232,7 @@
       },
       "error": false,
       "output": {},
-      "index": 14
+      "index": 15
     },
     {
       "name": "Interstellar",
@@ -183,7 +254,7 @@
       },
       "error": false,
       "output": {},
-      "index": 46
+      "index": 49
     },
     {
       "name": "The Wolf of Wall Street",
@@ -206,7 +277,7 @@
       },
       "error": false,
       "output": {},
-      "index": 102
+      "index": 109
     },
     {
       "name": "Promising Young Woman",
@@ -227,7 +298,7 @@
       },
       "error": false,
       "output": {},
-      "index": 69
+      "index": 73
     },
     {
       "name": "Ambulance",
@@ -246,7 +317,34 @@
       },
       "error": false,
       "output": {},
-      "index": 7
+      "index": 8
+    },
+    {
+      "name": "Oppenheimer",
+      "ext": "mkv",
+      "size": 12011723934,
+      "parent": "Movies",
+      "date": "21/11/2023 at 06:46:41",
+      "audio": [
+        "en",
+        "sp",
+        "fr",
+        "ge"
+      ],
+      "subtitles": [
+        "en",
+        "sp",
+        "fr",
+        "ge"
+      ],
+      "video": {
+        "h": 0,
+        "w": 0,
+        "t": "03:00:22"
+      },
+      "error": false,
+      "output": {},
+      "index": 68
     },
     {
       "name": "The Gray Man",
@@ -296,7 +394,7 @@
       },
       "error": false,
       "output": {},
-      "index": 88
+      "index": 93
     },
     {
       "name": "Spider-Man Far From Home",
@@ -318,7 +416,7 @@
       },
       "error": false,
       "output": {},
-      "index": 143
+      "index": 152
     },
     {
       "name": "Richard Jewell",
@@ -340,7 +438,7 @@
       },
       "error": false,
       "output": {},
-      "index": 73
+      "index": 77
     },
     {
       "name": "Avengers Endgame",
@@ -362,7 +460,7 @@
       },
       "error": false,
       "output": {},
-      "index": 148
+      "index": 157
     },
     {
       "name": "Greenland",
@@ -384,7 +482,7 @@
       },
       "error": false,
       "output": {},
-      "index": 40
+      "index": 43
     },
     {
       "name": "John Wick 3",
@@ -406,7 +504,7 @@
       },
       "error": false,
       "output": {},
-      "index": 129
+      "index": 138
     },
     {
       "name": "Parasite",
@@ -428,7 +526,7 @@
       },
       "error": false,
       "output": {},
-      "index": 65
+      "index": 69
     },
     {
       "name": "Mission Impossible - Fallout",
@@ -450,7 +548,7 @@
       },
       "error": false,
       "output": {},
-      "index": 154
+      "index": 163
     },
     {
       "name": "Dark Waters",
@@ -473,7 +571,7 @@
       },
       "error": false,
       "output": {},
-      "index": 23
+      "index": 24
     },
     {
       "name": "The Little Things",
@@ -495,7 +593,7 @@
       },
       "error": false,
       "output": {},
-      "index": 93
+      "index": 99
     },
     {
       "name": "First Man",
@@ -517,7 +615,7 @@
       },
       "error": false,
       "output": {},
-      "index": 33
+      "index": 35
     },
     {
       "name": "The King's Man",
@@ -541,7 +639,7 @@
       },
       "error": false,
       "output": {},
-      "index": 133
+      "index": 142
     },
     {
       "name": "Glass",
@@ -563,7 +661,7 @@
       },
       "error": false,
       "output": {},
-      "index": 134
+      "index": 143
     },
     {
       "name": "Knives Out",
@@ -585,7 +683,7 @@
       },
       "error": false,
       "output": {},
-      "index": 51
+      "index": 54
     },
     {
       "name": "Ant-Man and the Wasp",
@@ -607,7 +705,7 @@
       },
       "error": false,
       "output": {},
-      "index": 137
+      "index": 146
     },
     {
       "name": "Ad Astra",
@@ -629,7 +727,7 @@
       },
       "error": false,
       "output": {},
-      "index": 5
+      "index": 6
     },
     {
       "name": "Dark Phoenix",
@@ -651,7 +749,30 @@
       },
       "error": false,
       "output": {},
-      "index": 140
+      "index": 149
+    },
+    {
+      "name": "The Mechanic (2011)",
+      "ext": "mkv",
+      "size": 9526267370,
+      "parent": "Movies",
+      "date": "21/11/2023 at 20:00:44",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [
+        "en",
+        "du",
+        "sp"
+      ],
+      "video": {
+        "h": 800,
+        "w": 1920,
+        "t": "01:32:44"
+      },
+      "error": false,
+      "output": {},
+      "index": 102
     },
     {
       "name": "The Suicide Squad",
@@ -673,7 +794,7 @@
       },
       "error": false,
       "output": {},
-      "index": 97
+      "index": 104
     },
     {
       "name": "Blonde",
@@ -720,7 +841,7 @@
       },
       "error": false,
       "output": {},
-      "index": 16
+      "index": 17
     },
     {
       "name": "1917",
@@ -764,7 +885,7 @@
       },
       "error": false,
       "output": {},
-      "index": 111
+      "index": 119
     },
     {
       "name": "Justice League",
@@ -786,7 +907,7 @@
       },
       "error": false,
       "output": {},
-      "index": 116
+      "index": 124
     },
     {
       "name": "The Invisible Man",
@@ -808,7 +929,7 @@
       },
       "error": false,
       "output": {},
-      "index": 92
+      "index": 98
     },
     {
       "name": "13 Hours - The Secret Soldiers of Benghazi",
@@ -854,7 +975,7 @@
       },
       "error": false,
       "output": {},
-      "index": 3
+      "index": 4
     },
     {
       "name": "Last Night in Soho",
@@ -876,7 +997,7 @@
       },
       "error": false,
       "output": {},
-      "index": 55
+      "index": 58
     },
     {
       "name": "Reminiscence",
@@ -898,7 +1019,7 @@
       },
       "error": false,
       "output": {},
-      "index": 72
+      "index": 76
     },
     {
       "name": "Birds of Prey",
@@ -920,7 +1041,7 @@
       },
       "error": false,
       "output": {},
-      "index": 13
+      "index": 14
     },
     {
       "name": "Radioactive",
@@ -942,7 +1063,7 @@
       },
       "error": false,
       "output": {},
-      "index": 70
+      "index": 74
     },
     {
       "name": "Chaos Walking",
@@ -964,7 +1085,7 @@
       },
       "error": false,
       "output": {},
-      "index": 19
+      "index": 20
     },
     {
       "name": "Vivarium",
@@ -986,7 +1107,7 @@
       },
       "error": false,
       "output": {},
-      "index": 108
+      "index": 116
     },
     {
       "name": "Fury",
@@ -1025,7 +1146,7 @@
       },
       "error": false,
       "output": {},
-      "index": 36
+      "index": 38
     },
     {
       "name": "Godzilla vs Kong",
@@ -1047,7 +1168,7 @@
       },
       "error": false,
       "output": {},
-      "index": 38
+      "index": 41
     },
     {
       "name": "Doctor Strange in the Multiverse of Madness",
@@ -1088,7 +1209,7 @@
       },
       "error": false,
       "output": {},
-      "index": 141
+      "index": 150
     },
     {
       "name": "The Mauritanian",
@@ -1110,7 +1231,7 @@
       },
       "error": false,
       "output": {},
-      "index": 95
+      "index": 101
     },
     {
       "name": "Dual",
@@ -1132,7 +1253,7 @@
       },
       "error": false,
       "output": {},
-      "index": 25
+      "index": 26
     },
     {
       "name": "Nobody",
@@ -1154,7 +1275,7 @@
       },
       "error": false,
       "output": {},
-      "index": 60
+      "index": 63
     },
     {
       "name": "Terminal",
@@ -1176,7 +1297,7 @@
       },
       "error": false,
       "output": {},
-      "index": 86
+      "index": 91
     },
     {
       "name": "A Quiet Place",
@@ -1198,7 +1319,7 @@
       },
       "error": false,
       "output": {},
-      "index": 4
+      "index": 5
     },
     {
       "name": "Captain America Civil War",
@@ -1219,7 +1340,7 @@
       },
       "error": false,
       "output": {},
-      "index": 138
+      "index": 147
     },
     {
       "name": "Edge of Tomorrow",
@@ -1241,7 +1362,48 @@
       },
       "error": false,
       "output": {},
-      "index": 27
+      "index": 28
+    },
+    {
+      "name": "The Equalizer 3",
+      "ext": "mkv",
+      "size": 6894180960,
+      "parent": "Equalizer",
+      "date": "02/11/2023 at 22:48:28",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [
+        "cz",
+        "da",
+        "ge",
+        "en",
+        "gr",
+        "es",
+        "fi",
+        "fr",
+        "in",
+        "ko",
+        "li",
+        "la",
+        "du",
+        "no",
+        "po",
+        "sl",
+        "sw",
+        "th",
+        "uk",
+        "vi",
+        "ch"
+      ],
+      "video": {
+        "h": 1080,
+        "w": 1920,
+        "t": "01:48:57"
+      },
+      "error": false,
+      "output": {},
+      "index": 128
     },
     {
       "name": "Emma",
@@ -1264,7 +1426,7 @@
       },
       "error": false,
       "output": {},
-      "index": 28
+      "index": 29
     },
     {
       "name": "Spider-Man Homecoming",
@@ -1285,7 +1447,7 @@
       },
       "error": false,
       "output": {},
-      "index": 144
+      "index": 153
     },
     {
       "name": "Kingsman The Golden Circle",
@@ -1306,7 +1468,7 @@
       },
       "error": false,
       "output": {},
-      "index": 131
+      "index": 140
     },
     {
       "name": "The Martian",
@@ -1327,7 +1489,49 @@
       },
       "error": false,
       "output": {},
-      "index": 94
+      "index": 100
+    },
+    {
+      "name": "28 Days Later",
+      "ext": "mkv",
+      "size": 5820779282,
+      "parent": "Movies",
+      "date": "02/11/2023 at 11:40:24",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [
+        "en",
+        "bu",
+        "ch",
+        "hr",
+        "cz",
+        "da",
+        "du",
+        "fi",
+        "fr",
+        "ge",
+        "gr",
+        "he",
+        "hu",
+        "ic",
+        "it",
+        "no",
+        "po",
+        "ru",
+        "sp",
+        "sw",
+        "th",
+        "tu"
+      ],
+      "video": {
+        "h": 1040,
+        "w": 1920,
+        "t": "01:57:34"
+      },
+      "error": false,
+      "output": {},
+      "index": 3
     },
     {
       "name": "[2]Harry Potter Et La Chambre Des Secrets",
@@ -1349,7 +1553,7 @@
       },
       "error": false,
       "output": {},
-      "index": 121
+      "index": 130
     },
     {
       "name": "Shazam",
@@ -1370,7 +1574,7 @@
       },
       "error": false,
       "output": {},
-      "index": 117
+      "index": 125
     },
     {
       "name": "[4]Harry Potter Et La Coupe De Feu",
@@ -1392,7 +1596,7 @@
       },
       "error": false,
       "output": {},
-      "index": 123
+      "index": 132
     },
     {
       "name": "Avengers Infinity War",
@@ -1414,7 +1618,7 @@
       },
       "error": false,
       "output": {},
-      "index": 149
+      "index": 158
     },
     {
       "name": "[6]Harry Potter Et Le Prince De Sang Mele",
@@ -1436,7 +1640,7 @@
       },
       "error": false,
       "output": {},
-      "index": 125
+      "index": 134
     },
     {
       "name": "[1]Harry Potter A L'Ecole Des Sorciers",
@@ -1458,7 +1662,7 @@
       },
       "error": false,
       "output": {},
-      "index": 120
+      "index": 129
     },
     {
       "name": "Insomnia",
@@ -1479,7 +1683,7 @@
       },
       "error": false,
       "output": {},
-      "index": 45
+      "index": 48
     },
     {
       "name": "Nightcrawler",
@@ -1500,7 +1704,7 @@
       },
       "error": false,
       "output": {},
-      "index": 59
+      "index": 62
     },
     {
       "name": "[7]Harry Potter Et Les Reliques De la Mort Partie 1",
@@ -1522,7 +1726,7 @@
       },
       "error": false,
       "output": {},
-      "index": 126
+      "index": 135
     },
     {
       "name": "Bullet Train",
@@ -1541,7 +1745,7 @@
       },
       "error": false,
       "output": {},
-      "index": 17
+      "index": 18
     },
     {
       "name": "Split",
@@ -1558,7 +1762,7 @@
       },
       "error": false,
       "output": {},
-      "index": 136
+      "index": 145
     },
     {
       "name": "[3]Harry Potter Et Le Prisonnier D'Azkaban",
@@ -1580,7 +1784,7 @@
       },
       "error": false,
       "output": {},
-      "index": 122
+      "index": 131
     },
     {
       "name": "Watcher",
@@ -1601,7 +1805,7 @@
       },
       "error": false,
       "output": {},
-      "index": 109
+      "index": 117
     },
     {
       "name": "K-19 The Widowmaker",
@@ -1624,7 +1828,7 @@
       },
       "error": false,
       "output": {},
-      "index": 49
+      "index": 52
     },
     {
       "name": "[5]Harry Potter Et L'Ordre Du Ph\u00e9nix",
@@ -1646,7 +1850,7 @@
       },
       "error": false,
       "output": {},
-      "index": 124
+      "index": 133
     },
     {
       "name": "Men in Black International",
@@ -1667,7 +1871,7 @@
       },
       "error": false,
       "output": {},
-      "index": 152
+      "index": 160
     },
     {
       "name": "The Cloverfield Paradox",
@@ -1689,7 +1893,7 @@
       },
       "error": false,
       "output": {},
-      "index": 114
+      "index": 122
     },
     {
       "name": "Gone Girl",
@@ -1710,7 +1914,7 @@
       },
       "error": false,
       "output": {},
-      "index": 39
+      "index": 42
     },
     {
       "name": "[8]Harry Potter Et Les Reliques De la Mort Partie 2",
@@ -1732,7 +1936,7 @@
       },
       "error": false,
       "output": {},
-      "index": 127
+      "index": 136
     },
     {
       "name": "Dunkirk",
@@ -1753,7 +1957,7 @@
       },
       "error": false,
       "output": {},
-      "index": 26
+      "index": 27
     },
     {
       "name": "The Imitation Game",
@@ -1774,7 +1978,7 @@
       },
       "error": false,
       "output": {},
-      "index": 90
+      "index": 96
     },
     {
       "name": "Enola Holmes",
@@ -1820,7 +2024,7 @@
       },
       "error": false,
       "output": {},
-      "index": 29
+      "index": 30
     },
     {
       "name": "Incredibles 2",
@@ -1840,7 +2044,7 @@
       },
       "error": false,
       "output": {},
-      "index": 43
+      "index": 46
     },
     {
       "name": "Army of the Dead",
@@ -1862,7 +2066,7 @@
       },
       "error": false,
       "output": {},
-      "index": 9
+      "index": 10
     },
     {
       "name": "Aquaman",
@@ -1883,7 +2087,7 @@
       },
       "error": false,
       "output": {},
-      "index": 115
+      "index": 123
     },
     {
       "name": "Spider-Man Into the Spider-Verse",
@@ -1905,7 +2109,7 @@
       },
       "error": false,
       "output": {},
-      "index": 145
+      "index": 154
     },
     {
       "name": "Flightplan",
@@ -1929,7 +2133,7 @@
       },
       "error": false,
       "output": {},
-      "index": 34
+      "index": 36
     },
     {
       "name": "Drive",
@@ -1951,7 +2155,7 @@
       },
       "error": false,
       "output": {},
-      "index": 24
+      "index": 25
     },
     {
       "name": "Avengers Age of Ultron",
@@ -1973,24 +2177,7 @@
       },
       "error": false,
       "output": {},
-      "index": 147
-    },
-    {
-      "name": "Avengers",
-      "ext": "mkv",
-      "size": 3993004984,
-      "parent": "Avengers",
-      "date": "28/07/2018 at 19:03:13",
-      "audio": [],
-      "subtitles": [],
-      "video": {
-        "h": 0,
-        "w": 0,
-        "t": -1
-      },
-      "error": true,
-      "output": "{\n\n}\n",
-      "index": 150
+      "index": 156
     },
     {
       "name": "Summer of 84",
@@ -2009,7 +2196,7 @@
       },
       "error": false,
       "output": {},
-      "index": 82
+      "index": 87
     },
     {
       "name": "Ralph Breaks the Internet",
@@ -2031,7 +2218,7 @@
       },
       "error": false,
       "output": {},
-      "index": 71
+      "index": 75
     },
     {
       "name": "Mission Impossible - Ghost Protocol",
@@ -2054,7 +2241,7 @@
       },
       "error": false,
       "output": {},
-      "index": 155
+      "index": 164
     },
     {
       "name": "Snowpiercer",
@@ -2075,7 +2262,7 @@
       },
       "error": false,
       "output": {},
-      "index": 79
+      "index": 84
     },
     {
       "name": "Extremely Wicked Shockingly Evil and Vile",
@@ -2096,7 +2283,7 @@
       },
       "error": false,
       "output": {},
-      "index": 32
+      "index": 34
     },
     {
       "name": "Jurassic World Fallen Kingdom",
@@ -2115,7 +2302,30 @@
       },
       "error": false,
       "output": {},
-      "index": 48
+      "index": 51
+    },
+    {
+      "name": "Gifted",
+      "ext": "mkv",
+      "size": 3633201511,
+      "parent": "Movies",
+      "date": "21/11/2023 at 20:39:21",
+      "audio": [
+        "en"
+      ],
+      "subtitles": [
+        "en",
+        "sp",
+        "fr"
+      ],
+      "video": {
+        "h": 800,
+        "w": 1920,
+        "t": "01:41:10"
+      },
+      "error": false,
+      "output": {},
+      "index": 40
     },
     {
       "name": "Mission Impossible - Rogue Nation",
@@ -2138,7 +2348,7 @@
       },
       "error": false,
       "output": {},
-      "index": 156
+      "index": 165
     },
     {
       "name": "Cloverfield",
@@ -2172,7 +2382,7 @@
       },
       "error": false,
       "output": {},
-      "index": 113
+      "index": 121
     },
     {
       "name": "The Walk",
@@ -2193,7 +2403,7 @@
       },
       "error": false,
       "output": {},
-      "index": 100
+      "index": 107
     },
     {
       "name": "Steve Jobs",
@@ -2212,7 +2422,7 @@
       },
       "error": false,
       "output": {},
-      "index": 81
+      "index": 86
     },
     {
       "name": "Venom",
@@ -2234,7 +2444,7 @@
       },
       "error": false,
       "output": {},
-      "index": 146
+      "index": 155
     },
     {
       "name": "The Visit (2015)",
@@ -2255,7 +2465,7 @@
       },
       "error": false,
       "output": {},
-      "index": 99
+      "index": 106
     },
     {
       "name": "Atomic Blonde",
@@ -2277,7 +2487,7 @@
       },
       "error": false,
       "output": {},
-      "index": 12
+      "index": 13
     },
     {
       "name": "Mission Impossible 3",
@@ -2300,7 +2510,7 @@
       },
       "error": false,
       "output": {},
-      "index": 158
+      "index": 167
     },
     {
       "name": "Pawn Sacrifice",
@@ -2319,7 +2529,7 @@
       },
       "error": false,
       "output": {},
-      "index": 66
+      "index": 70
     },
     {
       "name": "John Wick 2",
@@ -2343,7 +2553,7 @@
       },
       "error": false,
       "output": {},
-      "index": 128
+      "index": 137
     },
     {
       "name": "Mission Impossible 2",
@@ -2366,7 +2576,7 @@
       },
       "error": false,
       "output": {},
-      "index": 157
+      "index": 166
     },
     {
       "name": "2001 A Space Odyssey",
@@ -2408,7 +2618,7 @@
       },
       "error": false,
       "output": {},
-      "index": 91
+      "index": 97
     },
     {
       "name": "Captain Marvel",
@@ -2430,7 +2640,7 @@
       },
       "error": false,
       "output": {},
-      "index": 139
+      "index": 148
     },
     {
       "name": "Project Almanac",
@@ -2449,7 +2659,7 @@
       },
       "error": false,
       "output": {},
-      "index": 68
+      "index": 72
     },
     {
       "name": "Moana",
@@ -2470,7 +2680,7 @@
       },
       "error": false,
       "output": {},
-      "index": 58
+      "index": 61
     },
     {
       "name": "Mission Impossible",
@@ -2493,7 +2703,7 @@
       },
       "error": false,
       "output": {},
-      "index": 159
+      "index": 168
     },
     {
       "name": "Upgrade",
@@ -2515,7 +2725,7 @@
       },
       "error": false,
       "output": {},
-      "index": 106
+      "index": 113
     },
     {
       "name": "Inside Man",
@@ -2534,7 +2744,7 @@
       },
       "error": false,
       "output": {},
-      "index": 44
+      "index": 47
     },
     {
       "name": "John Wick",
@@ -2558,7 +2768,7 @@
       },
       "error": false,
       "output": {},
-      "index": 130
+      "index": 139
     },
     {
       "name": "American Ultra",
@@ -2581,7 +2791,26 @@
       },
       "error": false,
       "output": {},
-      "index": 8
+      "index": 9
+    },
+    {
+      "name": "Victoria",
+      "ext": "mp4",
+      "size": 2386429413,
+      "parent": "Movies",
+      "date": "24/10/2023 at 04:48:03",
+      "audio": [
+        "un"
+      ],
+      "subtitles": [],
+      "video": {
+        "h": 800,
+        "w": 1920,
+        "t": "03:18:38"
+      },
+      "error": false,
+      "output": {},
+      "index": 115
     },
     {
       "name": "Nocturnal Animals",
@@ -2600,7 +2829,7 @@
       },
       "error": false,
       "output": {},
-      "index": 61
+      "index": 64
     },
     {
       "name": "Operation Mincemeat",
@@ -2623,7 +2852,7 @@
       },
       "error": false,
       "output": {},
-      "index": 64
+      "index": 67
     },
     {
       "name": "Taxi Driver",
@@ -2642,7 +2871,7 @@
       },
       "error": false,
       "output": {},
-      "index": 84
+      "index": 89
     },
     {
       "name": "Seul au monde",
@@ -2659,7 +2888,7 @@
       },
       "error": false,
       "output": {},
-      "index": 75
+      "index": 79
     },
     {
       "name": "Funny Games (U.S 2007)",
@@ -2678,7 +2907,7 @@
       },
       "error": false,
       "output": {},
-      "index": 35
+      "index": 37
     },
     {
       "name": "Inception",
@@ -2701,7 +2930,7 @@
       },
       "error": false,
       "output": {},
-      "index": 42
+      "index": 45
     },
     {
       "name": "The Thing (1982)",
@@ -2720,7 +2949,7 @@
       },
       "error": false,
       "output": {},
-      "index": 98
+      "index": 105
     },
     {
       "name": "Snatch",
@@ -2739,7 +2968,7 @@
       },
       "error": false,
       "output": {},
-      "index": 78
+      "index": 83
     },
     {
       "name": "Jackie",
@@ -2758,7 +2987,7 @@
       },
       "error": false,
       "output": {},
-      "index": 47
+      "index": 50
     },
     {
       "name": "OSS 117 Rio ne r\u00e9pond plus",
@@ -2777,7 +3006,7 @@
       },
       "error": false,
       "output": {},
-      "index": 164
+      "index": 173
     },
     {
       "name": "OSS 117 Le Caire nid d'espions",
@@ -2796,7 +3025,7 @@
       },
       "error": false,
       "output": {},
-      "index": 163
+      "index": 172
     },
     {
       "name": "Everything Everywhere All at Once",
@@ -2817,7 +3046,26 @@
       },
       "error": false,
       "output": {},
-      "index": 31
+      "index": 32
+    },
+    {
+      "name": "The Hunt (2012)",
+      "ext": "mp4",
+      "size": 1900249146,
+      "parent": "Movies",
+      "date": "19/11/2023 at 03:52:21",
+      "audio": [
+        "un"
+      ],
+      "subtitles": [],
+      "video": {
+        "h": 816,
+        "w": 1920,
+        "t": "02:50:45"
+      },
+      "error": false,
+      "output": {},
+      "index": 95
     },
     {
       "name": "Arrival",
@@ -2836,7 +3084,7 @@
       },
       "error": false,
       "output": {},
-      "index": 11
+      "index": 12
     },
     {
       "name": "Citizenfour",
@@ -2855,7 +3103,7 @@
       },
       "error": false,
       "output": {},
-      "index": 21
+      "index": 22
     },
     {
       "name": "The Dead Zone",
@@ -2874,7 +3122,7 @@
       },
       "error": false,
       "output": {},
-      "index": 87
+      "index": 92
     },
     {
       "name": "Side Effects",
@@ -2893,7 +3141,7 @@
       },
       "error": false,
       "output": {},
-      "index": 77
+      "index": 82
     },
     {
       "name": "Ode To Joy",
@@ -2912,7 +3160,7 @@
       },
       "error": false,
       "output": {},
-      "index": 62
+      "index": 65
     },
     {
       "name": "Logan",
@@ -2929,7 +3177,7 @@
       },
       "error": false,
       "output": {},
-      "index": 57
+      "index": 60
     },
     {
       "name": "Upside Down",
@@ -2948,7 +3196,7 @@
       },
       "error": false,
       "output": {},
-      "index": 107
+      "index": 114
     },
     {
       "name": "Eternal Sunshine of the Spotless Mind",
@@ -2967,7 +3215,7 @@
       },
       "error": false,
       "output": {},
-      "index": 30
+      "index": 31
     },
     {
       "name": "Children of Men",
@@ -2986,7 +3234,7 @@
       },
       "error": false,
       "output": {},
-      "index": 20
+      "index": 21
     },
     {
       "name": "Compliance",
@@ -3005,7 +3253,26 @@
       },
       "error": false,
       "output": {},
-      "index": 22
+      "index": 23
+    },
+    {
+      "name": "Experimenter (2015)",
+      "ext": "mp4",
+      "size": 1543217199,
+      "parent": "Movies",
+      "date": "20/11/2023 at 10:22:34",
+      "audio": [
+        "un"
+      ],
+      "subtitles": [],
+      "video": {
+        "h": 1080,
+        "w": 1920,
+        "t": "02:38:04"
+      },
+      "error": false,
+      "output": {},
+      "index": 33
     },
     {
       "name": "I am a Legend",
@@ -3022,7 +3289,7 @@
       },
       "error": false,
       "output": {},
-      "index": 41
+      "index": 44
     },
     {
       "name": "BlacKkKlansman",
@@ -3039,7 +3306,7 @@
       },
       "error": false,
       "output": {},
-      "index": 15
+      "index": 16
     },
     {
       "name": "The Hitmans Bodyguard",
@@ -3056,7 +3323,7 @@
       },
       "error": false,
       "output": {},
-      "index": 89
+      "index": 94
     },
     {
       "name": "Rogue One",
@@ -3073,7 +3340,7 @@
       },
       "error": false,
       "output": {},
-      "index": 74
+      "index": 78
     },
     {
       "name": "Train to Busan",
@@ -3090,7 +3357,7 @@
       },
       "error": false,
       "output": {},
-      "index": 105
+      "index": 112
     },
     {
       "name": "Prisoners",
@@ -3107,7 +3374,7 @@
       },
       "error": false,
       "output": {},
-      "index": 67
+      "index": 71
     },
     {
       "name": "Incassable",
@@ -3124,7 +3391,7 @@
       },
       "error": false,
       "output": {},
-      "index": 135
+      "index": 144
     },
     {
       "name": "Kingsman The Secret Service",
@@ -3141,7 +3408,7 @@
       },
       "error": false,
       "output": {},
-      "index": 132
+      "index": 141
     },
     {
       "name": "The Witch",
@@ -3160,7 +3427,7 @@
       },
       "error": false,
       "output": {},
-      "index": 101
+      "index": 108
     },
     {
       "name": "Alive (1993)",
@@ -3179,7 +3446,7 @@
       },
       "error": false,
       "output": {},
-      "index": 6
+      "index": 7
     },
     {
       "name": "10 Cloverfield Lane",
@@ -3216,7 +3483,7 @@
       },
       "error": false,
       "output": {},
-      "index": 112
+      "index": 120
     },
     {
       "name": "Watchmen",
@@ -3233,7 +3500,7 @@
       },
       "error": false,
       "output": {},
-      "index": 110
+      "index": 118
     },
     {
       "name": "Kiss Kiss Bang Bang",
@@ -3250,7 +3517,7 @@
       },
       "error": false,
       "output": {},
-      "index": 50
+      "index": 53
     },
     {
       "name": "Open Windows",
@@ -3267,7 +3534,7 @@
       },
       "error": false,
       "output": {},
-      "index": 63
+      "index": 66
     },
     {
       "name": "Shutter Island",
@@ -3284,7 +3551,7 @@
       },
       "error": false,
       "output": {},
-      "index": 76
+      "index": 81
     },
     {
       "name": "Source Code",
@@ -3301,7 +3568,7 @@
       },
       "error": false,
       "output": {},
-      "index": 80
+      "index": 85
     },
     {
       "name": "Ocean's Eleven",
@@ -3318,7 +3585,7 @@
       },
       "error": false,
       "output": {},
-      "index": 160
+      "index": 169
     },
     {
       "name": "Ocean's Twelve",
@@ -3335,7 +3602,7 @@
       },
       "error": false,
       "output": {},
-      "index": 162
+      "index": 171
     },
     {
       "name": "Buried",
@@ -3352,7 +3619,7 @@
       },
       "error": false,
       "output": {},
-      "index": 18
+      "index": 19
     },
     {
       "name": "Sunshine",
@@ -3369,7 +3636,7 @@
       },
       "error": false,
       "output": {},
-      "index": 83
+      "index": 88
     },
     {
       "name": "Ocean's Thirteen",
@@ -3386,7 +3653,7 @@
       },
       "error": false,
       "output": {},
-      "index": 161
+      "index": 170
     },
     {
       "name": "Life",
@@ -3403,7 +3670,7 @@
       },
       "error": false,
       "output": {},
-      "index": 56
+      "index": 59
     },
     {
       "name": "MEN IN BLACK 2",
@@ -3420,7 +3687,7 @@
       },
       "error": false,
       "output": {},
-      "index": 151
+      "index": 159
     },
     {
       "name": "ARQ",
@@ -3437,7 +3704,7 @@
       },
       "error": false,
       "output": {},
-      "index": 10
+      "index": 11
     },
     {
       "name": "Get Out",
@@ -3454,7 +3721,7 @@
       },
       "error": false,
       "output": {},
-      "index": 37
+      "index": 39
     },
     {
       "name": "La Folle Histoire de Max et Leon",
@@ -3471,7 +3738,7 @@
       },
       "error": false,
       "output": {},
-      "index": 53
+      "index": 56
     },
     {
       "name": "Time Lapse",
@@ -3488,7 +3755,7 @@
       },
       "error": false,
       "output": {},
-      "index": 103
+      "index": 110
     },
     {
       "name": "Doctor Strange",
@@ -3505,7 +3772,7 @@
       },
       "error": false,
       "output": {},
-      "index": 142
+      "index": 151
     },
     {
       "name": "MEN IN BLACK",
@@ -3522,7 +3789,7 @@
       },
       "error": false,
       "output": {},
-      "index": 153
+      "index": 161
     },
     {
       "name": "La La Land",
@@ -3543,7 +3810,7 @@
       },
       "error": false,
       "output": {},
-      "index": 54
+      "index": 57
     },
     {
       "name": "Knock Knock",
@@ -3562,7 +3829,7 @@
       },
       "error": false,
       "output": {},
-      "index": 52
+      "index": 55
     }
   ],
   "ignore": {
