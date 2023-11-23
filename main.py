@@ -10,7 +10,7 @@ DEBUG = False
 LINE_CLEAR = '\x1b[2K'
 FOLDER_PATH = os.path.dirname(__file__)
 DB_FILE_NAME = "db.json"
-ROOT_FOLDER = 'D:/Movies/'
+ROOT_FOLDER = 'E:/Movies/'
 BLACKLISTED_FOLDERS = [
     "Flightplan",
     "Subtitles",
@@ -160,7 +160,7 @@ def getMovieInfo(path:pathlib.Path)->dict:
 
                 elif codec_type == 'video':
                     if 'profile' in stream:
-                        if stream['codec_name'] in ['hevc','h264','mpeg4']:
+                        if stream['codec_name'] in ['hevc','h264','mpeg4','vc1','av1']:
                             # if stream['profile'] in ['High','Main','Main 10','Advanced Simple Profile']:
                             if movie_data['video']['h'] == 0:
                                 movie_data['video']['h'] = stream['height']
@@ -199,6 +199,7 @@ if __name__ == '__main__':
 
         if not parentFolder in BLACKLISTED_FOLDERS:
         # if not parentFolder in BLACKLISTED_FOLDERS and file_name == 'The Menu':
+        # if not parentFolder in BLACKLISTED_FOLDERS and file_name == 'Oppenheimer':
             movie_data = getMovieInfo(movie)
             movie_data['index'] = index
 
